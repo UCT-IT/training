@@ -1,0 +1,16 @@
+{
+    "nav": [
+      {
+        "text": "Home",
+        "url": "#"
+      },
+      {
+        "text": "About",
+        "url": "#"
+      },
+      {
+        "text": "Courses",
+        "url": "#"
+      }
+    ]
+  }
