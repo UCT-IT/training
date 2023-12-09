@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const isLargeDevice = window.innerWidth >= 1024;
 
   const animationContent = {
     hidden: {
@@ -69,9 +70,9 @@ const HeroSection = () => {
         ></motion.div>
         <motion.div
           initial={{ width: 0 }}
-          animate={{ width: "33.333333%" }}
-          transition={{ duration: 0.5, ease: "linear" }}
-          className="bg-primary w-full h-1/3 lg:h-full lg:w-1/3 absolute bottom-0 right-0 -z-20"
+          animate={{ width: isLargeDevice ? "33.333333%" : "100%" }}
+          transition={{ duration: 0.5, ease: "linear", delay: 0.1 }}
+          className="bg-primary w-full h-1/3 lg:h-full lg:w-1/3 absolute bottom-0 lg:right-0 -z-20"
         ></motion.div>
         <motion.div
           initial={{ scale: 1 }}
