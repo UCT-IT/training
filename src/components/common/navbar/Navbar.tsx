@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import logo from "../../../../public/images/nav/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaBars, FaTimes } from "react-icons/fa";
 import { strings } from "../../../assets/locales/locales";
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
             onClick={handleToggleMenu}
             className={`text-white z-50 bg-[#0F437F] hover:bg-[#F9A07C] transition-all h-9 w-9 rounded-full grid place-items-center focus:outline-none text-[17px]`}
           >
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
+            {/* {isMenuOpen ? <FaTimes /> : <FaBars />} */}
           </button>
         </div>
         <ul
