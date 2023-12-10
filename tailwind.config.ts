@@ -13,17 +13,6 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors: {
-        primary: "#064EA4",
-        secondary: "#0F437F",
-        tertiary: "#8293A6",
-        info: "#F99D77",
-        warning: "#FCDF69",
-      },
-      fontFamily: {
-        newsreader: ["Newsreader", "serif"],
-        kumbh: ["Kumbh Sans", "sans-serif"],
-      },
     },
   },
   plugins: [],
