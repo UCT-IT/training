@@ -1,6 +1,6 @@
 import LocalizedStrings from 'react-localization';
 
-export let strings = new LocalizedStrings({
+export const strings = new LocalizedStrings({
  en:{
   nav: [
     {
