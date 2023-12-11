@@ -50,7 +50,7 @@ const HomeSlider = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: .5, delay: .2 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             key={item}
             className="group shadow-2xl rounded-t-3xl"
           >
