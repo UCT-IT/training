@@ -2,13 +2,20 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import heroImg from "../../../../../public/images/Home/HeroSection/hero.jpeg";
-import ButtonPrimary from "../../common/Buttons/ButtonPrimary";
-import ButtonSecondary from "../../common/Buttons/ButtonSecondary";
 import { motion } from "framer-motion";
+import Button from "../../common/Buttons/Button";
+import { strings } from "@/app/assets/locales/locales";
+import useMediaQuery from "../../hooks/useMediaQuery";
 
 const HeroSection = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const isLargeDevice = window.innerWidth >= 1024;
+  const isLargeDevice = useMediaQuery("(min-width: 1024px)");
+  const localeText = strings.home.heroSection;
+
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setIsScrolled(scrollPosition > 100);
+  };
 
   const animationContent = {
     hidden: {
@@ -42,11 +49,6 @@ const HeroSection = () => {
     },
   };
 
-  const handleScroll = () => {
-    const scrollPosition = window.scrollY;
-    setIsScrolled(scrollPosition > 10);
-  };
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -56,7 +58,7 @@ const HeroSection = () => {
 
   return (
     <React.Fragment>
-      <div className="relative z-10 font-newsreader overflow-hidden">
+      <div className="relative z-10 overflow-hidden">
         <motion.div
           initial={{ scale: 1 }}
           animate={isScrolled ? { scale: 1.5 } : { scale: 1.2 }}
@@ -66,7 +68,7 @@ const HeroSection = () => {
               ? { duration: 0.7, ease: "easeOut" }
               : { duration: 0.7, ease: "easeOut" }
           }
-          className={`bg-warning w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-ee-full -z-10 absolute top-0 left-0`}
+          className="bg-warning w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-ee-full -z-10 absolute top-0 left-0"
         ></motion.div>
         <motion.div
           initial={{ width: 0 }}
@@ -91,9 +93,9 @@ const HeroSection = () => {
               variants={animationContent}
               initial="hidden"
               animate="show"
-              className="text-6xl font-semibold text-secondary"
+              className="text-6xl font-semibold text-secondary font-newsreader"
             >
-              Educationic X Webflow Template
+              {localeText.title}
             </motion.h1>
             <motion.p
               variants={animationContent}
@@ -101,7 +103,7 @@ const HeroSection = () => {
               animate="show"
               className="font-kumbh text-tertiary"
             >
-              Presenting Educationic X, the ultimate Education Webflow Template
+              {localeText.description}
             </motion.p>
             <motion.div
               variants={animationContent}
@@ -109,8 +111,8 @@ const HeroSection = () => {
               animate="show"
               className="space-y-6 md:space-x-6"
             >
-              <ButtonPrimary text="Explore Courses" />
-              <ButtonSecondary text="Learn More!" />
+              <Button text={localeText.btnText1} variant="primary" />
+              <Button text={localeText.btnText2} variant="secondary" />
             </motion.div>
           </div>
           <motion.div
@@ -127,7 +129,7 @@ const HeroSection = () => {
               <Image
                 className={`max-w-full rounded-3xl`}
                 src={heroImg}
-                alt="Hero Section Image"
+                alt={localeText.altText}
               />
             </motion.div>
           </motion.div>
