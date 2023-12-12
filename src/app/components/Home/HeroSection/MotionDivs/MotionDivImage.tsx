@@ -35,7 +35,6 @@ const MotionDivImage = () => {
       <InView
         as="div"
         threshold={0.7}
-        initialInView={false}
         onChange={(inView) => setIsScrolled(inView)}
       >
         <motion.div
