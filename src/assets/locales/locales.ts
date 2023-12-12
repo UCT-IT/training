@@ -18,7 +18,7 @@ export const strings = new LocalizedStrings({
     ],
     home: {
       Category: {
-        title: "Browse our popular courses",
+        title: "Browse our courses by category",
         imageAltText: "course image",
         imageAltVideoText: "video logo",
       },
