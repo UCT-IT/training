@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.responsive-container{
+    @apply container mx-auto px-5 md:px-16 lg:px-5;
+}
