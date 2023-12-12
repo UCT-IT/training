@@ -1,0 +1,30 @@
+{
+    "title": "Browse our popular courses",
+    "cards": [
+      {
+        "id": 1,
+        "image": "/public/images/homeImages/homeCarousel/1.jpeg",
+        "duration": "8hr 12min",
+        "price": "$99.00 USD",
+        "title": "Graphics Design 101",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+        "author": {
+          "name": "Jobayer Hossain",
+          "image": "/public/images/homeImages/homeCarousel/1.jpeg"
+        }
+      },
+      {
+        "id": 1,
+        "image": "/public/images/homeImages/homeCarousel/1.jpeg",
+        "duration": "8hr 12min",
+        "price": "$99.00 USD",
+        "title": "Graphics Design 101",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+        "author": {
+          "name": "Jobayer Hossain",
+          "image": "/public/images/homeImages/homeCarousel/1.jpeg"
+        }
+      }
+    ]
+  }
+  
