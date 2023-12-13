@@ -25,6 +25,11 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
+      homeCarousel: {
+        title: "Browse our popular courses",
+        altCourseImg: "course image",
+        altAuthorImg: "author image"
+      }
     },
   },
 });

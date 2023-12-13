@@ -1,7 +1,7 @@
-import logo from "../../../../public/images/nav/logo.svg";
+import logo from "../../../../../public/images/nav/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
-import { strings } from "../../../assets/locales/locales";
+import { strings } from "@/app/assets/locales/locales"
 import MobileMenu from "../mobileMenu/MobileMenu";
 
 const Navbar = () => {
