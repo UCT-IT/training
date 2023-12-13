@@ -27,12 +27,12 @@ const HomeSlider = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         viewport={{ once: true }}
-        className="mb-14"
+        className=""
       >
         <CommonCarousel>
           {data.homeCarousel.map((item) => (
-            <div key={item.id} className=" group">
-              <div className="rounded-3xl mr-[20px] border-[.1px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
+            <div key={item.id} className="group overflow-hidden">
+              <div className="rounded-3xl mr-[20px] border-[1px] h-[650px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
                 <Link href="#">
                   <div className="overflow-hidden rounded-t-3xl relative">
                     <Image
@@ -47,7 +47,7 @@ const HomeSlider = () => {
                         {item.duration}
                       </p>
                       <p className="text-white bg-secondary py-3 px-6 rounded-full font-semibold ">
-                        {item.price}
+                        {item.price} 
                       </p>
                     </div>
                   </div>
@@ -76,10 +76,10 @@ const HomeSlider = () => {
             </div>
           ))}
         </CommonCarousel>
+        <div className="text-center mt-6">
+          <Button variant="primary" text={localeText.btn} />
+        </div>
       </motion.div>
-      <div className="text-center">
-        <Button variant="primary" text="Explore All Courses" />
-      </div>
     </div>
   );
 };

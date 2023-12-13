@@ -28,7 +28,8 @@ export let strings = new LocalizedStrings({
       homeCarousel: {
         title: "Browse our popular courses",
         altCourseImg: "course image",
-        altAuthorImg: "author image"
+        altAuthorImg: "author image",
+        btn: "Explore All Courses"
       }
     },
   },
