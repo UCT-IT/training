@@ -1,5 +1,6 @@
 "use client";
-import { strings } from "@/assets/locales/locales";
+
+import { strings } from "@/app/assets/locales/locales";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
