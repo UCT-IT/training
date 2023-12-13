@@ -9,12 +9,15 @@ import {
   FaYoutube,
   FaWhatsapp,
 } from "react-icons/fa6";
+import { strings } from "@/app/assets/locales/locales";
 
 const Footer = () => {
+  const localeText = strings.footer;
+
   return (
     <div className="bg-tertiary pt-[72px]">
       <div className="responsive-container">
-        <div className="flex justify-between items-center">
+        <div className="lg:flex justify-between items-center space-y-5 lg:space-y-0">
           <a href="#">
             <Image
               className="hover:scale-95 transition-all duration-200"
@@ -23,81 +26,53 @@ const Footer = () => {
             />
           </a>
           <p className="text-textColor whitespace-pre-line">
-            {`Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt aliqua.`}
+            {localeText.description}
           </p>
         </div>
         <hr className="mt-[54px] pb-[120px] opacity-20" />
-        <div className="flex justify-center items-start gap-32">
+        <div className="md:flex justify-between space-y-5 md:space-y-0 md:space-x-5 lg:space-x-0">
           <div>
-            <h3 className="mb-[40px] font-bold text-white">Pages</h3>
-            <div className="flex justify-between gap-32">
-              <ul className="text-textColor text-lg space-y-3 ">
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Home</a>
+            <h3 className="mb-[40px] font-bold text-white">
+              {localeText.ourCompany.title}
+            </h3>
+            <ul className="text-textColor text-lg space-y-3">
+              {localeText.ourCompany.navigations.map((nav) => (
+                <li
+                  key={nav}
+                  className="hover:text-info transition-colors duration-200"
+                >
+                  <a href="#">{nav}</a>
                 </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">About</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Courses</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Individual Course</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Blog</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Blog Post</a>
-                </li>
-              </ul>
-              <ul className="text-textColor text-lg space-y-3">
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Events</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Individual Event</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Teachers</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Individual Teacher</a>
-                </li>
-                <li className="hover:text-info transition-colors duration-200">
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
+              ))}
+            </ul>
           </div>
           <div>
-            <h3 className="mb-[40px] font-bold text-white">Utility pages</h3>
-            <ul className="text-textColor text-lg space-y-3 ">
-              <li className="hover:text-info transition-colors duration-200">
-                <a href="#">Start Here</a>
-              </li>
-              <li className="hover:text-info transition-colors duration-200">
-                <a href="#">Style Guide</a>
-              </li>
-              <li className="hover:text-info transition-colors duration-200">
-                <a href="#">404 Not Found</a>
-              </li>
-              <li className="hover:text-info transition-colors duration-200">
-                <a href="#">Password Protected</a>
-              </li>
-              <li className="hover:text-info transition-colors duration-200">
-                <a href="#">Licenses</a>
-              </li>
-              <li className="hover:text-info transition-colors duration-200">
-                <a href="#">Changelog</a>
-              </li>
+            <h3 className="mb-[40px] font-bold text-white">
+              {localeText.ourServices.title}
+            </h3>
+            <ul className="text-textColor text-lg space-y-3">
+              {localeText.ourServices.navigations.map((nav) => (
+                <li
+                  key={nav}
+                  className="hover:text-info transition-colors duration-200"
+                >
+                  <a href="#">{nav}</a>
+                </li>
+              ))}
             </ul>
+          </div>
+          <div>
+            <h3 className="mb-[40px] font-bold text-white text-left md:text-center">
+              {localeText.ourOffice.title}
+            </h3>
+            <p className="text-textColor text-lg hover:text-info transition-colors duration-200 whitespace-pre-line text-left md:text-center">
+              {localeText.ourOffice.address}
+            </p>
           </div>
         </div>
         <hr className="mt-[120px] pb-[24px] opacity-20" />
-        <div className="flex items-center justify-between pb-6">
-          <p className="text-btnbg text-lg">{`Copyright © Educationic X | Designed by BRIX Templates - Powered by Webflow`}</p>
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-start lg:justify-between pb-6 gap-4">
+          <p className="text-btnbg text-lg">{localeText.copyRight}</p>
           <div className="flex items-center gap-4">
             <a
               href="#"
@@ -119,6 +94,13 @@ const Footer = () => {
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaInstagram className="text-lg" />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
+            >
+              <FaLinkedinIn className="text-lg" />
             </a>
             <a
               href="#"
