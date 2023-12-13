@@ -44,6 +44,11 @@ export let strings = new LocalizedStrings({
         hotlineNumber: `01996-399534`,
         sendMessageTitle: `SHARE YOUR THOUGHTS WITH US!`,
         btnText: `SEND MESSAGE`,
+        placeholderText: {
+          name: `Your Name`,
+          email: `Your Email`,
+          message: `Your Message Here`,
+        },
       },
     },
   },
