@@ -51,7 +51,7 @@ const HomeSlider = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="p-9 bg-white rounded-b-3xl">
+                  <div className="p-12 bg-white rounded-b-3xl">
                     <h1 className="font-bold text-2xl text-secondary group-hover:text-primary transition-all">
                       {item.title}
                     </h1>
