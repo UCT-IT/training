@@ -1,47 +1,18 @@
 "use client";
 import { motion } from "framer-motion";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import NextArrow from "../common/carouselButtons/NextArrow";
-import PrevArrow from "../common/carouselButtons/PrevArrow";
 import Link from "next/link";
 import Button from "../common/Buttons/Button";
 import data from "../../../../public/data/data.json";
 import Image from "next/image";
 import { strings } from "@/app/assets/locales/locales";
+import CommonCarousel from "../common/commonCarousel/CommonCarousel";
 
 const HomeSlider = () => {
   const localeText = strings.home.homeCarousel;
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-    ],
-  };
-  const slideStyle = {
-    margin: "0 10px", // Adjust the margin as needed for spacing
-  };
   return (
-    <div className="container mx-auto font-kumbh relative py-24 bg-white">
+    <div className="container mx-auto font-kumbh relative py-24">
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
@@ -58,13 +29,10 @@ const HomeSlider = () => {
         viewport={{ once: true }}
         className="mb-14"
       >
-        <Slider {...settings}>
+        <CommonCarousel>
           {data.homeCarousel.map((item) => (
             <div key={item.id} className=" group">
-              <div
-                style={slideStyle}
-                className="rounded-3xl border-[.1px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2"
-              >
+              <div className="rounded-3xl mr-[20px] border-[.1px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
                 <Link href="#">
                   <div className="overflow-hidden rounded-t-3xl relative">
                     <Image
@@ -91,7 +59,13 @@ const HomeSlider = () => {
                       {item.description}
                     </p>
                     <div className="mt-6 flex items-center gap-4">
-                      <Image className="h-11 w-11 shadow-lg rounded-full" alt={localeText.altAuthorImg} src={item.author.image} width={1000} height={1000} />
+                      <Image
+                        className="h-11 w-11 shadow-lg rounded-full"
+                        alt={localeText.altAuthorImg}
+                        src={item.author.image}
+                        width={1000}
+                        height={1000}
+                      />
                       <p className="font-bold text-xl text-[#1E3D60]">
                         {item.author.name}
                       </p>
@@ -101,7 +75,7 @@ const HomeSlider = () => {
               </div>
             </div>
           ))}
-        </Slider>
+        </CommonCarousel>
       </motion.div>
       <div className="text-center">
         <Button variant="primary" text="Explore All Courses" />
