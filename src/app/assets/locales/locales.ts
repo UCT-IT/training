@@ -25,6 +25,31 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
+      aboutSection: {
+        title: `About Education`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        do eiusmod tempor incididunt.`,
+        aboutDetails: {
+          altText: `About Section Image`,
+          iconAltText: `About Section Icon`,
+          detailOne: {
+            title: `Industry expert teachers`,
+            description: `Lorem ipsum dolor sit amet, consectetur dolorili
+            adipiscing elit. Felis donec massa aliquam id dolor .`,
+          },
+          detailTwo: {
+            title: `Up-to-date course content`,
+            description: `Lorem ipsum dolor sit amet, consectetur dolorili
+            adipiscing elit. Felis donec massa aliquam id dolor .`,
+          },
+          detailThree: {
+            title: `Students community`,
+            description: `Lorem ipsum dolor sit amet, consectetur dolorili
+            adipiscing elit. Felis donec massa aliquam id dolor .`,
+          },
+        },
+        btnText: `ABOUT EDUCATION`,
+      },
     },
   },
 });
