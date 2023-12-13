@@ -1,12 +1,9 @@
-import HomeSlider from '@/components/homeSlider/HomeSlider';
-import React from 'react';
+import HomePage from "./pages/home/HomePage";
 
 const page = () => {
   return (
-    <div>
-      <HomeSlider />
-    </div>
+    <main>
+      <HomePage />
+    </main>
   );
-};
-
-export default page;
+}
