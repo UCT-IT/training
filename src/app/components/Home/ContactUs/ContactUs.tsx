@@ -7,8 +7,9 @@ const ContactUs = () => {
 
   return (
     <div className="bg-tertiary my-[184px] relative overflow-clip">
-      <div className="bg-info w-[50px] h-[25px] md:w-[200px] md:h-[100px] rounded-br-full rounded-bl-full absolute top-0"></div>
-      <div className="responsive-container flex flex-col lg:flex-row justify-center items-center">
+      <div className="bg-info w-[100px] h-[100px] rounded-ss-full absolute right-0 bottom-0"></div>
+      <div className="bg-warning w-[100px] h-[100px] rounded-ee-full absolute left-0 top-0"></div>
+      <div className="responsive-container flex flex-col lg:flex-row justify-center items-center relative">
         <div className="font-kumbh text-success pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
           <h2 className="font-semibold text-3xl mb-1">{locateText.titleOne}</h2>
           <h2 className="font-semibold text-3xl mb-1">{locateText.titleTwo}</h2>
@@ -18,7 +19,7 @@ const ContactUs = () => {
           </p>
 
           <hr className="w-full" />
-          <div className="z-30">
+          <div>
             <p className="font-bold mt-5">{locateText.addressTitle}</p>
             <p>
               <span className="font-semibold">{locateText.officeBd}</span>{" "}
@@ -40,7 +41,7 @@ const ContactUs = () => {
             </p>
           </div>
         </div>
-        <div className="text-textColor py-16 px-5 text-center lg:text-left">
+        <div className="text-textColor py-16 px-5 text-center lg:text-left relative z-20">
           <h2 className="text-3xl mb-3 font-semibold text-success ps-2">
             {locateText.sendMessageTitle}
           </h2>
