@@ -1,109 +1,106 @@
 "use client";
-import Link from "next/link";
-import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import data from "../../../public/data/homeCarousel.json"
-import Image from "next/image";
-import img from '../../../public/images/homeImages/homeCarousel/1.jpeg'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import NextArrow from "../common/carouselButtons/NextArrow";
+import PrevArrow from "../common/carouselButtons/PrevArrow";
+import Link from "next/link";
+
 const HomeSlider = () => {
-  console.log(data.cards);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const cards = data.cards;
-  const handleClickLeft = () => {
-    console.log("Before Left Click - currentIndex:", currentIndex);
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + cards.length) % cards.length
-    );
-    console.log("After Left Click - currentIndex:", currentIndex);
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
-  
-  const handleClickRight = () => {
-    console.log("Before Right Click - currentIndex:", currentIndex);
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
-    console.log("After Right Click - currentIndex:", currentIndex);
+  const slideStyle = {
+    margin: "0 10px", // Adjust the margin as needed for spacing
   };
-  
   return (
-    <div className="slider-carousel relative container mx-auto mt-32">
+    <div className="container mx-auto font-kumbh relative py-9 bg-white">
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
         viewport={{ once: false }}
-        className="font-bold text-[#1E3D60]  text-center text-4xl mb-16"
+        className="font-bold font-newsreader text-secondary  text-center text-4xl mb-16"
       >
-        {data.title}
+        Browse our popular courses
       </motion.h2>
-      <button
-        onClick={handleClickLeft}
-        className="absolute grid place-items-center top-[65%] translate-y-[-50%]  bg-white hover:bg-[#064EA4] hover:text-white transition-all h-[80px] w-[80px] rounded-full shadow-2xl -left-6 z-10 "
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ once: true }}
       >
-        <FaArrowLeft />
-      </button>
-      <button
-        onClick={handleClickRight}
-        className="absolute grid place-items-center top-[65%] translate-y-[-50%] bg-white hover:bg-[#064EA4] hover:text-white transition-all h-[80px] w-[80px] rounded-full shadow-2xl -right-6 z-10 "
-      >
-        <FaArrowRight />
-      </button>
-      s
-      <div className="carousel-container flex items-center gap-4 overflow-hidden">
-        {cards.map(
-          (item, index) => (
-            <motion.div
-              initial={{ opacity: 0, x: index === 0 ? 0 : 1000 }}
-              animate={{
-                opacity: 1,
-                x: 0,
-                transition: { duration: 0.5, delay: 0.2 * index },
-              }}
-              key={item.id}
-              className={`carousel-item w-full ${
-                index === 0 ? "left" : "right"
-              }`}
-            >
-              <motion.div
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
-                // transition={{ duration: 0.5, delay: 0.2 }}
-                // viewport={{ once: true }}
-                className="group shadow-2xl rounded-t-3xl relative"
+        <Slider {...settings}>
+          {[2, 2, 2, 2, 2].map((item) => (
+            <div key={item} className=" group">
+              <div
+                style={slideStyle}
+                className="rounded-3xl border-[.1px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2"
               >
-                <div className="transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
-                  <Link href="#">
-                    <div className="overflow-hidden rounded-t-3xl relative">
-                      <Image alt="card image" src={img} />
-                      <div className="absolute top-10 right-10 flex items-center gap-2 text-[15px]">
-                        <p className="bg-white text-[#1E3D60] py-3 px-6 rounded-full font-semibold ">
-                          {item.duration}
-                        </p>
-                        <p className="text-white bg-[#1E3D60] py-3 px-6 rounded-full font-semibold ">
-                          {item.price}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="p-9 bg-white">
-                      <h1 className="font-bold text-2xl text-[#1E3D60] hover:text-[#064EA4] transition-all">
-                       {item.title}
-                      </h1>
-                      <p className="text-[18px] mt-4 text-[#798BA0]">
-                        {item.description}
+                <Link href="#">
+                  <div className="overflow-hidden rounded-t-3xl relative">
+                    <img
+                      className="h-full w-full object-cover duration-150 transition-all group-hover:scale-110"
+                      src="https://assets-global.website-files.com/607de2d8e8911ebf197a3f0f/607f2e01cbd8323965e6629a_image-6-courses-education-x-template-p-800.jpeg"
+                      alt=""
+                    />
+                    <div className="absolute top-10 right-10 flex items-center gap-2 text-[15px]">
+                      <p className="bg-white text-secondary py-3 px-6 rounded-full font-semibold ">
+                        8hr 12min
                       </p>
-                      <div className="mt-6 flex items-center gap-4">
-                        <Image className="h-[70px] w-[70px] rounded-full" alt="author image" src={img} />
-                        <p className="font-bold text-xl text-[#1E3D60]">
-                          {item.author.name}
-                        </p>
-                      </div>
+                      <p className="text-white bg-secondary py-3 px-6 rounded-full font-semibold ">
+                        $ 99.00 USD
+                      </p>
                     </div>
-                  </Link>
-                </div>
-              </motion.div>
-            </motion.div>
-          )
-        )}
-      </div>
+                  </div>
+                  <div className="p-9 bg-white rounded-b-3xl">
+                    <h1 className="font-bold text-2xl text-secondary group-hover:text-primary transition-all">
+                      Graphics Design 101
+                    </h1>
+                    <p className="text-[18px] mt-4 text-[#798BA0]">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quia esse eveniet numquam asperiores, ad beatae officia
+                      aliquid distinctio culpa possimus?
+                    </p>
+                    <div className="mt-6 flex items-center gap-4">
+                      <img
+                        className="h-11 w-11 shadow-lg rounded-full"
+                        src="https://assets-global.website-files.com/607de2d8e8911ebf197a3f0f/607f2e01cbd8323965e6629a_image-6-courses-education-x-template-p-800.jpeg"
+                        alt=""
+                      />
+                      <p className="font-bold text-xl text-[#1E3D60]">
+                        Jobayer Hossain
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </motion.div>
     </div>
   );
 };
