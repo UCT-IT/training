@@ -1,5 +1,4 @@
 "use client";
-
 import { strings } from "@/app/assets/locales/locales";
 import Link from "next/link";
 import React, { useState } from "react";
