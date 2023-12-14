@@ -5,11 +5,11 @@ export let strings = new LocalizedStrings({
     nav: [
       {
         text: "Home",
-        url: "#",
+        url: "/",
       },
       {
         text: "About",
-        url: "#",
+        url: "/pages/about",
       },
       {
         text: "Courses",
@@ -51,5 +51,31 @@ export let strings = new LocalizedStrings({
         btnText: `ABOUT EDUCATION`,
       },
     },
+    about: {
+      banner: {
+        title: `A few numbers that we 
+        are proud of`,
+        number: [
+          {
+            count: "100,000+",
+            text: "Students",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+          {
+            count: "5,000+",
+            text: "Five-star reviews",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+        ]
+      }
+    }
   },
 });
