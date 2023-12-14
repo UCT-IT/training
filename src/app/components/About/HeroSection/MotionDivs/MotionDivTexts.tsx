@@ -15,7 +15,7 @@ const MotionDivTexts = () => {
     show: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.2, delay: 0.1, type: "spring" },
+      transition: { duration: 0.3, delay: 0.1, type: "spring" },
     },
   };
 
