@@ -34,7 +34,7 @@ const MotionCard = () => {
               <div className="absolute top-6 right-10 text-[15px]">
                 <p className="bg-white flex gap-2 items-center text-secondary py-3 px-6 rounded-full font-semibold ">
                   <Image alt={altText.imageAltVideoText} src={videoLogo} />
-                  {item.video} Courses
+                  {item.video}
                 </p>
               </div>
             </div>
