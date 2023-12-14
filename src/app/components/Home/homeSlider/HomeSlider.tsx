@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Link from "next/link";
-import Button from "../common/Buttons/Button";
-import data from "../../../../public/data/data.json";
+import Button from "../../common/Buttons/Button";
+import data from "../../../../../public/data/data.json";
 import Image from "next/image";
 import { strings } from "@/app/assets/locales/locales";
-import CommonCarousel from "../common/commonCarousel/CommonCarousel";
+import CommonCarousel from "../../common/commonCarousel/CommonCarousel";
 
 const HomeSlider = () => {
   const localeText = strings.home.homeCarousel;
   return (
-    <div className="container mx-auto font-kumbh relative py-24">
+    <div className="container mx-auto font-kumbh relative py-32">
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}

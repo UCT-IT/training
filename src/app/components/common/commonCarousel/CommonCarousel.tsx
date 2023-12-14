@@ -8,6 +8,7 @@ import React from "react";
 const CommonCarousel = ({ children }: { children: React.ReactNode }) => {
   const settings = {
     infinite: true,
+    centerPadding: "60px",
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,

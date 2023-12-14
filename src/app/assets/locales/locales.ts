@@ -30,6 +30,30 @@ export let strings = new LocalizedStrings({
         altCourseImg: "course image",
         altAuthorImg: "author image",
         btn: "Explore All Courses"
+      },
+      review: {
+        title: "What our students say about us",
+        altTextAuthor: "author image",
+        altTextArrow: "arrow",
+        number: [
+          {
+            count: "100,000+",
+            text: "Students worldwide",
+          },
+          {
+            count: "200,00+",
+            text: "Total course views",
+          },
+          {
+            count: "5,000+",
+            text: "Five-star course reviews",
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
+          },
+        ],
+        btn: "Explore Courses"
       }
     },
   },
