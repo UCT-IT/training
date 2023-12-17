@@ -9,6 +9,7 @@ const HomePage = () => {
     <React.Fragment>
       <HeroSection />
       <About />
+      <Category />
       <ContactUs />
     </React.Fragment>
   );
