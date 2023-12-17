@@ -13,7 +13,7 @@ export let strings = new LocalizedStrings({
       },
       {
         text: "Courses",
-        url: "#",
+        url: "/pages/courses",
       },
     ],
     home: {
