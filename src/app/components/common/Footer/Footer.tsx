@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <hr className="mt-[54px] pb-[120px] opacity-20" />
         <div className="md:flex justify-between space-y-5 md:space-y-0 md:space-x-5 lg:space-x-0">
-          <div>
+          <div className="text-left lg:text-center">
             <h3 className="mb-[40px] font-bold text-white">
               {localeText.ourCompany.title}
             </h3>
@@ -46,7 +46,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="text-left lg:text-center">
             <h3 className="mb-[40px] font-bold text-white">
               {localeText.ourServices.title}
             </h3>
@@ -61,7 +61,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="text-left lg:text-center">
             <h3 className="mb-[40px] font-bold text-white text-left md:text-center">
               {localeText.ourOffice.title}
             </h3>
@@ -70,7 +70,9 @@ const Footer = () => {
             </p>
           </div>
         </div>
+
         <hr className="mt-[120px] pb-[24px] opacity-20" />
+
         <div className="flex flex-col-reverse lg:flex-row items-center justify-start lg:justify-between pb-6 gap-4">
           <p className="text-btnbg text-lg">{localeText.copyRight}</p>
           <div className="flex items-center gap-4">
