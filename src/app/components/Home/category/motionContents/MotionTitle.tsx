@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { motion } from "framer-motion";
-import { strings } from '@/assets/locales/locales';
+import { strings } from '@/app/assets/locales/locales';
 
 const MotionTitle = () => {
     const localeText = strings.home.Category

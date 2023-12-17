@@ -50,6 +50,11 @@ export let strings = new LocalizedStrings({
         },
         btnText: `ABOUT EDUCATION`,
       },
+      Category: {
+        title: "Browse our courses by category",
+        imageAltText: "course image",
+        imageAltVideoText: "video logo",
+      },
       contactUsSection: {
         titleOne: `QUESTIONS?`,
         titleTwo: `COMMENTS?`,
@@ -110,6 +115,44 @@ export let strings = new LocalizedStrings({
           },
         ],
       },
+      values: {
+        title: "Our work values",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        cards: [
+          {
+            image: "/images/about/values/img1.svg",
+            number: "01",
+            title: "Commitment",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`
+          },
+          {
+            image: "/images/about/values/img2.svg",
+            number: "02",
+            title: "Accessibility",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`
+          },
+          {
+            image: "/images/about/values/img3.svg",
+            number: "03",
+            title: "Openness",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`
+          },
+          {
+            image: "/images/about/values/img4.svg",
+            number: "04",
+            title: "Innovation",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`
+          },
+        ]
+      }
     },
     footer: {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
