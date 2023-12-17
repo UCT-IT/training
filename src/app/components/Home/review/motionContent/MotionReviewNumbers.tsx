@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { strings } from "@/app/assets/locales/locales";
 
-const MotionReivewNumbers = () => {
+const MotionReviewewNumbers = () => {
   const localeText = strings.home.review;
   return (
     <motion.div
@@ -25,4 +25,4 @@ const MotionReivewNumbers = () => {
   );
 };
 
-export default MotionReivewNumbers;
+export default MotionReviewewNumbers;

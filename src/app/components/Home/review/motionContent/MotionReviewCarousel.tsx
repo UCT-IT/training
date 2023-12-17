@@ -2,11 +2,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import CommonCarousel from "../../../common/commonCarousel/CommonCarousel";
-import { FaStar } from "react-icons/fa";
-import arrowImg from "../../../../../public/images/Home/review/arrow.svg";
 import Image from "next/image";
 import { strings } from "@/app/assets/locales/locales";
 import data from "../../../../../../public/data/data.json";
+import renderStars from "@/app/components/common/renderStars/RenderStars";
 
 const MotionReviewCarousel = () => {
   const localeText = strings.home.review;
@@ -17,7 +16,14 @@ const MotionReviewCarousel = () => {
       transition={{ duration: 0.5, delay: 0.2 }}
       viewport={{ once: true }}
     >
-      <CommonCarousel>
+      <CommonCarousel
+        settings={{
+          infinite: true,
+          speed: 500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }}
+      >
         {data.review.map((item) => (
           <div key={item.id} className="mr-5">
             <div className="bg-white mr-[20px] rounded-2xl border-[1px] border-gray-200">
@@ -31,11 +37,7 @@ const MotionReviewCarousel = () => {
                 />
                 <div className="space-y-5 text-center lg:text-left">
                   <div className="flex item-center justify-center lg:justify-normal gap-2 mt-3 md:mt-0 text-center md:text-left text-[20px] text-yellow-400">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
+                    {renderStars(item.ratings)}
                   </div>
                   <p className="text-textColor text-[18px]">{item.say}</p>
                   <div>

@@ -79,35 +79,40 @@
       "image": "/images/Home/review/author1.jpg",
       "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
       "name": "Sophie Moore",
-      "position": "UX Designer at Agency"
+      "position": "UX Designer at Agency",
+      "ratings": 4.5
     },
     {
       "id": "2",
       "image": "/images/Home/review/author1.jpg",
       "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
       "name": "Sophie Moore",
-      "position": "UX Designer at Agency"
+      "position": "UX Designer at Agency",
+      "ratings": 5
     },
     {
       "id": "3",
       "image": "/images/Home/review/author1.jpg",
       "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
       "name": "Sophie Moore",
-      "position": "UX Designer at Agency"
+      "position": "UX Designer at Agency",
+      "ratings": 4.7
     },
     {
       "id": "4",
       "image": "/images/Home/review/author1.jpg",
       "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
       "name": "Sophie Moore",
-      "position": "UX Designer at Agency"
+      "position": "UX Designer at Agency",
+      "ratings": 5
     },
     {
       "id": "5",
       "image": "/images/Home/review/author1.jpg",
       "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
       "name": "Sophie Moore",
-      "position": "UX Designer at Agency"
+      "position": "UX Designer at Agency",
+      "ratings": 5
     }
   ]
 }

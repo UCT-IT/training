@@ -2,10 +2,10 @@ import HomePage from "./pages/home/HomePage";
 
 import React from 'react';
 
-const page = () => {
+const MainPage = () => {
   return (
     <HomePage />
   );
 };
 
-export default page;
+export default MainPage;
