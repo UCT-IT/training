@@ -52,6 +52,31 @@ export let strings = new LocalizedStrings({
       },
     },
     about: {
+      banner: {
+        title: `A few numbers that we 
+        are proud of`,
+        number: [
+          {
+            count: "100,000+",
+            text: "Students",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+          {
+            count: "5,000+",
+            text: "Five-star reviews",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+        ]
+      }
+    }
       heroSection: {
         title: `The big mission
         behind Educationic`,
