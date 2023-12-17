@@ -1,5 +1,5 @@
 "use client";
-import { strings } from "@/assets/locales/locales";
+import { strings } from "@/app/assets/locales/locales";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -37,7 +37,11 @@ const MobileMenu = () => {
         } md:hidden fixed top-[85px] left-0 h-screen z-50 w-full bg-white  text-primary font-bold text-[18px] transition-transform ease-in-out duration-500 transform space-y-4 pt-3 px-14 lg:px-0`}
       >
         {localeText.map((item) => (
-          <li key={item.text} className="hover:text-info transition-all">
+          <li
+            onClick={() => setMenuOpen(false)}
+            key={item.text}
+            className="hover:text-info transition-all"
+          >
             <Link href={item.url}>{item.text}</Link>
           </li>
         ))}
