@@ -25,6 +25,31 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
+
+      contactUsSection: {
+        titleOne: `QUESTIONS?`,
+        titleTwo: `COMMENTS?`,
+        titleThree: `WE'D LOVE TO HEAR FROM YOU!`,
+        description: `Get in touch with us to explore a world of educational opportunities!
+        Whether you have inquiries about our courses, seek guidance on
+        learning paths, or wish to collaborate, our dedicated team is here to
+        support you. Reach out today to discover how we can empower your educational journey.`,
+        addressTitle: `Our Mailing Address is:`,
+        officeBd: `Bangladesh Office: `,
+        officeBdAddress: `House-37(4th floor), Road-7, Sector-3, Uttara, Dhaka-1230.`,
+        officeCn: `Canada Office: `,
+        officeCnAddress: `107 7760 120 Street Surrey, BC, V3W1L1, Canada.`,
+        email: `Email: `,
+        emailAddress: `uctitbd@gmail.com`,
+        hotline: `Hotline: `,
+        hotlineNumber: `01996-399534`,
+        sendMessageTitle: `SHARE YOUR THOUGHTS WITH US!`,
+        btnText: `SEND MESSAGE`,
+        placeholderText: {
+          name: `Your Name`,
+          email: `Your Email`,
+          message: `Your Message Here`,
+        },
       aboutSection: {
         title: `About Education`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -52,6 +77,31 @@ export let strings = new LocalizedStrings({
       },
     },
     about: {
+      banner: {
+        title: `A few numbers that we 
+        are proud of`,
+        number: [
+          {
+            count: "100,000+",
+            text: "Students",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+          {
+            count: "5,000+",
+            text: "Five-star reviews",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`
+          },
+        ]
+      }
+    }
       heroSection: {
         title: `The big mission
         behind Educationic`,
@@ -61,6 +111,40 @@ export let strings = new LocalizedStrings({
         aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
       },
+    },
+    footer: {
+      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt aliqua.`,
+      ourCompany: {
+        title: `Our Company`,
+        navigations: [
+          "Home",
+          "About Us",
+          "Contact",
+          "Careers",
+          "Privacy Policy",
+          "Terms & Conditions",
+        ],
+      },
+      ourServices: {
+        title: `Our Services`,
+        navigations: [
+          "Computer Training",
+          "Digital Marketing",
+          "Web-Design & Development",
+          "Video Editing",
+          "Networking Services",
+          "ERP Software",
+          "Computer & Laptop Servicing",
+        ],
+      },
+      ourOffice: {
+        title: `Our office`,
+        address: `House 37 (3rd Floor), Road 7,
+        Sector 3, Uttara,
+        Dhaka-1230, Bangladesh.`,
+      },
+      copyRight: `Copyright © Educationic X`,
     },
   },
 });
