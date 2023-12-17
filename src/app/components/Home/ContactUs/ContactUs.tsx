@@ -47,24 +47,24 @@ const ContactUs = () => {
           </h2>
           <form className="px-2">
             <input
-              className="border-2 border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
+              className="border-2 border-success focus:border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
               required
               type="text"
               placeholder={localeText.placeholderText.name}
             />
             <input
-              className=" border-2 border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
+              className=" border-2 border-success focus:border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
               required
               type="email"
               placeholder={localeText.placeholderText.email}
             />
             <textarea
-              className="border-2 border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
+              className="border-2 border-success focus:border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
               required
               cols={30}
               rows={10}
               placeholder={localeText.placeholderText.message}
-            ></textarea>
+            />
             <div className="text-right">
               <Button variant="secondary" text={localeText.btnText} />
             </div>
