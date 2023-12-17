@@ -25,7 +25,6 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
-
       contactUsSection: {
         titleOne: `QUESTIONS?`,
         titleTwo: `COMMENTS?`,
@@ -50,58 +49,34 @@ export let strings = new LocalizedStrings({
           email: `Your Email`,
           message: `Your Message Here`,
         },
+      },
       aboutSection: {
         title: `About Education`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt.`,
+      do eiusmod tempor incididunt.`,
         aboutDetails: {
           altText: `About Section Image`,
           iconAltText: `About Section Icon`,
           detailOne: {
             title: `Industry expert teachers`,
             description: `Lorem ipsum dolor sit amet, consectetur dolorili
-            adipiscing elit. Felis donec massa aliquam id dolor .`,
+          adipiscing elit. Felis donec massa aliquam id dolor .`,
           },
           detailTwo: {
             title: `Up-to-date course content`,
             description: `Lorem ipsum dolor sit amet, consectetur dolorili
-            adipiscing elit. Felis donec massa aliquam id dolor .`,
+          adipiscing elit. Felis donec massa aliquam id dolor .`,
           },
           detailThree: {
             title: `Students community`,
             description: `Lorem ipsum dolor sit amet, consectetur dolorili
-            adipiscing elit. Felis donec massa aliquam id dolor .`,
+          adipiscing elit. Felis donec massa aliquam id dolor .`,
           },
         },
         btnText: `ABOUT EDUCATION`,
       },
     },
     about: {
-      banner: {
-        title: `A few numbers that we 
-        are proud of`,
-        number: [
-          {
-            count: "100,000+",
-            text: "Students",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`
-          },
-          {
-            count: "5,000+",
-            text: "Five-star reviews",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`
-          },
-          {
-            count: "75,000+",
-            text: "Students community",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`
-          },
-        ]
-      }
-    }
       heroSection: {
         title: `The big mission
         behind Educationic`,
@@ -110,6 +85,37 @@ export let strings = new LocalizedStrings({
         enim. Massa nec tellus, elit tellus, erat faucibus
         aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
+      },
+      banner: {
+        title: `A few numbers that we 
+        are proud of`,
+        number: [
+          {
+            count: "100,000+",
+            text: "Students",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`,
+          },
+          {
+            count: "5,000+",
+            text: "Five-star reviews",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`,
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`,
+          },
+        ],
+      },
+    },
+    courses: {
+      heroSection: {
+        title: `Courses`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna.`,
       },
     },
     footer: {

@@ -1,10 +1,17 @@
 import React from "react";
+import MotionDivCircleOne from "./MotionDivs/MotionDivCircleOne";
+import MotionDivCircleTwo from "./MotionDivs/MotionDivCircleTwo";
+import MotionDivTexts from "./MotionDivs/MotionDivTexts";
 
 const HeroSection = () => {
   return (
-    <div>
-      <h2>This is Courses Hero Section</h2>
-    </div>
+    <React.Fragment>
+      <div className="bg-success relative z-10 overflow-hidden py-[130px]">
+        <MotionDivCircleOne />
+        <MotionDivCircleTwo />
+        <MotionDivTexts />
+      </div>
+    </React.Fragment>
   );
 };
 
