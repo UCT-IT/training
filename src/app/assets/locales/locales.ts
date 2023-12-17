@@ -112,5 +112,39 @@ export let strings = new LocalizedStrings({
         btnText: `JOIN OUR TEAM`,
       },
     },
+    footer: {
+      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt aliqua.`,
+      ourCompany: {
+        title: `Our Company`,
+        navigations: [
+          "Home",
+          "About Us",
+          "Contact",
+          "Careers",
+          "Privacy Policy",
+          "Terms & Conditions",
+        ],
+      },
+      ourServices: {
+        title: `Our Services`,
+        navigations: [
+          "Computer Training",
+          "Digital Marketing",
+          "Web-Design & Development",
+          "Video Editing",
+          "Networking Services",
+          "ERP Software",
+          "Computer & Laptop Servicing",
+        ],
+      },
+      ourOffice: {
+        title: `Our office`,
+        address: `House 37 (3rd Floor), Road 7,
+        Sector 3, Uttara,
+        Dhaka-1230, Bangladesh.`,
+      },
+      copyRight: `Copyright © Educationic X`,
+    },
   },
 });
