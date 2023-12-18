@@ -1,14 +1,16 @@
+import ContactUs from "@/app/components/Home/ContactUs/ContactUs";
+import About from "@/app/components/Home/About/About";
 import HeroSection from "@/app/components/Home/HeroSection/HeroSection";
-import HomeSlider from "@/app/components/Home/homeSlider/HomeSlider";
-import Review from "@/app/components/Home/review/Review";
+import Category from "@/app/components/Home/category/Category";
 import React from "react";
 
 const HomePage = () => {
   return (
     <React.Fragment>
       <HeroSection />
-      <HomeSlider />
-      <Review />
+      <About />
+      <Category />
+      <ContactUs />
     </React.Fragment>
   );
 };
