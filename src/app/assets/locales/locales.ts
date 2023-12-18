@@ -116,6 +116,34 @@ export let strings = new LocalizedStrings({
         aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
       },
+      history: {
+        title: "Our company history",
+        description:
+          "Presenting Academy, the tech school of the future. We teach you the right skills to be prepared for tomorrow.",
+        button: "Join our team",
+        details: [
+          {
+            year: 2023,
+            title: "Launched course #500",
+            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+          },
+          {
+            year: 2022,
+            title: "Reached 100 team members",
+            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+          },
+          {
+            year: 2021,
+            title: "Launched first course",
+            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+          },
+          {
+            year: 2020,
+            title: "Education founded",
+            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+          },
+        ]
+      }
       banner: {
         title: `A few numbers that we 
       are proud of`,
