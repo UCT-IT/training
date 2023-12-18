@@ -23,8 +23,6 @@ const MotionValuesCard = () => {
           <div key={item.number} className="bg-white p-16 rounded-2xl">
             <div className="flex justify-between items-center">
               <Image
-                height={1000}
-                width={1000}
                 className="rounded-full h-16 w-16"
                 alt={localeText.altText}
                 src={images[index]}
