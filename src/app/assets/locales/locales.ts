@@ -13,7 +13,7 @@ export let strings = new LocalizedStrings({
       },
       {
         text: "Courses",
-        url: "#",
+        url: "/pages/courses",
       },
     ],
     home: {
@@ -24,6 +24,12 @@ export let strings = new LocalizedStrings({
         btnText1: `Explore Courses`,
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
+      },
+      homeCarousel: {
+        title: "Browse our popular courses",
+        altCourseImg: "course image",
+        altAuthorImg: "author image",
+        btn: "Explore All Courses",
       },
       aboutSection: {
         title: `About Education`,
@@ -49,6 +55,30 @@ export let strings = new LocalizedStrings({
           },
         },
         btnText: `ABOUT EDUCATION`,
+      },
+      review: {
+        title: "What our students say about us",
+        altTextAuthor: "author image",
+        altTextArrow: "arrow",
+        number: [
+          {
+            count: "100,000+",
+            text: "Students worldwide",
+          },
+          {
+            count: "200,00+",
+            text: "Total course views",
+          },
+          {
+            count: "5,000+",
+            text: "Five-star course reviews",
+          },
+        ],
+      },
+      Category: {
+        title: "Browse our courses by category",
+        imageAltText: "course image",
+        imageAltVideoText: "video logo",
       },
       contactUsSection: {
         titleOne: `QUESTIONS?`,
@@ -79,11 +109,11 @@ export let strings = new LocalizedStrings({
     about: {
       heroSection: {
         title: `The big mission
-      behind Educationic`,
+        behind Educationic`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Pretium pulvinar ac molestie cursus malesuada
-      enim. Massa nec tellus, elit tellus, erat faucibus
-      aenean. Nunc, lacus, dignissim nec sit.`,
+        elit. Pretium pulvinar ac molestie cursus malesuada
+        enim. Massa nec tellus, elit tellus, erat faucibus
+        aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
       },
       history: {
@@ -122,21 +152,32 @@ export let strings = new LocalizedStrings({
             count: "100,000+",
             text: "Students",
             desc: `Lorem ipsum dolor sit amet, 
-          consectetur adipiscing.`,
+            consectetur adipiscing.`,
           },
           {
             count: "5,000+",
             text: "Five-star reviews",
-            desc: `Lorem ipsum dolor sit amet, 
+            desc: `Lorem ipsum dolor sit amet,
           consectetur adipiscing.`,
+
           },
           {
             count: "75,000+",
             text: "Students community",
             desc: `Lorem ipsum dolor sit amet, 
-          consectetur adipiscing.`,
+            consectetur adipiscing.`,
           },
         ],
+      },
+    },
+    courses: {
+      heroSection: {
+        title: `Courses`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna.`,
+          },
+        ],
+        btn: "Explore Courses",
       },
     },
     footer: {
