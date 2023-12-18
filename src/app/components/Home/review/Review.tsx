@@ -7,7 +7,7 @@ import MotionReviewButton from "./motionContent/MotionReviewButton";
 
 const Review = () => {
   return (
-    <div className="bg-[#F9FAFB] font-kumbh relative py-44 ">
+    <div className="bg-[#F9FAFB]  relative py-44 ">
       <div className="container mx-auto">
         <MotionReviewArrow />
         <MotionReviewTitle />

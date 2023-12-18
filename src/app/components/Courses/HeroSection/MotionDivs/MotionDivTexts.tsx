@@ -25,7 +25,7 @@ const MotionDivTexts = () => {
           variants={animationContent}
           initial="hidden"
           animate="show"
-          className="text-5xl font-semibold text-tertiary md:leading-snug font-newsreader"
+          className="text-5xl font-semibold text-tertiary md:leading-snug "
         >
           {localeText.title}
         </motion.h1>
@@ -33,7 +33,7 @@ const MotionDivTexts = () => {
           variants={animationContent}
           initial="hidden"
           animate="show"
-          className="font-kumbh text-textColor text-lg py-3 md:py-5 md:whitespace-pre-line"
+          className=" text-textColor text-lg py-3 md:py-5 md:whitespace-pre-line"
         >
           {localeText.description}
         </motion.p>

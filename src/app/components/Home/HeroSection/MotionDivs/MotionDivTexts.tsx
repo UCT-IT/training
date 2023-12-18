@@ -25,7 +25,7 @@ const MotionDivTexts = () => {
         variants={animationContent}
         initial="hidden"
         animate="show"
-        className="text-6xl font-semibold text-secondary font-newsreader"
+        className="text-6xl font-semibold text-secondary"
       >
         {localeText.title}
       </motion.h1>
@@ -33,7 +33,7 @@ const MotionDivTexts = () => {
         variants={animationContent}
         initial="hidden"
         animate="show"
-        className="font-kumbh text-tertiary"
+        className=" text-tertiary"
       >
         {localeText.description}
       </motion.p>

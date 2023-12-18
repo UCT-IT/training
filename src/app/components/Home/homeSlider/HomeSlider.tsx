@@ -12,13 +12,13 @@ import { strings } from "@/app/assets/locales/locales";
 const HomeSlider = () => {
   const localetext = strings.home.homeCarousel;
   return (
-    <div className="container mx-auto font-kumbh relative py-32">
+    <div className="responsive-container  relative py-32">
       <motion.h2
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
         viewport={{ once: false }}
-        className="font-bold font-newsreader text-secondary  text-center text-4xl mb-16"
+        className="font-bold  text-secondary  text-center text-4xl mb-16"
       >
         {localetext.title}
       </motion.h2>

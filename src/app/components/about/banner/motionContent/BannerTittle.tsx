@@ -10,7 +10,7 @@ const BannerTittle = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.2 }}
       viewport={{ once: true }}
-      className="text-primary font-newsreader text-5xl font-bold whitespace-pre-line"
+      className="text-primary  text-5xl font-bold whitespace-pre-line"
     >
      {localeText.title}
     </motion.h1>

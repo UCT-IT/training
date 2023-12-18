@@ -8,7 +8,7 @@ type buttonProps = {
 const Button = ({ text, variant }: buttonProps) => {
   return (
     <button
-      className={`font-kumbh font-bold px-10 py-6 ${
+      className={` font-bold px-10 py-6 ${
         variant === "primary"
           ? "bg-primary hover:bg-secondary text-white"
           : "bg-btnbg hover:bg-btnhover text-tertiary"

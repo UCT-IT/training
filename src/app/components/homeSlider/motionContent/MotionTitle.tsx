@@ -9,7 +9,7 @@ const MotionTitle = () => {
       whileInView={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.4, ease: "easeInOut" }}
       viewport={{ once: false }}
-      className="font-bold font-newsreader text-secondary  text-center text-4xl mb-16"
+      className="font-bold  text-secondary  text-center text-4xl mb-16"
     >
       {localeText.title}
     </motion.h2>

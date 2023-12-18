@@ -5,7 +5,7 @@ import BannerNumber from "./motionContent/BannerNumber";
 
 const Banner = () => {
   return (
-    <div className="bg-[#F9FAFB] py-40 relative font-kumbh">
+    <div className="bg-[#F9FAFB] py-40 relative ">
       <div className="responsive-container">
         <BannerArrow />
         <div className="text-center">
