@@ -5,7 +5,7 @@ import Link from "next/link";
 import data from "../../../../../../public/data/data.json";
 import videoLogo from "../../../../../../public/images/Home/category/video.svg";
 import Image from "next/image";
-import { strings } from "@/assets/locales/locales";
+import { strings } from "@/app/assets/locales/locales";
 
 const MotionCard = () => {
   const altText = strings.home.Category;

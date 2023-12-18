@@ -25,6 +25,12 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
+      homeCarousel: {
+        title: "Browse our popular courses",
+        altCourseImg: "course image",
+        altAuthorImg: "author image",
+        btn: "Explore All Courses",
+      },
       aboutSection: {
         title: `About Education`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -48,7 +54,31 @@ export let strings = new LocalizedStrings({
           adipiscing elit. Felis donec massa aliquam id dolor .`,
           },
         },
-        btnText: `ABOUT EDUCATION`,
+        btnText: `about education`,
+      },
+      review: {
+        title: "What our students say about us",
+        altTextAuthor: "author image",
+        altTextArrow: "arrow",
+        number: [
+          {
+            count: "100,000+",
+            text: "Students worldwide",
+          },
+          {
+            count: "200,00+",
+            text: "Total course views",
+          },
+          {
+            count: "5,000+",
+            text: "Five-star course reviews",
+          },
+        ],
+      },
+      Category: {
+        title: "Browse our courses by category",
+        imageAltText: "course image",
+        imageAltVideoText: "video logo",
       },
       contactUsSection: {
         titleOne: `QUESTIONS?`,
@@ -86,6 +116,38 @@ export let strings = new LocalizedStrings({
         aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
       },
+      history: {
+        title: "Our company history",
+        description:
+          "Presenting Academy, the tech school of the future. We teach you the right skills to be prepared for tomorrow.",
+        button: "Join our team",
+        details: [
+          {
+            year: 2023,
+            title: "Launched course #500",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+          {
+            year: 2022,
+            title: "Reached 100 team members",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+          {
+            year: 2021,
+            title: "Launched first course",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+          {
+            year: 2020,
+            title: "Education founded",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+        ],
+      },
       banner: {
         title: `A few numbers that we 
       are proud of`,
@@ -110,7 +172,44 @@ export let strings = new LocalizedStrings({
           },
         ],
       },
+      values: {
+        title: "Our work values",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        altText: "values image",
+        cards: [
+          {
+            number: "01",
+            title: "Commitment",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+          {
+            number: "02",
+            title: "Accessibility",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+          {
+            number: "03",
+            title: "Openness",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+          {
+            number: "04",
+            title: "Innovation",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+        ],
+      },
     },
+
     courses: {
       heroSection: {
         title: `Courses`,
@@ -120,7 +219,7 @@ export let strings = new LocalizedStrings({
     },
     footer: {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt aliqua.`,
+        sed do eiusmod tempor incididunt aliqua.`,
       ourCompany: {
         title: `Our Company`,
         navigations: [
@@ -147,8 +246,8 @@ export let strings = new LocalizedStrings({
       ourOffice: {
         title: `Our office`,
         address: `House 37 (3rd Floor), Road 7,
-        Sector 3, Uttara,
-        Dhaka-1230, Bangladesh.`,
+          Sector 3, Uttara,
+          Dhaka-1230, Bangladesh.`,
       },
       copyRight: `Copyright © Educationic X`,
     },
