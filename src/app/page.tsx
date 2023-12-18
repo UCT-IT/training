@@ -1,9 +1,11 @@
 import HomePage from "./pages/home/HomePage";
 
-export default function Home() {
+import React from 'react';
+
+const MainPage = () => {
   return (
-    <main>
-      <HomePage />
-    </main>
+    <HomePage />
   );
-}
+};
+
+export default MainPage;
