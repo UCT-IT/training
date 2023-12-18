@@ -5,7 +5,7 @@ import MotionButton from "./MotionAbout/MotionButton";
 
 const About = () => {
   return (
-    <div className="responsive-container py-[184px]">
+    <div className="responsive-container">
       <MotionTitle />
       <MotionImageAndDescription />
       <MotionButton />
