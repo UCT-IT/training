@@ -25,31 +25,6 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
-      contactUsSection: {
-        titleOne: `QUESTIONS?`,
-        titleTwo: `COMMENTS?`,
-        titleThree: `WE'D LOVE TO HEAR FROM YOU!`,
-        description: `Get in touch with us to explore a world of educational opportunities!
-        Whether you have inquiries about our courses, seek guidance on
-        learning paths, or wish to collaborate, our dedicated team is here to
-        support you. Reach out today to discover how we can empower your educational journey.`,
-        addressTitle: `Our Mailing Address is:`,
-        officeBd: `Bangladesh Office: `,
-        officeBdAddress: `House-37(4th floor), Road-7, Sector-3, Uttara, Dhaka-1230.`,
-        officeCn: `Canada Office: `,
-        officeCnAddress: `107 7760 120 Street Surrey, BC, V3W1L1, Canada.`,
-        email: `Email: `,
-        emailAddress: `uctitbd@gmail.com`,
-        hotline: `Hotline: `,
-        hotlineNumber: `01996-399534`,
-        sendMessageTitle: `SHARE YOUR THOUGHTS WITH US!`,
-        btnText: `SEND MESSAGE`,
-        placeholderText: {
-          name: `Your Name`,
-          email: `Your Email`,
-          message: `Your Message Here`,
-        },
-      },
       aboutSection: {
         title: `About Education`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -75,6 +50,31 @@ export let strings = new LocalizedStrings({
         },
         btnText: `ABOUT EDUCATION`,
       },
+      contactUsSection: {
+        titleOne: `QUESTIONS?`,
+        titleTwo: `COMMENTS?`,
+        titleThree: `WE'D LOVE TO HEAR FROM YOU!`,
+        description: `Get in touch with us to explore a world of educational opportunities!
+        Whether you have inquiries about our courses, seek guidance on
+        learning paths, or wish to collaborate, our dedicated team is here to
+        support you. Reach out today to discover how we can empower your educational journey.`,
+        addressTitle: `Our Mailing Address is:`,
+        officeBd: `Bangladesh Office: `,
+        officeBdAddress: `House-37(4th floor), Road-7, Sector-3, Uttara, Dhaka-1230.`,
+        officeCn: `Canada Office: `,
+        officeCnAddress: `107 7760 120 Street Surrey, BC, V3W1L1, Canada.`,
+        email: `Email: `,
+        emailAddress: `uctitbd@gmail.com`,
+        hotline: `Hotline: `,
+        hotlineNumber: `01996-399534`,
+        sendMessageTitle: `SHARE YOUR THOUGHTS WITH US!`,
+        btnText: `SEND MESSAGE`,
+        placeholderText: {
+          name: `Your Name`,
+          email: `Your Email`,
+          message: `Your Message Here`,
+        },
+      },
     },
     about: {
       heroSection: {
@@ -88,7 +88,7 @@ export let strings = new LocalizedStrings({
       },
       banner: {
         title: `A few numbers that we 
-        are proud of`,
+      are proud of`,
         number: [
           {
             count: "100,000+",
@@ -99,8 +99,9 @@ export let strings = new LocalizedStrings({
           {
             count: "5,000+",
             text: "Five-star reviews",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`,
+            desc: `Lorem ipsum dolor sit amet,
+          consectetur adipiscing.`,
+
           },
           {
             count: "75,000+",
@@ -116,6 +117,8 @@ export let strings = new LocalizedStrings({
         title: `Courses`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna.`,
+          },
+        ],
       },
     },
     footer: {
