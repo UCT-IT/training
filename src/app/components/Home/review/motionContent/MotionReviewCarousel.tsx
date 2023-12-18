@@ -5,7 +5,7 @@ import CommonCarousel from "../../../common/commonCarousel/CommonCarousel";
 import Image from "next/image";
 import { strings } from "@/app/assets/locales/locales";
 import data from "../../../../../../public/data/data.json";
-import renderStars from "@/app/components/common/renderStars/RenderStars";
+import renderStars from "@/app/components/common/commonCarousel/renderStars/RenderStars";
 
 const MotionReviewCarousel = () => {
   const localeText = strings.home.review;
