@@ -121,7 +121,6 @@ export let strings = new LocalizedStrings({
         altText: "values image",
         cards: [
           {
-            image: "/images/about/values/img1.svg",
             number: "01",
             title: "Commitment",
             description: `Lorem ipsum dolor sit amet, consectetur 
@@ -129,7 +128,6 @@ export let strings = new LocalizedStrings({
             pellentesque iaculis nunc, est, mollis. Nulla.`
           },
           {
-            image: "/images/about/values/img2.svg",
             number: "02",
             title: "Accessibility",
             description: `Lorem ipsum dolor sit amet, consectetur 
@@ -137,7 +135,6 @@ export let strings = new LocalizedStrings({
             pellentesque iaculis nunc, est, mollis. Nulla.`
           },
           {
-            image: "/images/about/values/img3.svg",
             number: "03",
             title: "Openness",
             description: `Lorem ipsum dolor sit amet, consectetur 
@@ -145,7 +142,6 @@ export let strings = new LocalizedStrings({
             pellentesque iaculis nunc, est, mollis. Nulla.`
           },
           {
-            image: "/images/about/values/img4.svg",
             number: "04",
             title: "Innovation",
             description: `Lorem ipsum dolor sit amet, consectetur 
