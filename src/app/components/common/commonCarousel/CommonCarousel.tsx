@@ -5,12 +5,20 @@ import "slick-carousel/slick/slick.css";
 import NextArrow from "../carouselButtons/NextArrow";
 import PrevArrow from "../carouselButtons/PrevArrow";
 import React from "react";
-const CommonCarousel = ({ children }: { children: React.ReactNode }) => {
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+type carouselProps = {
+  infinite: boolean;
+  speed: number;
+  slidesToShow: number;
+  slidesToScroll: number;
+};
+const CommonCarousel = ({
+  children,
+  settings,
+}: {
+  children: React.ReactNode;
+  settings: carouselProps;
+}) => {
+  const customSettings = {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -29,12 +37,9 @@ const CommonCarousel = ({ children }: { children: React.ReactNode }) => {
         },
       },
     ],
+    ...settings,
   };
-  return (
-    <Slider {...settings}>
-      {children}
-    </Slider>
-  );
+  return <Slider {...customSettings}>{children}</Slider>;
 };
 
 export default CommonCarousel;

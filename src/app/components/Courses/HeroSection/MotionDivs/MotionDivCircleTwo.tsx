@@ -18,8 +18,8 @@ const MotionDivCircleTwo = () => {
               ? { duration: 0.7, ease: "easeOut" }
               : { duration: 0.7, ease: "easeOut" }
           }
-          className={`bg-info w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-ss-full rou absolute right-0 bottom-0 -z-10`}
-        ></motion.div>
+          className={`bg-info w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-bl-full -z-10 absolute right-0 top-0`}
+        />
       </InView>
     </React.Fragment>
   );
