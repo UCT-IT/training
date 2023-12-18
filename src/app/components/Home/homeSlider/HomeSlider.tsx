@@ -1,5 +1,3 @@
-"use client";
-import { motion } from "framer-motion";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Link from "next/link";
@@ -13,22 +11,10 @@ const HomeSlider = () => {
   const localetext = strings.home.homeCarousel;
   return (
     <div className="container mx-auto font-kumbh relative py-32">
-      <motion.h2
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-        viewport={{ once: false }}
-        className="font-bold font-newsreader text-secondary  text-center text-4xl mb-16"
-      >
+      <h2 className="font-bold font-newsreader text-secondary  text-center text-4xl mb-16">
         {localetext.title}
-      </motion.h2>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        viewport={{ once: true }}
-        className=""
-      >
+      </h2>
+      <div>
         <CommonCarousel
           settings={{
             infinite: true,
@@ -86,7 +72,7 @@ const HomeSlider = () => {
         <div className="text-center mt-6">
           <Button variant="primary" text={localetext.btn} />
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };
