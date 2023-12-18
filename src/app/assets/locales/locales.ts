@@ -13,7 +13,7 @@ export let strings = new LocalizedStrings({
       },
       {
         text: "Courses",
-        url: "#",
+        url: "/pages/courses",
       },
     ],
     home: {
@@ -109,11 +109,11 @@ export let strings = new LocalizedStrings({
     about: {
       heroSection: {
         title: `The big mission
-      behind Educationic`,
+        behind Educationic`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Pretium pulvinar ac molestie cursus malesuada
-      enim. Massa nec tellus, elit tellus, erat faucibus
-      aenean. Nunc, lacus, dignissim nec sit.`,
+        elit. Pretium pulvinar ac molestie cursus malesuada
+        enim. Massa nec tellus, elit tellus, erat faucibus
+        aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
       },
       banner: {
@@ -124,17 +124,29 @@ export let strings = new LocalizedStrings({
             count: "100,000+",
             text: "Students",
             desc: `Lorem ipsum dolor sit amet, 
-          consectetur adipiscing.`,
+            consectetur adipiscing.`,
           },
           {
             count: "5,000+",
             text: "Five-star reviews",
-            desc: `Lorem ipsum dolor sit amet, 
+            desc: `Lorem ipsum dolor sit amet,
           consectetur adipiscing.`,
+
           },
           {
             count: "75,000+",
             text: "Students community",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`,
+          },
+        ],
+      },
+    },
+    courses: {
+      heroSection: {
+        title: `Courses`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna.`,
           },
         ],
         btn: "Explore Courses",
