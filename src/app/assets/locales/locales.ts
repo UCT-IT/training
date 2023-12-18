@@ -131,7 +131,6 @@ export let strings = new LocalizedStrings({
             text: "Five-star reviews",
             desc: `Lorem ipsum dolor sit amet,
           consectetur adipiscing.`,
-
           },
           {
             count: "75,000+",
@@ -142,19 +141,17 @@ export let strings = new LocalizedStrings({
         ],
       },
     },
+
     courses: {
       heroSection: {
         title: `Courses`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna.`,
-          },
-        ],
-        btn: "Explore Courses",
       },
     },
     footer: {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt aliqua.`,
+        sed do eiusmod tempor incididunt aliqua.`,
       ourCompany: {
         title: `Our Company`,
         navigations: [
@@ -181,8 +178,8 @@ export let strings = new LocalizedStrings({
       ourOffice: {
         title: `Our office`,
         address: `House 37 (3rd Floor), Road 7,
-        Sector 3, Uttara,
-        Dhaka-1230, Bangladesh.`,
+          Sector 3, Uttara,
+          Dhaka-1230, Bangladesh.`,
       },
       copyRight: `Copyright © Educationic X`,
     },

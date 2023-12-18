@@ -6,7 +6,7 @@ const ContactUs = () => {
   const localeText = strings.home.contactUsSection;
 
   return (
-    <div className="bg-tertiary my-[184px] relative overflow-clip">
+    <div className="bg-tertiary  relative overflow-clip">
       <div className="bg-info w-[100px] h-[100px] rounded-ss-full absolute right-0 bottom-0"></div>
       <div className="bg-warning w-[100px] h-[100px] rounded-ee-full absolute left-0 top-0"></div>
       <div className="responsive-container flex flex-col lg:flex-row justify-center items-center relative">
