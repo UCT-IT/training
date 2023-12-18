@@ -1,7 +1,7 @@
 import React from "react";
 import MotionDivCircleOne from "./MotionDivs/MotionDivCircleOne";
 import MotionDivCircleTwo from "./MotionDivs/MotionDivCircleTwo";
-import MotionDivTexts from "./MotionDivs/MotionDivTexts";
+import TextContents from "./MotionDivs/TextContents";
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="bg-success relative z-10 overflow-hidden py-[130px]">
         <MotionDivCircleOne />
         <MotionDivCircleTwo />
-        <MotionDivTexts />
+        <TextContents />
       </div>
     </React.Fragment>
   );

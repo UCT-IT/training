@@ -3,7 +3,7 @@ import MotionDivOne from "./MotionDivs/MotionDivCircleOne";
 import MotionDivTwo from "./MotionDivs/MotionDivCircleTwo";
 import MotionDivThree from "./MotionDivs/MotionDivImage";
 import MotionDivFour from "./MotionDivs/MotionDivHeroBg";
-import MotionDivTexts from "./MotionDivs/MotionDivTexts";
+import TextContents from "./MotionDivs/TextContents";
 
 const HeroSection = () => {
   return (
@@ -14,7 +14,7 @@ const HeroSection = () => {
         <MotionDivTwo />
         <div className="responsive-container lg:flex justify-center items-center py-[70px] lg:py-[127px]">
           <div className="space-y-5 text-center lg:text-left">
-            <MotionDivTexts />
+            <TextContents />
           </div>
           <MotionDivThree />
         </div>

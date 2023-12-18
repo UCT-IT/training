@@ -101,7 +101,6 @@ export let strings = new LocalizedStrings({
             text: "Five-star reviews",
             desc: `Lorem ipsum dolor sit amet,
           consectetur adipiscing.`,
-
           },
           {
             count: "75,000+",
@@ -117,8 +116,6 @@ export let strings = new LocalizedStrings({
         title: `Courses`,
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna.`,
-          },
-        ],
       },
     },
     footer: {
