@@ -125,25 +125,29 @@ export let strings = new LocalizedStrings({
           {
             year: 2023,
             title: "Launched course #500",
-            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
           },
           {
             year: 2022,
             title: "Reached 100 team members",
-            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
           },
           {
             year: 2021,
             title: "Launched first course",
-            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
           },
           {
             year: 2020,
             title: "Education founded",
-            description: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor ."
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
           },
-        ]
-      }
+        ],
+      },
       banner: {
         title: `A few numbers that we 
       are proud of`,
@@ -170,7 +174,8 @@ export let strings = new LocalizedStrings({
       },
       values: {
         title: "Our work values",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         altText: "values image",
         cards: [
           {
@@ -178,31 +183,31 @@ export let strings = new LocalizedStrings({
             title: "Commitment",
             description: `Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
           },
           {
             number: "02",
             title: "Accessibility",
             description: `Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
           },
           {
             number: "03",
             title: "Openness",
             description: `Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
           },
           {
             number: "04",
             title: "Innovation",
             description: `Lorem ipsum dolor sit amet, consectetur 
             adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
           },
-        ]
-      }
+        ],
+      },
     },
 
     courses: {
