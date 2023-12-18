@@ -21,7 +21,7 @@ const MotionValuesCard = () => {
                 height={1000}
                 width={1000}
                 className="rounded-full h-16 w-16"
-                alt="ffff"
+                alt={localeText.altText}
                 src={item.image}
               />
               <div>

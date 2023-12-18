@@ -118,6 +118,7 @@ export let strings = new LocalizedStrings({
       values: {
         title: "Our work values",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        altText: "values image",
         cards: [
           {
             image: "/images/about/values/img1.svg",
