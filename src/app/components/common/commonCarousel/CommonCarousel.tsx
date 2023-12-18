@@ -11,9 +11,14 @@ type carouselProps = {
   slidesToShow: number;
   slidesToScroll: number;
 };
-const CommonCarousel = ({ children, settings }: { children: React.ReactNode, settings: carouselProps }) => {
+const CommonCarousel = ({
+  children,
+  settings,
+}: {
+  children: React.ReactNode;
+  settings: carouselProps;
+}) => {
   const customSettings = {
-    ...settings,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -32,6 +37,7 @@ const CommonCarousel = ({ children, settings }: { children: React.ReactNode, set
         },
       },
     ],
+    ...settings,
   };
   return <Slider {...customSettings}>{children}</Slider>;
 };
