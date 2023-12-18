@@ -23,10 +23,9 @@ const MotionValuesCard = () => {
         <div key={item.number} className="bg-white p-16 rounded-2xl">
           <div className="flex justify-between items-center">
             <Image
-              tabIndex={0}
               className="rounded-full h-16 w-16"
               alt={localeText.altText}
-              src={images[index]}
+              src={images[index] ?? img1}
             />
             <div>
               <p className="py-2 px-5 text-tertiary font-bold text-[18px] border-[1px] border-btnbg rounded-full">
