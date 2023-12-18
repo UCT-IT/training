@@ -54,7 +54,7 @@ export let strings = new LocalizedStrings({
           adipiscing elit. Felis donec massa aliquam id dolor .`,
           },
         },
-        btnText: `ABOUT EDUCATION`,
+        btnText: `about education`,
       },
       review: {
         title: "What our students say about us",
