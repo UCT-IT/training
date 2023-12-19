@@ -15,7 +15,7 @@ const BannerNumber = () => {
     >
       {localeText.number.map((item) => (
         <div key={item.count} className="text-center">
-          <h1 className="text-info font-newsreader font-semibold text-6xl">
+          <h1 className="text-info  font-semibold text-6xl">
             {item.count}
           </h1>
           <p className="my-3 pt-6 text-secondary font-bold text-[22px]">

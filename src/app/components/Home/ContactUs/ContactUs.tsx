@@ -10,7 +10,7 @@ const ContactUs = () => {
       <div className="bg-info w-[100px] h-[100px] rounded-ss-full absolute right-0 bottom-0"></div>
       <div className="bg-warning w-[100px] h-[100px] rounded-ee-full absolute left-0 top-0"></div>
       <div className="responsive-container flex flex-col lg:flex-row justify-center items-center relative">
-        <div className="font-kumbh text-success pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
+        <div className=" text-success pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
           <h2 className="font-semibold text-3xl mb-1">{localeText.titleOne}</h2>
           <h2 className="font-semibold text-3xl mb-1">{localeText.titleTwo}</h2>
           <h2 className="font-semibold text-3xl">{localeText.titleThree}</h2>

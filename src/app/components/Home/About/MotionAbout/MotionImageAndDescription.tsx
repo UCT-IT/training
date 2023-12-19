@@ -26,7 +26,7 @@ const MotionImageAndDescription = () => {
           alt={localeText.altText}
         />
       </div>
-      <div className="font-kumbh mb-8 lg:mb-0">
+      <div className=" mb-8 lg:mb-0">
         <div className="md:flex justify-center items-center gap-8 mb-[52px] space-y-5">
           <div>
             <Image
