@@ -7,6 +7,8 @@ import data from "../../../../../public/data/data.json";
 import CommonCarousel from "../../common/commonCarousel/CommonCarousel";
 import { strings } from "@/app/assets/locales/locales";
 import CommonCarouselCard from "../../common/commonCarouselCard/CommonCourseCard";
+import MotionTitle from "./motionContent/MotionTitle";
+import MotionButton from "./motionContent/MotionButton";
 
 const HomeSlider = () => {
   const localetext = strings.home.homeCarousel;
@@ -16,15 +18,7 @@ const HomeSlider = () => {
   }
   return (
     <div className="responsive-container  relative py-32">
-      <motion.h2
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.4, ease: "easeInOut" }}
-        viewport={{ once: false }}
-        className="font-bold  text-secondary  text-center text-4xl mb-16"
-      >
-        {localetext.title}
-      </motion.h2>
+      <MotionTitle />
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -44,9 +38,7 @@ const HomeSlider = () => {
             <CommonCarouselCard key={item.id} item={item} localetext={altText}  />
           ))}
         </CommonCarousel>
-        <div className="text-center mt-6">
-          <Button variant="primary" text={localetext.btn} />
-        </div>
+        <MotionButton />
       </motion.div>
     </div>
   );

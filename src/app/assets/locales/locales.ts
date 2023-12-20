@@ -216,6 +216,23 @@ export let strings = new LocalizedStrings({
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna.`,
       },
+      allCourses: {
+        title: "All Courses",
+        coursePage: [
+          {
+            text: "all",
+            url: "/pages/courses"
+          },
+          {
+            text: "category",
+            url: "#"
+          },
+          {
+            text: "product",
+            url: "#"
+          },
+        ]
+      }
     },
     footer: {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
