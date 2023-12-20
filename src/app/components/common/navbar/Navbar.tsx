@@ -1,7 +1,6 @@
 import logo from "../../../../../public/images/nav/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
-
 import MobileMenu from "../mobileMenu/MobileMenu";
 import { strings } from "@/app/assets/locales/locales";
 
