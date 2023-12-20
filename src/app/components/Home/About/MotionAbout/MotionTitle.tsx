@@ -14,10 +14,10 @@ const MotionTitle = () => {
       viewport={{ once: true }}
       className="text-center mb-14"
     >
-      <h2 className="text-secondary text-4xl mb-4 font-semibold font-newsreader ">
+      <h2 className="text-secondary text-4xl mb-4 font-semibold  ">
         {localeText.title}
       </h2>
-      <p className="font-kumbh text-textColor text-lg leading-6 whitespace-pre-line">
+      <p className=" text-textColor text-lg leading-6 whitespace-pre-line">
         {localeText.description}
       </p>
     </motion.div>

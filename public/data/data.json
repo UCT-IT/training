@@ -1,0 +1,141 @@
+{
+  "homeCarousel": [
+    {
+      "id": 1,
+      "image": "/images/Home/homeCarousel/graphics.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Graphics Design 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "author": {
+        "name": "Cathie Corl",
+        "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "image": "/images/Home/homeCarousel/web.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Web Design & Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/webAuthor.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "image": "/images/Home/homeCarousel/brand.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Brand & Identity Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/brandAuthor.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "image": "/images/Home/homeCarousel/logo.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Advanced Logo Designn",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/logoAuthor.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "image": "/images/Home/homeCarousel/marketing.jpg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Marketing Analytics 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "image": "/images/Home/homeCarousel/mobile.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Mobile App Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
+      }
+    }
+  ],
+  "review": [
+    {
+      "id": "1",
+      "image": "/images/Home/review/author1.jpg",
+      "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+      "name": "Sophie Moore",
+      "position": "UX Designer at Agency",
+      "ratings": 4.5
+    },
+    {
+      "id": "2",
+      "image": "/images/Home/review/author1.jpg",
+      "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+      "name": "Sophie Moore",
+      "position": "UX Designer at Agency",
+      "ratings": 5
+    },
+    {
+      "id": "3",
+      "image": "/images/Home/review/author1.jpg",
+      "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+      "name": "Sophie Moore",
+      "position": "UX Designer at Agency",
+      "ratings": 4.7
+    },
+    {
+      "id": "4",
+      "image": "/images/Home/review/author1.jpg",
+      "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+      "name": "Sophie Moore",
+      "position": "UX Designer at Agency",
+      "ratings": 5
+    },
+    {
+      "id": "5",
+      "image": "/images/Home/review/author1.jpg",
+      "say": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+      "name": "Sophie Moore",
+      "position": "UX Designer at Agency",
+      "ratings": 5
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "image": "../images/Home/category/design.svg",
+      "title": "Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "12 Courses"
+    },
+    {
+      "id": 2,
+      "image": "../images/Home/category/development.svg",
+      "title": "Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "5 Courses"
+    },
+    {
+      "id": 3,
+      "image": "../images/Home/category/marketing.svg",
+      "title": "Graphics design 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "7 Courses"
+    }
+  ]
+}
