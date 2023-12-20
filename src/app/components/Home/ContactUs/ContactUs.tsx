@@ -6,20 +6,20 @@ const ContactUs = () => {
   const localeText = strings.home.contactUsSection;
 
   return (
-    <div className="bg-tertiary my-[184px] relative overflow-clip">
+    <div className="responsive-container bg-btnhover rounded-2xl shadow-lg text-secondary my-28 relative overflow-clip">
       <div className="bg-info w-[100px] h-[100px] rounded-ss-full absolute right-0 bottom-0"></div>
       <div className="bg-warning w-[100px] h-[100px] rounded-ee-full absolute left-0 top-0"></div>
-      <div className="responsive-container flex flex-col lg:flex-row justify-center items-center relative">
-        <div className="font-kumbh text-success pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
+      <div className="flex flex-col lg:flex-row justify-center items-center relative">
+        <div className="font-kumbh pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
           <h2 className="font-semibold text-3xl mb-1">{localeText.titleOne}</h2>
           <h2 className="font-semibold text-3xl mb-1">{localeText.titleTwo}</h2>
           <h2 className="font-semibold text-3xl">{localeText.titleThree}</h2>
-          <p className="text-lg my-5 whitespace-pre-line">
+          <p className="text-lg my-5 whitespace-pre-line text-textColor">
             {localeText.description}
           </p>
 
           <hr className="w-full" />
-          <div>
+          <div className="text-secondary">
             <p className="font-bold mt-5">{localeText.addressTitle}</p>
             <p>
               <span className="font-semibold">{localeText.officeBd}</span>{" "}
@@ -41,25 +41,25 @@ const ContactUs = () => {
             </p>
           </div>
         </div>
-        <div className="text-textColor py-16 px-5 text-center lg:text-left relative z-20">
-          <h2 className="text-3xl mb-3 font-semibold text-success ps-2">
+        <div className="text-secondary py-16 px-5 text-center lg:text-left relative z-20">
+          <h2 className="text-3xl mb-3 font-semibold ps-2">
             {localeText.sendMessageTitle}
           </h2>
-          <form className="px-2">
+          <form className="px-2 text-textColor">
             <input
-              className="border-2 border-success focus:border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
+              className="border-[1px] border-secondary focus:border-info bg-transparent w-full mb-5 outline-none rounded-xl p-2"
               required
               type="text"
               placeholder={localeText.placeholderText.name}
             />
             <input
-              className=" border-2 border-success focus:border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
+              className=" border-[1px] border-secondary focus:border-info bg-transparent w-full mb-5 outline-none rounded-xl p-2"
               required
               type="email"
               placeholder={localeText.placeholderText.email}
             />
             <textarea
-              className="border-2 border-success focus:border-info bg-transparent text-success w-full mb-5 outline-none rounded-xl p-2"
+              className="border-[1px] border-secondary focus:border-info bg-transparent w-full mb-5 outline-none rounded-xl p-2"
               required
               cols={30}
               rows={10}
