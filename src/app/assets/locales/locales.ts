@@ -13,7 +13,7 @@ export let strings = new LocalizedStrings({
       },
       {
         text: "Courses",
-        url: "#",
+        url: "/pages/courses",
       },
     ],
     home: {
@@ -25,7 +25,61 @@ export let strings = new LocalizedStrings({
         btnText2: `Learn More`,
         altText: `Hero Section Image`,
       },
-
+      homeCarousel: {
+        title: "Browse our popular courses",
+        altCourseImg: "course image",
+        altAuthorImg: "author image",
+        btn: "Explore All Courses",
+      },
+      aboutSection: {
+        title: `About Education`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+      do eiusmod tempor incididunt.`,
+        aboutDetails: {
+          altText: `About Section Image`,
+          iconAltText: `About Section Icon`,
+          detailOne: {
+            title: `Industry expert teachers`,
+            description: `Lorem ipsum dolor sit amet, consectetur dolorili
+          adipiscing elit. Felis donec massa aliquam id dolor .`,
+          },
+          detailTwo: {
+            title: `Up-to-date course content`,
+            description: `Lorem ipsum dolor sit amet, consectetur dolorili
+          adipiscing elit. Felis donec massa aliquam id dolor .`,
+          },
+          detailThree: {
+            title: `Students community`,
+            description: `Lorem ipsum dolor sit amet, consectetur dolorili
+          adipiscing elit. Felis donec massa aliquam id dolor .`,
+          },
+        },
+        btnText: `about education`,
+      },
+      review: {
+        title: "What our students say about us",
+        altTextAuthor: "author image",
+        altTextArrow: "arrow",
+        number: [
+          {
+            count: "100,000+",
+            text: "Students worldwide",
+          },
+          {
+            count: "200,00+",
+            text: "Total course views",
+          },
+          {
+            count: "5,000+",
+            text: "Five-star course reviews",
+          },
+        ],
+      },
+      Category: {
+        title: "Browse our courses by category",
+        imageAltText: "course image",
+        imageAltVideoText: "video logo",
+      },
       contactUsSection: {
         titleOne: `QUESTIONS?`,
         titleTwo: `COMMENTS?`,
@@ -50,58 +104,9 @@ export let strings = new LocalizedStrings({
           email: `Your Email`,
           message: `Your Message Here`,
         },
-      aboutSection: {
-        title: `About Education`,
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt.`,
-        aboutDetails: {
-          altText: `About Section Image`,
-          iconAltText: `About Section Icon`,
-          detailOne: {
-            title: `Industry expert teachers`,
-            description: `Lorem ipsum dolor sit amet, consectetur dolorili
-            adipiscing elit. Felis donec massa aliquam id dolor .`,
-          },
-          detailTwo: {
-            title: `Up-to-date course content`,
-            description: `Lorem ipsum dolor sit amet, consectetur dolorili
-            adipiscing elit. Felis donec massa aliquam id dolor .`,
-          },
-          detailThree: {
-            title: `Students community`,
-            description: `Lorem ipsum dolor sit amet, consectetur dolorili
-            adipiscing elit. Felis donec massa aliquam id dolor .`,
-          },
-        },
-        btnText: `ABOUT EDUCATION`,
       },
     },
     about: {
-      banner: {
-        title: `A few numbers that we 
-        are proud of`,
-        number: [
-          {
-            count: "100,000+",
-            text: "Students",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`
-          },
-          {
-            count: "5,000+",
-            text: "Five-star reviews",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`
-          },
-          {
-            count: "75,000+",
-            text: "Students community",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`
-          },
-        ]
-      }
-    }
       heroSection: {
         title: `The big mission
         behind Educationic`,
@@ -111,6 +116,140 @@ export let strings = new LocalizedStrings({
         aenean. Nunc, lacus, dignissim nec sit.`,
         btnText: `JOIN OUR TEAM`,
       },
+      history: {
+        title: "Our company history",
+        description:
+          "Presenting Academy, the tech school of the future. We teach you the right skills to be prepared for tomorrow.",
+        button: "Join our team",
+        details: [
+          {
+            year: 2023,
+            title: "Launched course #500",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+          {
+            year: 2022,
+            title: "Reached 100 team members",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+          {
+            year: 2021,
+            title: "Launched first course",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+          {
+            year: 2020,
+            title: "Education founded",
+            description:
+              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
+          },
+        ],
+      },
+      banner: {
+        title: `A few numbers that we 
+      are proud of`,
+        number: [
+          {
+            count: "100,000+",
+            text: "Students",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`,
+          },
+          {
+            count: "5,000+",
+            text: "Five-star reviews",
+            desc: `Lorem ipsum dolor sit amet,
+          consectetur adipiscing.`,
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
+            desc: `Lorem ipsum dolor sit amet, 
+            consectetur adipiscing.`,
+          },
+        ],
+      },
+      values: {
+        title: "Our work values",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        altText: "values image",
+        cards: [
+          {
+            number: "01",
+            title: "Commitment",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+          {
+            number: "02",
+            title: "Accessibility",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+          {
+            number: "03",
+            title: "Openness",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+          {
+            number: "04",
+            title: "Innovation",
+            description: `Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lacus egestas non consequat 
+            pellentesque iaculis nunc, est, mollis. Nulla.`,
+          },
+        ],
+      },
+    },
+
+    courses: {
+      heroSection: {
+        title: `Courses`,
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna.`,
+      },
+    },
+    footer: {
+      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt aliqua.`,
+      ourCompany: {
+        title: `Our Company`,
+        navigations: [
+          "Home",
+          "About Us",
+          "Contact",
+          "Careers",
+          "Privacy Policy",
+          "Terms & Conditions",
+        ],
+      },
+      ourServices: {
+        title: `Our Services`,
+        navigations: [
+          "Computer Training",
+          "Digital Marketing",
+          "Web-Design & Development",
+          "Video Editing",
+          "Networking Services",
+          "ERP Software",
+          "Computer & Laptop Servicing",
+        ],
+      },
+      ourOffice: {
+        title: `Our office`,
+        address: `House 37 (3rd Floor), Road 7,
+          Sector 3, Uttara,
+          Dhaka-1230, Bangladesh.`,
+      },
+      copyRight: `Copyright © Educationic X`,
     },
   },
 });
