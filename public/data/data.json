@@ -137,5 +137,14 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
       "video": "7 Courses"
     }
-  ]
+  ],
+  "featuredCourse":{
+    "courseTitle":"Brand and Identity Design",
+    "courseDescription" : "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Diam phasellus vestibulum lorem sed risus ultricies.",
+    "instructorImage" : "/images/courses/kathie.jpg",
+    "instructorName" : "Kathie Corl",
+    "courseImage" : "/images/courses/featured_course.jpeg",
+    "courseDuration" : "8hr 12m",
+    "coursePrice" : "$ 199.00 USD"
+  }
 }
