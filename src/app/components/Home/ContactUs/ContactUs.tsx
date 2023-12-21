@@ -6,12 +6,11 @@ const ContactUs = () => {
   const localeText = strings.home.contactUsSection;
 
   return (
-
     <div className="responsive-container bg-btnhover rounded-2xl shadow-lg text-secondary my-28 relative overflow-clip">
       <div className="bg-info w-[100px] h-[100px] rounded-ss-full absolute right-0 bottom-0"></div>
       <div className="bg-warning w-[100px] h-[100px] rounded-ee-full absolute left-0 top-0"></div>
       <div className="flex flex-col lg:flex-row justify-center items-center relative">
-        <div className="font-kumbh pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
+        <div className="pr-5 py-14 w-full lg:w-2/3 text-center lg:text-left">
           <h2 className="font-semibold text-3xl mb-1">{localeText.titleOne}</h2>
           <h2 className="font-semibold text-3xl mb-1">{localeText.titleTwo}</h2>
           <h2 className="font-semibold text-3xl">{localeText.titleThree}</h2>
