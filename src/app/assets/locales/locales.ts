@@ -220,6 +220,7 @@ export let strings = new LocalizedStrings({
         heading: `Featured Course`,
         altTextThumbnail: `Course Thumbnail Image`,
         altTextInstructorImage: `Course Instructor Image`,
+        altTextArrowImage: `Arrow Sign`,
       },
     },
     footer: {

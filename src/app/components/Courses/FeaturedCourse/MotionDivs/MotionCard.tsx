@@ -10,20 +10,20 @@ const MotionCard = () => {
   return (
     <div className="group">
       <Link href="#">
-        <div className="flex flex-col lg:flex-row justify-center items-center rounded-3xl shadow-xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
-          <div className="overflow-hidden rounded-t-3xl lg:rounded-t-none lg:rounded-s-3xl relative">
+        <div className="flex flex-col lg:flex-row items-center rounded-3xl shadow-xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
+          <div className="overflow-hidden rounded-t-3xl lg:rounded-t-none lg:rounded-l-3xl relative">
             <Image
-              className="h-full w-full object-cover duration-150 transition-all group-hover:scale-110 rounded-t-3xl lg:rounded-t-none lg:rounded-s-3xl"
+              className="h-full w-full object-cover duration-150 transition-all group-hover:scale-110 rounded-t-3xl lg:rounded-t-none lg:rounded-l-3xl"
               src={courseDetails.courseImage}
               alt={localeText.altTextThumbnail}
               height={1000}
               width={1000}
             />
             <div className="absolute top-5 left-5 flex items-center gap-2 text-[15px]">
-              <p className="bg-white text-secondary py-3 px-6 rounded-full font-semibold ">
+              <p className="bg-white text-secondary py-3 px-6 rounded-full font-semibold">
                 {courseDetails.courseDuration}
               </p>
-              <p className="text-white bg-secondary py-3 px-6 rounded-full font-semibold ">
+              <p className="text-white bg-secondary py-3 px-6 rounded-full font-semibold">
                 {courseDetails.coursePrice}
               </p>
             </div>
