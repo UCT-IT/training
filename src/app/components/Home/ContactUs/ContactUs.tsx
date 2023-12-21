@@ -66,7 +66,7 @@ const ContactUs = () => {
               placeholder={localeText.placeholderText.message}
             />
             <div className="text-right">
-              <Button variant="secondary" text={localeText.btnText} />
+              <Button variant="primary" text={localeText.btnText} />
             </div>
           </form>
         </div>
