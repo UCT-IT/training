@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-// Define TypeScript types for the data
 type CommonCarouselCardProps = {
   item: {
     image: string;
