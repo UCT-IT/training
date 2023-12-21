@@ -22,7 +22,7 @@ const AllCourses = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 gap-2">
           {data.homeCarousel.map((item) => (
-            <CommonCourseCard key={item.id} item={item} localetext={altText} />
+            <CommonCourseCard item={item} localetext={altText} />
           ))}
         </div>
       </div>
