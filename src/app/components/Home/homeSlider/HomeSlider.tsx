@@ -41,7 +41,7 @@ const HomeSlider = () => {
           }}
         >
           {data.homeCarousel.map((item) => (
-            <CommonCarouselCard key={item.id} item={item} localetext={altText}  />
+            <CommonCarouselCard item={item} localetext={altText}  />
           ))}
         </CommonCarousel>
         <div className="text-center mt-6">
