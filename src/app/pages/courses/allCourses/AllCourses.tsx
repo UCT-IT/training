@@ -7,7 +7,9 @@ import Link from "next/link";
 const AllCourses = () => {
   const localetextOfCard = strings.home.homeCarousel;
   const localeTextOfCourses = strings.courses.allCourses;
-  const category = data.categoryRoute
+  const sortedUniqueCategories = Array.from(
+    new Set<string>(data.courses.map((item) => item.category))
+  );
   const altText = {
     altCourseImg: localetextOfCard.altCourseImg,
     altAuthorImg: localetextOfCard.altAuthorImg,
@@ -20,21 +22,29 @@ const AllCourses = () => {
             {localeTextOfCourses.title}
           </h1>
           <div className="flex items-center justify-center md:justify-normal gap-7">
-            {category.map((item) => (
+            <Link
+              className="text-tertiary capitalize border-[1px] border-btnhover px-7 py-2 rounded-full font-bold"
+              href="#"
+            >
+              {localeTextOfCourses.Category}
+            </Link>
+            {sortedUniqueCategories.map((item) => (
               <Link
-                key={item.id}
-                className="text-tertiary border-[1px] border-btnhover px-7 py-2 rounded-full font-bold"
-                href={item.url}
+                key={item}
+                className="text-tertiary capitalize border-[1px] border-btnhover px-7 py-2 rounded-full font-bold"
+                href="#"
               >
-                {item.name}
+                {item}
               </Link>
             ))}
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 gap-2">
-          {data.homeCarousel.map((item) => (
-            <CommonCourseCard item={item} localetext={altText} />
-          ))}
+          {data.courses
+            .filter((item) => item.preview === true)
+            .map((item) => (
+              <CommonCourseCard item={item} localetext={altText} />
+            ))}
         </div>
       </div>
     </div>

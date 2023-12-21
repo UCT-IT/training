@@ -14,8 +14,8 @@ const HomeSlider = () => {
   const localetext = strings.home.homeCarousel;
   const altText = {
     altCourseImg: localetext.altCourseImg,
-    altAuthorImg: localetext.altAuthorImg
-  }
+    altAuthorImg: localetext.altAuthorImg,
+  };
   return (
     <div className="responsive-container  relative py-32">
       <MotionTitle />
@@ -34,9 +34,11 @@ const HomeSlider = () => {
             slidesToScroll: 2,
           }}
         >
-          {data.homeCarousel.map((item) => (
-            <CommonCarouselCard key={item.id} item={item} localetext={altText}  />
-          ))}
+          {data.courses
+            .filter((item) => item.preview === true)
+            .map((item) => (
+              <CommonCarouselCard item={item} localetext={altText} />
+            ))}
         </CommonCarousel>
         <MotionButton />
       </motion.div>

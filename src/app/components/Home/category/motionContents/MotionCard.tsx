@@ -17,7 +17,7 @@ const MotionCard = () => {
       viewport={{ once: true }}
       className="grid grid-cols-1 lg:grid-cols-3 gap-6"
     >
-      {data.category.map((item) => (
+      {data.categories.map((item) => (
         <div
           key={item.id}
           className="group shadow-2xl relative transition-all duration-300 transform translate-y-0 hover:-translate-y-4 rounded-3xl"
