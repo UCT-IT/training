@@ -218,20 +218,6 @@ export let strings = new LocalizedStrings({
       },
       allCourses: {
         title: "All Courses",
-        coursePage: [
-          {
-            text: "all",
-            url: "/pages/courses"
-          },
-          {
-            text: "category",
-            url: "#"
-          },
-          {
-            text: "product",
-            url: "#"
-          },
-        ]
       }
     },
     footer: {
