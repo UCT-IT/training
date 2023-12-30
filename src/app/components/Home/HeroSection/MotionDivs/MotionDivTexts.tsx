@@ -33,7 +33,7 @@ const MotionDivTexts = () => {
         variants={animationContent}
         initial="hidden"
         animate="show"
-        className=" text-tertiary"
+        className=" text-textColor whitespace-pre-line"
       >
         {localeText.description}
       </motion.p>

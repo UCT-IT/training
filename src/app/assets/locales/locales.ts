@@ -2,6 +2,23 @@ import LocalizedStrings from "react-localization";
 
 export let strings = new LocalizedStrings({
   en: {
+    metadata: {
+      layout: {
+        title: "UCT IT - Welcome",
+        description:
+          "UCT IT aims to nurture skilled IT professionals through top-tier training, fostering industry growth in Bangladesh. Our focus extends to preparing individuals for the local and global IT sectors. Additionally, we provide premier IT solutions and services.",
+      },
+      aboutPage: {
+        title: "About UCT IT - Empowering IT Excellence",
+        description:
+          "Learn about UCT IT's mission to nurture skilled IT professionals, contribute to industry growth in Bangladesh, and provide premier IT solutions and services. Discover our commitment to preparing individuals for the local and global IT sectors.",
+      },
+      coursesPage: {
+        title: "Explore UCT IT Courses - Advance Your IT Career",
+        description:
+          "Discover a range of UCT IT courses designed to enhance your IT skills and propel your career. Explore our diverse curriculum offering comprehensive training for both beginners and experienced professionals.",
+      },
+    },
     nav: [
       {
         text: "Home",
@@ -18,48 +35,53 @@ export let strings = new LocalizedStrings({
     ],
     home: {
       heroSection: {
-        title: `Educationic X Webflow 
-            Template`,
-        description: `Presenting Educationic X, the ultimate Education Webflow Template`,
-        btnText1: `Explore Courses`,
-        btnText2: `Learn More`,
-        altText: `Hero Section Image`,
+        title: `UCTIT-BD: Empower Your Journey`,
+        description: `Discover comprehensive IT courses tailored for skill enhancement.
+        Explore UCTIT-BD today.`,
+        btnText1: `Browse Courses`,
+        btnText2: `Discover More`,
+        altText: `Empower Your Learning Image`,
       },
       homeCarousel: {
-        title: "Browse our popular courses",
-        altCourseImg: "course image",
-        altAuthorImg: "author image",
+        title: "Discover Top-Rated Courses",
+        altCourseImg: "Course Image",
+        altAuthorImg: "Author Image",
         btn: "Explore All Courses",
       },
       aboutSection: {
         title: `About Education`,
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt.`,
+        description: `Explore our dedication to fostering excellence 
+        in education and skill development.`,
         aboutDetails: {
           altText: `About Section Image`,
           iconAltText: `About Section Icon`,
           detailOne: {
-            title: `Industry expert teachers`,
-            description: `Lorem ipsum dolor sit amet, consectetur dolorili
-          adipiscing elit. Felis donec massa aliquam id dolor .`,
+            title: `Industry Expert Instructors`,
+            description: `Our courses are led by seasoned industry experts committed
+            to your success.`,
           },
           detailTwo: {
-            title: `Up-to-date course content`,
-            description: `Lorem ipsum dolor sit amet, consectetur dolorili
-          adipiscing elit. Felis donec massa aliquam id dolor .`,
+            title: `Up-to-date Course Content`,
+            description: `Stay abreast of industry trends with our continuously updated
+            course content.`,
           },
           detailThree: {
-            title: `Students community`,
-            description: `Lorem ipsum dolor sit amet, consectetur dolorili
-          adipiscing elit. Felis donec massa aliquam id dolor .`,
+            title: `Thriving Student Community`,
+            description: `Join a vibrant learning community fostering mutual growth
+            and support.`,
           },
         },
-        btnText: `about education`,
+        btnText: `Learn More About Education`,
+      },
+      Category: {
+        title: "Explore Courses by Category",
+        imageAltText: "Course Category Image",
+        imageAltVideoText: "Video Category Logo",
       },
       review: {
         title: "What our students say about us",
         altTextAuthor: "author image",
-        altTextArrow: "arrow",
+        altTextArrow: "arrow icon",
         number: [
           {
             count: "100,000+",
@@ -74,11 +96,6 @@ export let strings = new LocalizedStrings({
             text: "Five-star course reviews",
           },
         ],
-      },
-      Category: {
-        title: "Browse our courses by category",
-        imageAltText: "course image",
-        imageAltVideoText: "video logo",
       },
       contactUsSection: {
         titleOne: `QUESTIONS?`,
@@ -108,45 +125,12 @@ export let strings = new LocalizedStrings({
     },
     about: {
       heroSection: {
-        title: `The big mission
-        behind Educationic`,
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Pretium pulvinar ac molestie cursus malesuada
-        enim. Massa nec tellus, elit tellus, erat faucibus
-        aenean. Nunc, lacus, dignissim nec sit.`,
-        btnText: `JOIN OUR TEAM`,
-      },
-      history: {
-        title: "Our company history",
-        description:
-          "Presenting Academy, the tech school of the future. We teach you the right skills to be prepared for tomorrow.",
-        button: "Join our team",
-        details: [
-          {
-            year: 2023,
-            title: "Launched course #500",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
-          },
-          {
-            year: 2022,
-            title: "Reached 100 team members",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
-          },
-          {
-            year: 2021,
-            title: "Launched first course",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
-          },
-          {
-            year: 2020,
-            title: "Education founded",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .",
-          },
-        ],
+        title: `Our Commitment to
+        Educational Excellence`,
+        description: `Discover our dedication to fostering learning
+        environments that inspire and empower.
+        Join us in shaping brighter futures.`,
+        btnText: `JOIN US NOW`,
       },
       banner: {
         title: `A few numbers that we 
@@ -154,57 +138,85 @@ export let strings = new LocalizedStrings({
         number: [
           {
             count: "100,000+",
-            text: "Students",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`,
+            text: "Satisfied Students",
+            desc: `Join a thriving community of satisfied
+            learners achieving their goals.`,
           },
           {
             count: "5,000+",
-            text: "Five-star reviews",
-            desc: `Lorem ipsum dolor sit amet,
-          consectetur adipiscing.`,
+            text: "Five-Star Ratings",
+            desc: `Explore courses loved by thousands,
+            evidenced by our stellar ratings.`,
           },
           {
             count: "75,000+",
-            text: "Students community",
-            desc: `Lorem ipsum dolor sit amet, 
-            consectetur adipiscing.`,
+            text: "Engaged Learners",
+            desc: `Be part of an engaged student community
+            fueling learning and growth.`,
           },
         ],
       },
       values: {
         title: "Our work values",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-        altText: "values image",
+          "Discover our foundational principles driving excellence in education and service.",
+        altText: "Values Image",
         cards: [
           {
             number: "01",
             title: "Commitment",
-            description: `Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`,
+            description: `We are dedicated to delivering
+            outstanding education, fostering growth.`,
           },
           {
             number: "02",
             title: "Accessibility",
-            description: `Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`,
+            description: `Ensuring accessible education
+            for every learner, anywhere.`,
           },
           {
             number: "03",
             title: "Openness",
-            description: `Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`,
+            description: `An open and inclusive environment
+            encouraging diverse perspectives.`,
           },
           {
             number: "04",
             title: "Innovation",
-            description: `Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Lacus egestas non consequat 
-            pellentesque iaculis nunc, est, mollis. Nulla.`,
+            description: `Constantly evolving and innovating
+            to meet emerging needs.`,
+          },
+        ],
+      },
+      history: {
+        title: "Our Journey Through Time",
+        description:
+          "Embark on Academy's transformative journey, empowering you with future-ready skills.",
+        button: "Explore Opportunities",
+        details: [
+          {
+            year: 2023,
+            title: "500th Course Launched",
+            description:
+              "Celebrating a milestone - Academy introduces its 500th specialized course.",
+          },
+          {
+            year: 2022,
+            title: "Growth to 100+ Team Members",
+            description:
+              "Academy expands its team, gathering over 100 passionate individuals.",
+          },
+          {
+            year: 2021,
+            title: "Inaugural Course Launch",
+            description:
+              "A journey begins - Academy marks its inception by launching its inaugural course.",
+          },
+          {
+            year: 2020,
+            title: "Foundation of Academy",
+            description:
+              "The genesis - Academy is founded with a vision to revolutionize education.",
           },
         ],
       },
@@ -212,20 +224,20 @@ export let strings = new LocalizedStrings({
 
     courses: {
       heroSection: {
-        title: `Courses`,
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna.`,
+        title: `Discover Our Courses`,
+        description: `Explore a diverse range of courses tailored
+        to enhance your skills and knowledge.`,
       },
       featuredCourse: {
         heading: `Featured Course`,
-        altTextThumbnail: `Course Thumbnail Image`,
-        altTextInstructorImage: `Course Instructor Image`,
-        altTextArrowImage: `Arrow Sign`,
+        altTextThumbnail: `Featured Course Thumbnail`,
+        altTextInstructorImage: `Instructor Profile Image`,
+        altTextArrowImage: `Arrow Icon`,
       },
     },
     footer: {
-      description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt aliqua.`,
+      description: `Explore our diverse range of courses designed to fuel
+      your learning journey and unlock your potential.`,
       ourCompany: {
         title: `Our Company`,
         navigations: [
@@ -255,7 +267,7 @@ export let strings = new LocalizedStrings({
           Sector 3, Uttara,
           Dhaka-1230, Bangladesh.`,
       },
-      copyRight: `Copyright © Educationic X`,
+      copyRight: `Copyright © UCTIT-BD`,
     },
   },
 });
