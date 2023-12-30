@@ -217,7 +217,7 @@ export let strings = new LocalizedStrings({
         eiusmod tempor incididunt ut labore et dolore magna.`,
       },
       allCourses: {
-        Category: "all",
+        Category: {text: "all", url: "/pages/courses"},
         title: "All Courses",
       }
     },
