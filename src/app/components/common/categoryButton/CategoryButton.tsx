@@ -5,7 +5,7 @@ import data from "../../../../../public/data/data.json";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-const Categories = () => {
+const CategoryButton = () => {
   const localeTextOfCourses = strings.courses.allCourses;
   const sortedUniqueCategories = Array.from(
     new Set<string>(data.courses.map((item) => item.category))
@@ -34,4 +34,4 @@ const Categories = () => {
     );
 };
 
-export default Categories;
+export default CategoryButton;

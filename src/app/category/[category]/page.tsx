@@ -3,7 +3,7 @@ import data from "../../../../public/data/data.json";
 import CommonCourseCard from "@/app/components/common/commonCarouselCard/CommonCourseCard";
 import { strings } from "@/app/assets/locales/locales";
 import HeroSection from "@/app/components/Courses/HeroSection/HeroSection";
-import Categories from "@/app/components/common/categories/Categories";
+import Categories from "@/app/components/common/categoryButton/CategoryButton";
 
 const categoryPage = ({
   params,
