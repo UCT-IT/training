@@ -3,22 +3,22 @@
     {
       "id": 1,
       "image": "/images/Home/homeCarousel/graphics.jpeg",
-      "duration": "8hr 12min",
+      "duration": "36 Classes",
       "price": "$99.00 USD",
-      "title": "Graphics Design 101",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Graphics Design",
+      "description": "Master the art of graphic design with comprehensive lessons covering design principles, software proficiency, and practical applications.",
       "author": {
-        "name": "Cathie Corl",
+        "name": "Khondoker Sakibul Habib",
         "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
       }
     },
     {
       "id": 2,
       "image": "/images/Home/homeCarousel/web.jpeg",
-      "duration": "8hr 12min",
+      "duration": "72 Classes",
       "price": "$99.00 USD",
       "title": "Web Design & Development",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "description": "Explore the fundamentals of web design and development, from HTML/CSS basics to responsive layouts and backend technologies, led by industry experts.",
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/webAuthor.jpg"
@@ -27,10 +27,10 @@
     {
       "id": 3,
       "image": "/images/Home/homeCarousel/brand.jpeg",
-      "duration": "8hr 12min",
+      "duration": "72 Classes",
       "price": "$99.00 USD",
-      "title": "Brand & Identity Design",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Digital Marketing",
+      "description": "Master the strategies and tactics of digital marketing, covering SEO, social media, content marketing, and analytics to drive online success.",
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/brandAuthor.jpg"
@@ -39,10 +39,10 @@
     {
       "id": 4,
       "image": "/images/Home/homeCarousel/logo.jpeg",
-      "duration": "8hr 12min",
+      "duration": "36 Classes",
       "price": "$99.00 USD",
-      "title": "Advanced Logo Designn",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Microsoft Office",
+      "description": "Gain proficiency in Microsoft Office suite - Excel, Word, PowerPoint, and more, enhancing productivity and efficiency in your professional tasks.",
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/logoAuthor.jpg"
@@ -51,10 +51,10 @@
     {
       "id": 5,
       "image": "/images/Home/homeCarousel/marketing.jpg",
-      "duration": "8hr 12min",
+      "duration": "24 Classes",
       "price": "$99.00 USD",
-      "title": "Marketing Analytics 101",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Computer Basic",
+      "description": "Explore the fundamentals of computing - hardware, software, and basic operations, empowering you to navigate the digital landscape with confidence.",
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
@@ -63,10 +63,10 @@
     {
       "id": 6,
       "image": "/images/Home/homeCarousel/mobile.jpeg",
-      "duration": "8hr 12min",
+      "duration": "36 Classes",
       "price": "$99.00 USD",
-      "title": "Mobile App Development",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Video Editing",
+      "description": "Learn the art of video editing - from basic techniques to advanced software usage, creating captivating visual content for various platforms.",
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
@@ -120,31 +120,31 @@
       "id": 1,
       "image": "../images/Home/category/design.svg",
       "title": "Design",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "description": "Master the art of design with courses covering graphic design, UI/UX, and more, equipping you with creative skills and industry knowledge.",
       "video": "12 Courses"
     },
     {
       "id": 2,
       "image": "../images/Home/category/development.svg",
       "title": "Development",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "description": "Explore the world of development with courses in web development, software engineering, and more, empowering you to build innovative solutions.",
       "video": "5 Courses"
     },
     {
       "id": 3,
       "image": "../images/Home/category/marketing.svg",
-      "title": "Graphics design 101",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "title": "Computer Basic",
+      "description": "Delve into the world of marketing with courses covering digital marketing strategies, social media, SEO, and more, enabling you to reach target audiences effectively.",
       "video": "7 Courses"
     }
   ],
   "featuredCourse":{
-    "courseTitle":"Brand and Identity Design",
-    "courseDescription" : "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Diam phasellus vestibulum lorem sed risus ultricies.",
+    "courseTitle":"Digital Marketing",
+    "courseDescription" : "Explore the dynamic world of digital marketing strategies, including SEO, social media, and content marketing, to drive successful campaigns and boost online presence.",
     "instructorImage" : "/images/courses/kathie.jpg",
-    "instructorName" : "Kathie Corl",
+    "instructorName" : "Khondoker Sakibul Habib",
     "courseImage" : "/images/courses/featured_course.jpeg",
-    "courseDuration" : "8hr 12m",
+    "courseDuration" : "72 Classes",
     "coursePrice" : "$ 199.00 USD"
   }
 }
