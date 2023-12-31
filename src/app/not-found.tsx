@@ -3,7 +3,7 @@ import { strings } from "./assets/locales/locales";
 import Button from "./components/common/Buttons/Button";
 import Link from "next/link";
 
-const notFound = () => {
+const NotFound = () => {
   const localeText = strings.errorPage;
   return (
     <div className="relative z-10 overflow-hidden py-[75px] lg:py-[125px]">
@@ -22,7 +22,9 @@ const notFound = () => {
             </h2>
           </div>
           <div className="pt-10 space-y-5 md:space-x-8 text-center lg:text-left">
-            <Button text={localeText.btnText1} variant="primary" />
+            <Link href="/pages/courses">
+              <Button text={localeText.btnText1} variant="primary" />
+            </Link>
             <Link href="/">
               <Button text={localeText.btnText2} variant="secondary" />
             </Link>
@@ -38,4 +40,4 @@ const notFound = () => {
   );
 };
 
-export default notFound;
+export default NotFound;
