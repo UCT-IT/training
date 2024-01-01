@@ -12,8 +12,8 @@ const HomeSlider = () => {
   const localetext = strings.home.homeCarousel;
   const altText = {
     altCourseImg: localetext.altCourseImg,
-    altAuthorImg: localetext.altAuthorImg
-  }
+    altAuthorImg: localetext.altAuthorImg,
+  };
   return (
     <div className="responsive-container  relative py-32">
       <motion.h2
@@ -41,7 +41,11 @@ const HomeSlider = () => {
           }}
         >
           {data.homeCarousel.map((item) => (
-            <CommonCarouselCard item={item} localetext={altText}  />
+            <CommonCarouselCard
+              key={item.id}
+              item={item}
+              localetext={altText}
+            />
           ))}
         </CommonCarousel>
         <div className="text-center mt-6">

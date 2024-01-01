@@ -24,7 +24,7 @@ const MotionCard = () => {
                 {courseDetails.courseDuration}
               </p>
               <p className="text-white bg-secondary py-3 px-6 rounded-full font-semibold">
-                {courseDetails.coursePrice}
+                {courseDetails.courseStatus}
               </p>
             </div>
           </div>

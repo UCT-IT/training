@@ -3,73 +3,73 @@
     {
       "id": 1,
       "image": "/images/Home/homeCarousel/graphics.jpeg",
-      "duration": "36 Classes",
-      "price": "$99.00 USD",
+      "duration": "30 Classes",
+      "status": "Available",
       "title": "Graphics Design",
       "description": "Master the art of graphic design with comprehensive lessons covering design principles, software proficiency, and practical applications.",
       "author": {
         "name": "Khondoker Sakibul Habib",
-        "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       }
     },
     {
       "id": 2,
       "image": "/images/Home/homeCarousel/web.jpeg",
-      "duration": "72 Classes",
-      "price": "$99.00 USD",
+      "duration": "43 Classes",
+      "status": "Available",
       "title": "Web Design & Development",
       "description": "Explore the fundamentals of web design and development, from HTML/CSS basics to responsive layouts and backend technologies, led by industry experts.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/webAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       }
     },
     {
       "id": 3,
-      "image": "/images/Home/homeCarousel/brand.jpeg",
-      "duration": "72 Classes",
-      "price": "$99.00 USD",
+      "image": "/images/Home/homeCarousel/digital-marketing.webp",
+      "duration": "30 Classes",
+      "status": "Available",
       "title": "Digital Marketing",
       "description": "Master the strategies and tactics of digital marketing, covering SEO, social media, content marketing, and analytics to drive online success.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/brandAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       }
     },
     {
       "id": 4,
-      "image": "/images/Home/homeCarousel/logo.jpeg",
-      "duration": "36 Classes",
-      "price": "$99.00 USD",
+      "image": "/images/Home/homeCarousel/ms-office.jpg",
+      "duration": "29 Classes",
+      "status": "Available",
       "title": "Microsoft Office",
       "description": "Gain proficiency in Microsoft Office suite - Excel, Word, PowerPoint, and more, enhancing productivity and efficiency in your professional tasks.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/logoAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       }
     },
     {
       "id": 5,
-      "image": "/images/Home/homeCarousel/marketing.jpg",
-      "duration": "24 Classes",
-      "price": "$99.00 USD",
-      "title": "Computer Basic",
+      "image": "/images/Home/homeCarousel/computer-fundamental.jpg",
+      "duration": "29 Classes",
+      "status": "Available",
+      "title": "Computer Fundamental",
       "description": "Explore the fundamentals of computing - hardware, software, and basic operations, empowering you to navigate the digital landscape with confidence.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       }
     },
     {
       "id": 6,
-      "image": "/images/Home/homeCarousel/mobile.jpeg",
-      "duration": "36 Classes",
-      "price": "$99.00 USD",
-      "title": "Video Editing",
+      "image": "/images/Home/homeCarousel/video-and-photo.webp",
+      "duration": "30 Classes",
+      "status": "Available",
+      "title": "Video Editing & Photography",
       "description": "Learn the art of video editing - from basic techniques to advanced software usage, creating captivating visual content for various platforms.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       }
     }
   ],
@@ -141,10 +141,10 @@
   "featuredCourse":{
     "courseTitle":"Digital Marketing",
     "courseDescription" : "Explore the dynamic world of digital marketing strategies, including SEO, social media, and content marketing, to drive successful campaigns and boost online presence.",
-    "instructorImage" : "/images/courses/kathie.jpg",
+    "instructorImage" : "/images/courses/blank-author-image.webp",
     "instructorName" : "Khondoker Sakibul Habib",
-    "courseImage" : "/images/courses/featured_course.jpeg",
-    "courseDuration" : "72 Classes",
-    "coursePrice" : "$ 199.00 USD"
+    "courseImage" : "/images/courses/digital-marketing.webp",
+    "courseDuration" : "30 Classes",
+    "courseStatus" : "Available"
   }
 }
