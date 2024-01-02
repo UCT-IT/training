@@ -39,7 +39,9 @@ const CommonCarousel = ({
     ],
     ...settings,
   };
-  return <Slider {...customSettings}>{children}</Slider>;
+  return (
+    <Slider {...customSettings}>{children}</Slider>
+  );
 };
 
 export default CommonCarousel;

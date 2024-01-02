@@ -24,7 +24,6 @@ const HomeSlider = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         viewport={{ once: true }}
-        className=""
       >
         <CommonCarousel
           settings={{
@@ -42,6 +41,15 @@ const HomeSlider = () => {
         </CommonCarousel>
         <MotionButton />
       </motion.div>
+           {data.homeCarousel.map((item) => (
+            <CommonCarouselCard item={item} localetext={altText}  />
+          ))}
+        </CommonCarousel>
+       
+      </motion.div>
+      <div className="text-center mt-6">
+          <Button variant="primary" text={localetext.btn} />
+        </div>
     </div>
   );
 };
