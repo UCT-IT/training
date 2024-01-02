@@ -209,7 +209,6 @@ export let strings = new LocalizedStrings({
         ],
       },
     },
-
     courses: {
       heroSection: {
         title: `Courses`,
@@ -222,6 +221,15 @@ export let strings = new LocalizedStrings({
         altTextInstructorImage: `Course Instructor Image`,
         altTextArrowImage: `Arrow Sign`,
       },
+    },
+    errorPage: {
+      title: `Page not found`,
+      description: `The page you are looking
+      for doesn't exist or has
+      been moved.`,
+      btnText1: `EXPLORE COURSES`,
+      btnText2: `GO HOME`,
+      errorCode: `404`,
     },
     footer: {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
