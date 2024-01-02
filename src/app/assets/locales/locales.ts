@@ -35,9 +35,9 @@ export let strings = new LocalizedStrings({
     ],
     home: {
       heroSection: {
-        title: `UCTIT-BD: Empower Your Journey`,
+        title: `UCTIT BD: Empower Your Journey`,
         description: `Discover comprehensive IT courses tailored for skill enhancement.
-        Explore UCTIT-BD today.`,
+        Explore UCTIT BD today.`,
         btnText1: `Browse Courses`,
         btnText2: `Discover More`,
         altText: `Empower Your Learning Image`,
@@ -267,7 +267,7 @@ export let strings = new LocalizedStrings({
           Sector 3, Uttara,
           Dhaka-1230, Bangladesh.`,
       },
-      copyRight: `Copyright © UCTIT-BD`,
+      copyRight: `Copyright © UCTIT BD`,
     },
   },
 });

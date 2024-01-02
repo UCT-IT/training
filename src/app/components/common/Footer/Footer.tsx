@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../../../public/images/footer/logo-white.svg";
+import logo from "../../../../../public/images/footer/logo.png";
 import Image from "next/image";
 import {
   FaFacebookF,
@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="lg:flex justify-between items-center space-y-5 lg:space-y-0">
           <a href="#">
             <Image
-              className="hover:scale-95 transition-all duration-200"
+              className="hover:scale-95 transition-all duration-200 w-16 h-16"
               src={logo}
               alt="Footer logo"
             />

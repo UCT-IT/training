@@ -1,4 +1,4 @@
-import logo from "../../../../../public/images/nav/logo.svg";
+import logo from "../../../../../public/images/nav/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "../mobileMenu/MobileMenu";
@@ -7,10 +7,10 @@ import { strings } from "@/app/assets/locales/locales";
 const Navbar = () => {
   const localeText = strings.nav;
   return (
-    <div className="shadow-lg py-7 lg:px-0 z-50 sticky top-0 bg-white">
+    <div className="shadow-lg py-3 lg:px-0 z-50 sticky top-0 bg-white">
       <div className="container px-5 mx-auto flex items-center justify-between text-primary relative">
         <Link href="/">
-          <Image src={logo} alt="logo" />
+          <Image className="w-16 h-16" src={logo} alt="logo" />
         </Link>
         <MobileMenu />
         <ul
