@@ -1,7 +1,8 @@
 {
-  "homeCarousel": [
+  "courses": [
     {
       "id": 1,
+      "preview": true,
       "image": "/images/Home/homeCarousel/graphics.jpeg",
       "duration": "8hr 12min",
       "price": "$99.00 USD",
@@ -10,10 +11,12 @@
       "author": {
         "name": "Cathie Corl",
         "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
-      }
+      },
+      "category": "design"
     },
     {
       "id": 2,
+      "preview": true,
       "image": "/images/Home/homeCarousel/web.jpeg",
       "duration": "8hr 12min",
       "price": "$99.00 USD",
@@ -22,10 +25,12 @@
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/webAuthor.jpg"
-      }
+      },
+      "category": "development"
     },
     {
       "id": 3,
+      "preview": true,
       "image": "/images/Home/homeCarousel/brand.jpeg",
       "duration": "8hr 12min",
       "price": "$99.00 USD",
@@ -34,10 +39,12 @@
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/brandAuthor.jpg"
-      }
+      },
+      "category": "design"
     },
     {
       "id": 4,
+      "preview": true,
       "image": "/images/Home/homeCarousel/logo.jpeg",
       "duration": "8hr 12min",
       "price": "$99.00 USD",
@@ -46,10 +53,12 @@
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/logoAuthor.jpg"
-      }
+      },
+      "category": "design"
     },
     {
       "id": 5,
+      "preview": true,
       "image": "/images/Home/homeCarousel/marketing.jpg",
       "duration": "8hr 12min",
       "price": "$99.00 USD",
@@ -58,10 +67,12 @@
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
-      }
+      },
+      "category": "marketing"
     },
     {
       "id": 6,
+      "preview": true,
       "image": "/images/Home/homeCarousel/mobile.jpeg",
       "duration": "8hr 12min",
       "price": "$99.00 USD",
@@ -70,7 +81,32 @@
       "author": {
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
-      }
+      },
+      "category": "development"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "design",
+      "image": "../images/Home/category/design.svg",
+      "title": "Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "12 Courses"
+    },
+    {
+      "id": 2,
+      "image": "../images/Home/category/development.svg",
+      "title": "Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "5 Courses"
+    },
+    {
+      "id": 3,
+      "image": "../images/Home/category/marketing.svg",
+      "title": "Graphics design 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "7 Courses"
     }
   ],
   "review": [
@@ -114,6 +150,7 @@
       "position": "UX Designer at Agency",
       "ratings": 5
     }
+  ]
   ],
   "category": [
     {

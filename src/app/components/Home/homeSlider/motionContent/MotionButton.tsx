@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Button from "../../common/Buttons/Button";
+import Button from "../../../common/Buttons/Button";
 import { strings } from "@/app/assets/locales/locales";
 const MotionButton = () => {
   const localeText = strings.home.homeCarousel;
