@@ -1,8 +1,10 @@
+"use client";
 import { strings } from "@/app/assets/locales/locales";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import data from "../../../../../public/data/data.json";
 import renderStars from "../../common/commonCarousel/renderStars/RenderStars";
+import { Link, Element } from "react-scroll";
 
 type DetailsProps = {
   singleData: {
@@ -33,22 +35,31 @@ type DetailsProps = {
 };
 
 const Details = ({ singleData }: DetailsProps) => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const localeText = strings.home.review;
   const { tabs, contents } = singleData.details ?? {};
+  const handleTabClick = () => {
+    setIsScrolled(true);
+  };
   return (
     <div className="my-16">
       <div className="flex items-center gap-4 flex-wrap">
         {tabs.map((item) => (
-          <a
+          <Link
             key={item.id}
-            className="text-tertiary capitalize border-[1px] text-[14px] border-btnhover px-6 py-2 hover:bg-tertiary hover:text-white transition-all rounded-full font-bold"
-            href={`#${item.id}`}
+            className="text-tertiary cursor-pointer capitalize border-[1px] text-[14px] border-btnhover px-6 py-2 hover:bg-tertiary hover:text-white transition-all rounded-full font-bold"
+            to={item.id}
+            spy={true}
+            smooth={true}
+            offset={-120} 
+            duration={500}
+            onClick={handleTabClick}
           >
             {item.text}
-          </a>
+          </Link>
         ))}
       </div>
-      <div id="about" className="my-16 space-y-5">
+      <Element name="about" className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.about.title}
         </h1>
@@ -56,8 +67,8 @@ const Details = ({ singleData }: DetailsProps) => {
           {contents.about.description}
         </p>
         <hr />
-      </div>
-      <div id="topics" className="my-16 space-y-5">
+      </Element>
+      <Element name="topics" className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.topics.title}
         </h1>
@@ -72,8 +83,8 @@ const Details = ({ singleData }: DetailsProps) => {
           ))}
         </div>
         <hr />
-      </div>
-      <div id="results" className="my-16 space-y-5">
+      </Element>
+      <Element name="results" className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.results.title}
         </h1>
@@ -93,8 +104,8 @@ const Details = ({ singleData }: DetailsProps) => {
           />
         </div>
         <hr />
-      </div>
-      <div id="reviews" className="my-16 space-y-5">
+      </Element>
+      <Element name="reviews" className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.reviews.title}
           <div className="mt-16">
@@ -131,7 +142,7 @@ const Details = ({ singleData }: DetailsProps) => {
             ))}
           </div>
         </h1>
-      </div>
+      </Element>
     </div>
   );
 };

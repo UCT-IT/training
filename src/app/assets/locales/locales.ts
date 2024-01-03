@@ -226,6 +226,13 @@ export let strings = new LocalizedStrings({
         title: "All Courses",
       }
     },
+    product: {
+      altText:{
+        categoryLogo: "category logo",
+        courseImage: "course image",
+        vidoeLogo: "video logo"
+      }
+    },
     footer: {
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt aliqua.`,
