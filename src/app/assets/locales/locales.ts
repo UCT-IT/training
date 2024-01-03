@@ -228,9 +228,9 @@ export let strings = new LocalizedStrings({
         to enhance your skills and knowledge.`,
       },
       allCourses: {
-        Category: {text: "all", url: "/pages/courses"},
+        Category: { text: "all", url: "/pages/courses" },
         title: "All Courses",
-      }
+      },
       featuredCourse: {
         heading: `Featured Course`,
         altTextThumbnail: `Featured Course Thumbnail`,

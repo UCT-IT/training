@@ -33,7 +33,7 @@
       "preview": true,
       "image": "/images/Home/homeCarousel/brand.jpeg",
       "duration": "8hr 12min",
-      "price": "$99.00 USD",
+      "status": "Available",
       "title": "Brand & Identity Design",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
@@ -47,7 +47,7 @@
       "preview": true,
       "image": "/images/Home/homeCarousel/logo.jpeg",
       "duration": "8hr 12min",
-      "price": "$99.00 USD",
+      "status": "Available",
       "title": "Advanced Logo Designn",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
@@ -61,7 +61,7 @@
       "preview": true,
       "image": "/images/Home/homeCarousel/marketing.jpg",
       "duration": "8hr 12min",
-      "price": "$99.00 USD",
+      "status": "Available",
       "title": "Marketing Analytics 101",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
@@ -75,7 +75,7 @@
       "preview": true,
       "image": "/images/Home/homeCarousel/mobile.jpeg",
       "duration": "8hr 12min",
-      "price": "$99.00 USD",
+      "status": "Available",
       "title": "Mobile App Development",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
@@ -150,7 +150,6 @@
       "position": "UX Designer at Agency",
       "ratings": 5
     }
-  ]
   ],
   "category": [
     {
