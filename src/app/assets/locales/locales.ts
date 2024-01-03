@@ -221,7 +221,6 @@ export let strings = new LocalizedStrings({
         ],
       },
     },
-
     courses: {
       heroSection: {
         title: `Discover Our Courses`,
