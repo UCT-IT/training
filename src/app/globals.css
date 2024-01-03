@@ -4,6 +4,7 @@
 
 * {
   font-family: "Kumbh Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 .responsive-container {
   @apply container mx-auto px-5 md:px-16 lg:px-5;

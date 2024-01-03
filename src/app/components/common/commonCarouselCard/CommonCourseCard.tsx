@@ -13,7 +13,8 @@ type CommonCarouselCardProps = {
     author: {
       image: string;
       name: string;
-    };
+    },
+    product: string
   };
   localetext: {
     altCourseImg: string;
@@ -25,7 +26,7 @@ const CommonCourseCard = ({ item, localetext }: CommonCarouselCardProps) => {
   return (
     <div className="group mt-3">
         <div className="rounded-3xl mr-[20px] border-[1px] h-[650px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
-      <Link href="#">
+      <Link href={`/product/${item.product.toLowerCase()}`}>
         <div className="overflow-hidden rounded-t-3xl relative">
           <Image
             height={1000}

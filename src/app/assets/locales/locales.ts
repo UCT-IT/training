@@ -60,6 +60,7 @@ export let strings = new LocalizedStrings({
         title: "What our students say about us",
         altTextAuthor: "author image",
         altTextArrow: "arrow",
+        btn: "explore courses",
         number: [
           {
             count: "100,000+",
@@ -72,6 +73,10 @@ export let strings = new LocalizedStrings({
           {
             count: "5,000+",
             text: "Five-star course reviews",
+          },
+          {
+            count: "75,000+",
+            text: "Students community",
           },
         ],
       },
