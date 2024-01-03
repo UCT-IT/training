@@ -16,8 +16,8 @@ const CoursesPage = () => {
   return (
     <React.Fragment>
       <HeroSection />
-      <AllCourses />
       <FeaturedCourse />
+      <AllCourses />
     </React.Fragment>
   );
 };

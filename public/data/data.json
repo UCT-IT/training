@@ -10,7 +10,7 @@
       "description": "Master the art of graphic design with comprehensive lessons covering design principles, software proficiency, and practical applications.",
       "author": {
         "name": "Cathie Corl",
-        "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
       "category": "design"
     },
@@ -24,65 +24,65 @@
       "description": "Explore the fundamentals of web design and development, from HTML/CSS basics to responsive layouts and backend technologies, led by industry experts.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/webAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
       "category": "development"
     },
     {
       "id": 3,
       "preview": true,
-      "image": "/images/Home/homeCarousel/brand.jpeg",
-      "duration": "8hr 12min",
+      "image": "/images/Home/homeCarousel/digital-marketing.webp",
+      "duration": "30 Classes",
       "status": "Available",
-      "title": "Brand & Identity Design",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Digital Marketing",
+      "description": "Master the strategies and tactics of digital marketing, covering SEO, social media, content marketing, and analytics to drive online success.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/brandAuthor.jpg"
-      },
-      "category": "design"
-    },
-    {
-      "id": 4,
-      "preview": true,
-      "image": "/images/Home/homeCarousel/logo.jpeg",
-      "duration": "8hr 12min",
-      "status": "Available",
-      "title": "Advanced Logo Designn",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
-      "author": {
-        "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/logoAuthor.jpg"
-      },
-      "category": "design"
-    },
-    {
-      "id": 5,
-      "preview": true,
-      "image": "/images/Home/homeCarousel/marketing.jpg",
-      "duration": "8hr 12min",
-      "status": "Available",
-      "title": "Marketing Analytics 101",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
-      "author": {
-        "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
       "category": "marketing"
     },
     {
-      "id": 6,
+      "id": 4,
       "preview": true,
-      "image": "/images/Home/homeCarousel/mobile.jpeg",
-      "duration": "8hr 12min",
+      "image": "/images/Home/homeCarousel/ms-office.jpg",
+      "duration": "29 Classes",
       "status": "Available",
-      "title": "Mobile App Development",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "title": "Microsoft Office Application",
+      "description": "Gain proficiency in Microsoft Office suite - Excel, Word, PowerPoint, and more, enhancing productivity and efficiency in your professional tasks.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
       "category": "development"
+    },
+    {
+      "id": 5,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/computer-fundamental.jpg",
+      "duration": "29 Classes",
+      "status": "Available",
+      "title": "Computer Fundamental",
+      "description": "Explore the fundamentals of computing - hardware, software, and basic operations, empowering you to navigate the digital landscape with confidence.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "category": "development"
+    },
+    {
+      "id": 6,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/video-and-photo.webp",
+      "duration": "30 Classes",
+      "status": "Available",
+      "title": "Video Editing and Photography",
+      "description": "Learn the art of video editing - from basic techniques to advanced software usage, creating captivating visual content for various platforms.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "category": "marketing"
     }
   ],
   "categories": [
@@ -91,21 +91,21 @@
       "category": "design",
       "image": "../images/Home/category/design.svg",
       "title": "Design",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "description": "Master the art of design with courses covering graphic design, UI/UX, and more, equipping you with creative skills and industry knowledge.",
       "video": "12 Courses"
     },
     {
       "id": 2,
       "image": "../images/Home/category/development.svg",
       "title": "Development",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "description": "Explore the world of development with courses in web development, software engineering, and more, empowering you to build innovative solutions.",
       "video": "5 Courses"
     },
     {
       "id": 3,
       "image": "../images/Home/category/marketing.svg",
-      "title": "Graphics design 101",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "title": "Marketing",
+      "description": "Explore the dynamic world of marketing, where innovative strategies and creative approaches drive success. Learn cutting-edge approaches to engage audiences and elevate brands.",
       "video": "7 Courses"
     }
   ],

@@ -51,20 +51,20 @@ const CommonCourseCard = ({ item, localetext }: CommonCarouselCardProps) => {
             <p className="text-[18px] mt-4 text-[#798BA0]">
               {item.description}
             </p>
-          </div>
-          <div className="mt-6 flex items-center gap-4">
-            <div className="w-11 h-11 rounded-full shadow-lg border-[1px] border-gray-300">
-              <Image
-                className="rounded-full"
-                alt={localetext.altAuthorImg}
-                src={item.author.image}
-                width={1000}
-                height={1000}
-              />
+            <div className="mt-6 flex items-center gap-4">
+              <div className="w-11 h-11 rounded-full shadow-lg border-[1px] border-gray-300">
+                <Image
+                  className="rounded-full"
+                  alt={localetext.altAuthorImg}
+                  src={item.author.image}
+                  width={1000}
+                  height={1000}
+                />
+              </div>
+              <p className="font-bold text-xl text-[#1E3D60]">
+                {item.author.name}
+              </p>
             </div>
-            <p className="font-bold text-xl text-[#1E3D60]">
-              {item.author.name}
-            </p>
           </div>
         </Link>
       </div>
