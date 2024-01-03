@@ -3,6 +3,7 @@ import FeaturedCourse from "@/app/components/Courses/FeaturedCourse/FeaturedCour
 import HeroSection from "@/app/components/Courses/HeroSection/HeroSection";
 import { Metadata } from "next";
 import React from "react";
+import AllCourses from "./allCourses/AllCourses";
 
 const localeText = strings.metadata.coursesPage;
 
@@ -15,6 +16,7 @@ const CoursesPage = () => {
   return (
     <React.Fragment>
       <HeroSection />
+      <AllCourses />
       <FeaturedCourse />
     </React.Fragment>
   );

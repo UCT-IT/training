@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Link from "next/link";
-import data from "../../../../../public/data/data.json";
+import data from "../../../../../../public/data/data.json";
 import Image from "next/image";
 import { strings } from "@/app/assets/locales/locales";
-import CommonCarousel from "../../common/commonCarousel/CommonCarousel";
+import CommonCarousel from "../../../common/commonCarousel/CommonCarousel";
 
 const MotionHomeSlider = () => {
   const localeText = strings.home.homeCarousel;

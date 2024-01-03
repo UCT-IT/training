@@ -227,12 +227,25 @@ export let strings = new LocalizedStrings({
         description: `Explore a diverse range of courses tailored
         to enhance your skills and knowledge.`,
       },
+      allCourses: {
+        Category: {text: "all", url: "/pages/courses"},
+        title: "All Courses",
+      }
       featuredCourse: {
         heading: `Featured Course`,
         altTextThumbnail: `Featured Course Thumbnail`,
         altTextInstructorImage: `Instructor Profile Image`,
         altTextArrowImage: `Arrow Icon`,
       },
+    },
+    errorPage: {
+      title: `Page not found`,
+      description: `The page you are looking
+      for doesn't exist or has
+      been moved.`,
+      btnText1: `EXPLORE COURSES`,
+      btnText2: `GO HOME`,
+      errorCode: `404`,
     },
     footer: {
       description: `Explore our diverse range of courses designed to fuel

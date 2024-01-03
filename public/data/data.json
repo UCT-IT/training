@@ -1,19 +1,22 @@
 {
-  "homeCarousel": [
+  "courses": [
     {
       "id": 1,
+      "preview": true,
       "image": "/images/Home/homeCarousel/graphics.jpeg",
       "duration": "30 Classes",
       "status": "Available",
       "title": "Graphics Design",
       "description": "Master the art of graphic design with comprehensive lessons covering design principles, software proficiency, and practical applications.",
       "author": {
-        "name": "Khondoker Sakibul Habib",
-        "image": "/images/Home/homeCarousel/blank-author-image.webp"
-      }
+        "name": "Cathie Corl",
+        "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
+      },
+      "category": "design"
     },
     {
       "id": 2,
+      "preview": true,
       "image": "/images/Home/homeCarousel/web.jpeg",
       "duration": "43 Classes",
       "status": "Available",
@@ -21,56 +24,89 @@
       "description": "Explore the fundamentals of web design and development, from HTML/CSS basics to responsive layouts and backend technologies, led by industry experts.",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/blank-author-image.webp"
-      }
+        "image": "/images/Home/homeCarousel/webAuthor.jpg"
+      },
+      "category": "development"
     },
     {
       "id": 3,
-      "image": "/images/Home/homeCarousel/digital-marketing.webp",
-      "duration": "30 Classes",
-      "status": "Available",
-      "title": "Digital Marketing",
-      "description": "Master the strategies and tactics of digital marketing, covering SEO, social media, content marketing, and analytics to drive online success.",
+      "preview": true,
+      "image": "/images/Home/homeCarousel/brand.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Brand & Identity Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/blank-author-image.webp"
-      }
+        "image": "/images/Home/homeCarousel/brandAuthor.jpg"
+      },
+      "category": "design"
     },
     {
       "id": 4,
-      "image": "/images/Home/homeCarousel/ms-office.jpg",
-      "duration": "29 Classes",
-      "status": "Available",
-      "title": "Microsoft Office",
-      "description": "Gain proficiency in Microsoft Office suite - Excel, Word, PowerPoint, and more, enhancing productivity and efficiency in your professional tasks.",
+      "preview": true,
+      "image": "/images/Home/homeCarousel/logo.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Advanced Logo Designn",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/blank-author-image.webp"
-      }
+        "image": "/images/Home/homeCarousel/logoAuthor.jpg"
+      },
+      "category": "design"
     },
     {
       "id": 5,
-      "image": "/images/Home/homeCarousel/computer-fundamental.jpg",
-      "duration": "29 Classes",
-      "status": "Available",
-      "title": "Computer Fundamental",
-      "description": "Explore the fundamentals of computing - hardware, software, and basic operations, empowering you to navigate the digital landscape with confidence.",
+      "preview": true,
+      "image": "/images/Home/homeCarousel/marketing.jpg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Marketing Analytics 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/blank-author-image.webp"
-      }
+        "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
+      },
+      "category": "marketing"
     },
     {
       "id": 6,
-      "image": "/images/Home/homeCarousel/video-and-photo.webp",
-      "duration": "30 Classes",
-      "status": "Available",
-      "title": "Video Editing & Photography",
-      "description": "Learn the art of video editing - from basic techniques to advanced software usage, creating captivating visual content for various platforms.",
+      "preview": true,
+      "image": "/images/Home/homeCarousel/mobile.jpeg",
+      "duration": "8hr 12min",
+      "price": "$99.00 USD",
+      "title": "Mobile App Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
         "name": "Jobayer Hossain",
-        "image": "/images/Home/homeCarousel/blank-author-image.webp"
-      }
+        "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
+      },
+      "category": "development"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "design",
+      "image": "../images/Home/category/design.svg",
+      "title": "Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "12 Courses"
+    },
+    {
+      "id": 2,
+      "image": "../images/Home/category/development.svg",
+      "title": "Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "5 Courses"
+    },
+    {
+      "id": 3,
+      "image": "../images/Home/category/marketing.svg",
+      "title": "Graphics design 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores.",
+      "video": "7 Courses"
     }
   ],
   "review": [
@@ -114,6 +150,7 @@
       "position": "UX Designer at Agency",
       "ratings": 5
     }
+  ]
   ],
   "category": [
     {
