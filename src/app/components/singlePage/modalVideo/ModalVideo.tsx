@@ -5,18 +5,18 @@ import Video from "../video/Video";
 import video from "../../../../../public/images/singleCategory/video.svg";
 import data from "../../../../../public/data/data.json"
 
-const ModalVideo = ({ params }: { params: { product?: string } }) => {
+const ModalVideo = ({ params }: { params: { course?: string } }) => {
   const [isModalOpen, setModalOpen] = useState(false);
-  if (!params.product) {
-    return <p>Product not found</p>;
+  if (!params.course) {
+    return <p>course not found</p>;
   }
 
   const singleData = data.courses.find(
-    (item) => item.product === params.product
+    (item) => item.course === params.course
   );
 
   if (!singleData) {
-    return <p>Product data not found</p>;
+    return <p>course data not found</p>;
   }
   return (
     <React.Fragment>

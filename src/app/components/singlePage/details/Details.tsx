@@ -8,7 +8,7 @@ import { Link, Element } from "react-scroll";
 
 type DetailsProps = {
   singleData: {
-    details: {
+    product: {
       tabs: { text: string; id: string }[];
       contents: {
         about: {
@@ -37,7 +37,7 @@ type DetailsProps = {
 const Details = ({ singleData }: DetailsProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const localeText = strings.home.review;
-  const { tabs, contents } = singleData.details ?? {};
+  const { tabs, contents } = singleData.product ?? {};
   const handleTabClick = () => {
     setIsScrolled(true);
   };

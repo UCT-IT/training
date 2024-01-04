@@ -4,17 +4,17 @@ import Details from "@/app/components/singlePage/details/Details";
 import Enroll from "@/app/components/singlePage/enroll/Enroll";
 import ModalVideo from "@/app/components/singlePage/modalVideo/ModalVideo";
 
-const ProductPage = ({ params }: { params: { product?: string } }) => {
-  if (!params.product) {
-    return <p>Product not found</p>;
+const ProductPage = ({ params }: { params: { course?: string } }) => {
+  if (!params.course) {
+    return <p>course not found</p>;
   }
 
-  const singleData = data.courses.find(
-    (item) => item.product === params.product
+  const singleData = data.courseDetails.find(
+    (item) => item.course === params.course
   );
 
   if (!singleData) {
-    return <p>Product data not found</p>;
+    return <p>course data not found</p>;
   }
   return (
     <div className="relative">
