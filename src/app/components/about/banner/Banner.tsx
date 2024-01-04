@@ -5,7 +5,7 @@ import { strings } from "@/app/assets/locales/locales";
 const Banner = () => {
   const localeText = strings.about.banner;
   return (
-    <div className="bg-[#F9FAFB] py-40 relative font-kumbh">
+    <div className="bg-[#F9FAFB] py-40 relative ">
       <div className="responsive-container">
         <BannerArrow />
         <div className="text-center">

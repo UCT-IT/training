@@ -1,10 +1,8 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
 import { strings } from "@/app/assets/locales/locales";
-
-const MotionReviewTitle = () => {
-  const localeText = strings.home.review;
+const MotionTitle = () => {
+  const localeText = strings.home.homeCarousel;
   return (
     <motion.h2
       initial={{ scale: 0, opacity: 0 }}
@@ -18,4 +16,4 @@ const MotionReviewTitle = () => {
   );
 };
 
-export default MotionReviewTitle;
+export default MotionTitle;
