@@ -34,7 +34,7 @@ const MotionDivImage = () => {
     <React.Fragment>
       <InView
         as="div"
-        threshold={0.6}
+        threshold={0.7}
         onChange={(inView) => setIsScrolled(inView)}
       >
         <motion.div
