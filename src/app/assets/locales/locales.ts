@@ -221,9 +221,9 @@ export let strings = new LocalizedStrings({
         eiusmod tempor incididunt ut labore et dolore magna.`,
       },
       allCourses: {
-        Category: {text: "all", url: "/pages/courses"},
+        Category: { text: "all", url: "/pages/courses" },
         title: "All Courses",
-      }
+      },
       featuredCourse: {
         heading: `Featured Course`,
         altTextThumbnail: `Course Thumbnail Image`,
