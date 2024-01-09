@@ -18,15 +18,8 @@ const MotionHomeSlider = () => {
       viewport={{ once: true }}
       className=""
     >
-      <CommonCarousel
-        settings={{
-          infinite: true,
-          speed: 500,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        }}
-      >
-        {data.courses.map((item) => (
+      <CommonCarousel>
+        {data.homeCarousel.map((item) => (
           <div key={item.id} className="group overflow-hidden">
             <div className="rounded-3xl mr-[20px] border-[1px] h-[650px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
               <Link href="#">
