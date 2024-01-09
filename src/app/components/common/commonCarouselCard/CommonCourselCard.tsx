@@ -13,7 +13,6 @@ type CommonCarouselCardProps = {
       image: string;
       name: string;
     };
-    course: string;
   };
   localetext: {
     altCourseImg: string;
@@ -21,19 +20,21 @@ type CommonCarouselCardProps = {
   };
 };
 
-const CommonCourseCard = ({ item, localetext }: CommonCarouselCardProps) => {
+const CommonCourselCard = ({ item, localetext }: CommonCarouselCardProps) => {
   return (
     <div className="group mt-3">
       <div className="rounded-3xl mr-[20px] border-[1px] h-[650px] border-gray-200 shadow-3xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
-        <Link href={`/course/${item.course.toLowerCase()}`}>
+        <Link href="#">
           <div className="overflow-hidden rounded-t-3xl relative">
-            <Image
-              height={1000}
-              width={1000}
-              className="h-full w-full object-cover duration-150 transition-all group-hover:scale-110"
-              src={item.image}
-              alt={localetext.altCourseImg}
-            />
+            <div className="h-[340px]">
+              <Image
+                height={1000}
+                width={1000}
+                className="h-full w-full object-cover duration-150 transition-all group-hover:scale-110"
+                src={item.image}
+                alt={localetext.altCourseImg}
+              />
+            </div>
             <div className="absolute top-10 right-10 flex items-center gap-2 text-[15px]">
               <p className="bg-white text-secondary py-3 px-6 rounded-full font-semibold ">
                 {item.duration}
@@ -51,13 +52,15 @@ const CommonCourseCard = ({ item, localetext }: CommonCarouselCardProps) => {
               {item.description}
             </p>
             <div className="mt-6 flex items-center gap-4">
-              <Image
-                className="h-11 w-11 shadow-lg rounded-full"
-                alt={localetext.altAuthorImg}
-                src={item.author.image}
-                width={1000}
-                height={1000}
-              />
+              <div className="w-11 h-11 rounded-full shadow-lg border-[1px] border-gray-300">
+                <Image
+                  className="rounded-full"
+                  alt={localetext.altAuthorImg}
+                  src={item.author.image}
+                  width={1000}
+                  height={1000}
+                />
+              </div>
               <p className="font-bold text-xl text-[#1E3D60]">
                 {item.author.name}
               </p>
@@ -69,4 +72,4 @@ const CommonCourseCard = ({ item, localetext }: CommonCarouselCardProps) => {
   );
 };
 
-export default CommonCourseCard;
+export default CommonCourselCard;
