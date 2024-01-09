@@ -10,7 +10,7 @@ const ProductPage = ({ params }: { params: { course?: string } }) => {
   }
 
   const singleData = data.courseDetails.find(
-    (item) => item.course === params.course
+    (item) => item.course.toLowerCase() === params.course?.toLowerCase()
   );
 
   if (!singleData) {

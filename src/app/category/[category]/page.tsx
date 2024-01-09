@@ -1,9 +1,9 @@
 import React from "react";
 import data from "../../../../public/data/data.json";
-import CommonCourseCard from "@/app/components/common/commonCarouselCard/CommonCourselCard";
 import { strings } from "@/app/assets/locales/locales";
 import HeroSection from "@/app/components/Courses/HeroSection/HeroSection";
 import Categories from "@/app/components/common/categoryButton/CategoryButton";
+import CommonCourseCard from "@/app/components/common/commonCarouselCard/CommonCourseCard";
 
 const categoryPage = ({
   params,
