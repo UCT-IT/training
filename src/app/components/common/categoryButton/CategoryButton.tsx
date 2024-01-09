@@ -14,7 +14,7 @@ const CategoryButton = () => {
   const pathParts = pathName.split('/');
   const isActive = pathParts[pathParts.length - 1]
     return (
-        <div className="flex items-center justify-center md:justify-normal gap-7">
+        <div className="flex flex-wrap items-center justify-center md:justify-normal gap-7">
             <Link
               className={`${isActive === "courses"? 'text-white bg-tertiary': 'bg-white text-tertiary'} text-tertiary capitalize border-[1px] border-btnhover px-7 py-2 hover:bg-tertiary hover:text-white transition-all rounded-full font-bold`}
               href={localeTextOfCourses.Category.url}

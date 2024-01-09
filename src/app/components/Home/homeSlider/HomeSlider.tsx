@@ -29,7 +29,7 @@ const HomeSlider = () => {
           {data.courses
             .filter((item) => item.preview === true)
             .map((item) => (
-              <CommonCarouselCard item={item} localetext={altText} />
+              <CommonCarouselCard key={item.id} item={item} localetext={altText} />
             ))}
         </CommonCarousel>
         <div className="text-center mt-6">
