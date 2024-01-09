@@ -12,7 +12,7 @@ const BannerTittle = () => {
       viewport={{ once: true }}
       className="text-primary  text-5xl font-bold whitespace-pre-line"
     >
-     {localeText.title}
+      {localeText.title}
     </motion.h1>
   );
 };
