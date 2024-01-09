@@ -5,14 +5,77 @@
       "preview": true,
       "image": "/images/Home/homeCarousel/graphics.jpeg",
       "duration": "8hr 12min",
-      "price": "$99.00 USD",
+      "price": "$95.00 USD",
       "title": "Graphics Design 101",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
       "author": {
         "name": "Cathie Corl",
         "image": "/images/Home/homeCarousel/graphicsAuthor.jpg"
       },
-      "category": "design"
+      "category": "design",
+      "course": "graphics-design-101",
+      "details": {
+        "heroSection": {
+          "logo": "/images/singleCategory/buttonLogo.svg"
+        },
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
     },
     {
       "id": 2,
@@ -26,7 +89,70 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/webAuthor.jpg"
       },
-      "category": "development"
+      "category": "development",
+      "course": "web-develeopment",
+      "details": {
+        "heroSection": {
+          "logo": "/images/singleCategory/buttonLogo.svg"
+        },
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
     },
     {
       "id": 3,
@@ -40,7 +166,70 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/brandAuthor.jpg"
       },
-      "category": "design"
+      "category": "design",
+      "course": "brand-identiy-design",
+      "details": {
+        "heroSection": {
+          "logo": "/images/singleCategory/buttonLogo.svg"
+        },
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
     },
     {
       "id": 4,
@@ -54,7 +243,70 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/logoAuthor.jpg"
       },
-      "category": "design"
+      "category": "design",
+      "course": "logo-design",
+      "details": {
+        "heroSection": {
+          "logo": "/images/singleCategory/buttonLogo.svg"
+        },
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
     },
     {
       "id": 5,
@@ -68,7 +320,70 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/marketingAuthor.jpg"
       },
-      "category": "marketing"
+      "category": "marketing",
+      "course": "marketing-analytics-101",
+      "details": {
+        "heroSection": {
+          "logo": "/images/singleCategory/buttonLogo.svg"
+        },
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
     },
     {
       "id": 6,
@@ -82,7 +397,480 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/mobileAuthor.jpg"
       },
-      "category": "development"
+      "category": "development",
+      "course": "mobile-app-development",
+      "details": {
+        "heroSection": {
+          "logo": "/images/singleCategory/buttonLogo.svg"
+        },
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    }
+  ],
+  "courseDetails": [
+    {
+      "id": 1,
+      "course": "graphics-design-101",
+      "title": "Graphics Design 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "price": "$95.00 USD",
+      "category": "design",
+      "logo": "/images/singleCategory/buttonLogo.svg",
+      "product": {
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "course": "web-develeopment",
+      "title": "Web Design & Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "price": "$95.00 USD",
+      "category": "development",
+      "logo": "/images/singleCategory/buttonLogo.svg",
+      "product": {
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "course": "brand-identiy-design",
+      "title": "Brand & Identity Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "price": "$95.00 USD",
+      "category": "design",
+      "logo": "/images/singleCategory/buttonLogo.svg",
+      "product": {
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "course": "logo-design",
+      "title": "Advanced Logo Designn",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "price": "$95.00 USD",
+      "category": "design",
+      "logo": "/images/singleCategory/buttonLogo.svg",
+      "product": {
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "course": "marketing-analytics-101",
+      "title": "Marketing Analytics 101",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "price": "$95.00 USD",
+      "category": "marketing",
+      "logo": "/images/singleCategory/buttonLogo.svg",
+      "product": {
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "course": "mobile-app-development",
+      "title": "Mobile App Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse eveniet numquam asperiores, ad beatae officia aliquid distinctio culpa possimus?",
+      "price": "$95.00 USD",
+      "category": "development",
+      "logo": "/images/singleCategory/buttonLogo.svg",
+      "product": {
+        "enroll":{
+          "description": "Lorem ipsum dolor sit amet, dolor consectetur adipiscing elit purus vivera.",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "level: medium"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "duration: 7hr 24m"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "lessons: 50"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus viverra praesent felis consequat pellentesque turpis et quisque platea. Eu, elit ut nunc ac mauris bibendum nulla placerat. Sagittis sit eu sit massa sapien, risus diam. In lorem eu sed euismod laoreet urna, feugiat et. Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida."
+          },
+          "topics": {
+            "title": "What will you learn",
+            "description": "Euismod sem purus rutrum in. Tortor varius a bibendum nisl et tellus. Aliquet elit senectus iaculis netus gravida.",
+            "list": [
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.",
+              "Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida."
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Eget aliquet nibh praesent tristique magna sit amet purus. Consequat id porta nibh venenatis cras sed felis. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Habitant morbi tristique senectus et netus et malesuada fames ac. Et tortor consequat id porta nibh venenatis cras sed felis.",
+            "description2": "Mi sit amet mauris commodo quis. Eget arcu dictum varius duis at consectetur lorem.Venenatis cras sed felis eget velit aliquet.",
+            "image": "/images/Home/homeCarousel/graphics.jpeg"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
     }
   ],
   "categories": [
