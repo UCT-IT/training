@@ -3,18 +3,18 @@ import LocalizedStrings from "react-localization";
 export let strings = new LocalizedStrings({
   en: {
     metadata: {
-      layout: {
-        title: "UCT IT - Welcome",
+      homePage: {
+        title: "UCT IT - Home",
         description:
           "UCT IT aims to nurture skilled IT professionals through top-tier training, fostering industry growth in Bangladesh. Our focus extends to preparing individuals for the local and global IT sectors. Additionally, we provide premier IT solutions and services.",
       },
       aboutPage: {
-        title: "About UCT IT - Empowering IT Excellence",
+        title: "About",
         description:
           "Learn about UCT IT's mission to nurture skilled IT professionals, contribute to industry growth in Bangladesh, and provide premier IT solutions and services. Discover our commitment to preparing individuals for the local and global IT sectors.",
       },
       coursesPage: {
-        title: "Explore UCT IT Courses - Advance Your IT Career",
+        title: "Courses",
         description:
           "Discover a range of UCT IT courses designed to enhance your IT skills and propel your career. Explore our diverse curriculum offering comprehensive training for both beginners and experienced professionals.",
       },

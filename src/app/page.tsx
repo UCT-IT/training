@@ -1,11 +1,17 @@
 import HomePage from "./pages/home/HomePage";
+import React from "react";
+import { Metadata } from "next";
+import { strings } from "@/app/assets/locales/locales";
 
-import React from 'react';
+const localeText = strings.metadata.homePage;
+
+export const metadata: Metadata = {
+  title: localeText.title,
+  description: localeText.description,
+};
 
 const MainPage = () => {
-  return (
-    <HomePage />
-  );
+  return <HomePage />;
 };
 
 export default MainPage;

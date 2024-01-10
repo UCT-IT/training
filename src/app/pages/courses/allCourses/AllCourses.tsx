@@ -24,7 +24,11 @@ const AllCourses = () => {
           {data.courses
             .filter((item) => item.preview === true)
             .map((item) => (
-              <CommonCourseCard item={item} localetext={altText} />
+              <CommonCourseCard
+                key={item.title}
+                item={item}
+                localetext={altText}
+              />
             ))}
         </div>
       </div>

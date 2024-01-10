@@ -4,6 +4,22 @@ import { strings } from "@/app/assets/locales/locales";
 import HeroSection from "@/app/components/Courses/HeroSection/HeroSection";
 import Categories from "@/app/components/common/categoryButton/CategoryButton";
 import CommonCourseCard from "@/app/components/common/commonCarouselCard/CommonCourseCard";
+import { Metadata } from "next";
+
+type metaProps = {
+  params: { category: string };
+};
+
+export const generateMetadata = ({ params }: metaProps): Metadata => {
+  const singleData = data.courses.find(
+    (item) => item.category.toLowerCase() === params.category?.toLowerCase()
+  );
+
+  return {
+    title: params.category,
+    description: singleData?.metaDescription,
+  };
+};
 
 const categoryPage = ({
   params,

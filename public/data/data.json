@@ -12,9 +12,9 @@
         "name": "Cathie Corl",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
+      "metaDescription":"Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
       "category": "design",
       "course": "graphics-design"
-     
     },
     {
       "id": 2,
@@ -28,6 +28,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
+      "metaDescription":"Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
       "category": "development",
       "course": "web-develeopment"
     },
@@ -43,6 +44,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
+      "metaDescription":"Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
       "category": "design",
       "course": "digital-marketing"
     },
@@ -58,6 +60,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
+      "metaDescription":"Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
       "category": "development",
       "course": "microsoft-office-application"
     },
@@ -73,6 +76,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
+      "metaDescription":"Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
       "category": "development",
       "course": "computer-fundamental"
     },
@@ -88,6 +92,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
+      "metaDescription":"Unlock the strategies and tactics behind successful marketing campaigns. Learn the intricacies of digital marketing, including SEO, PPC, social media, and content marketing. Explore the nuances of email marketing and influencer collaborations to drive brand visibility and engagement.",
       "category": "marketing",
       "course": "video-editing-photography"
     }

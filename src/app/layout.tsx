@@ -3,15 +3,15 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/common/navbar/Navbar";
 import Footer from "./components/common/Footer/Footer";
-import { strings } from "./assets/locales/locales";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const localeText = strings.metadata.layout;
-
 export const metadata: Metadata = {
-  title: localeText.title,
-  description: localeText.description,
+  title: {
+    template: "UCT IT - %s",
+    default: "UCT IT",
+  },
+  description: "%s",
 };
 
 export default function RootLayout({
