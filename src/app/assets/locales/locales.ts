@@ -26,11 +26,11 @@ export let strings = new LocalizedStrings({
       },
       {
         text: "About",
-        url: "/pages/about",
+        url: "/about",
       },
       {
         text: "Courses",
-        url: "/pages/courses",
+        url: "/courses",
       },
     ],
     home: {
@@ -233,7 +233,7 @@ export let strings = new LocalizedStrings({
         to enhance your skills and knowledge.`,
       },
       allCourses: {
-        Category: { text: "all", url: "/pages/courses" },
+        Category: { text: "all", url: "/courses" },
         title: "All Courses",
       },
       featuredCourse: {

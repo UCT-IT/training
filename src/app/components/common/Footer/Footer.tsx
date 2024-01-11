@@ -83,7 +83,7 @@ const Footer = () => {
             >
               <FaFacebookF className="text-lg" />
             </a>
-            <a
+            {/* <a
               href="#"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
@@ -110,7 +110,7 @@ const Footer = () => {
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaYoutube className="text-lg" />
-            </a>
+            </a> */}
             <a
               href="#"
               target="_blank"
