@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import data from "../../../../../public/data/data.json";
 import videoLogo from "../../../../../public/images/Home/category/video.svg";
+import getCourseByCategory from "../../hooks/getCourseByCategory";
 
 const Category = () => {
   const localeText = strings.home.Category;
@@ -19,7 +20,10 @@ const Category = () => {
             key={item.id}
             className="group shadow-2xl relative transition-all duration-300 transform translate-y-0 hover:-translate-y-4 rounded-3xl"
           >
-            <Link href="#" className="s">
+            <Link
+              href={`/category/${item.category.toLocaleLowerCase()}`}
+              className="s"
+            >
               <div className="overflow-hidden relative rounded-t-3xl">
                 <Image
                   className="h-full w-full object-cover duration-150 transition-all hover:scale-110"
@@ -31,7 +35,7 @@ const Category = () => {
                 <div className="absolute top-6 right-10 text-[15px]">
                   <p className="bg-white flex gap-2 items-center text-secondary py-3 px-6 rounded-full font-semibold ">
                     <Image alt={localeText.imageAltVideoText} src={videoLogo} />
-                    {item.video}
+                    {getCourseByCategory(item.category)} {item.courses}
                   </p>
                 </div>
               </div>

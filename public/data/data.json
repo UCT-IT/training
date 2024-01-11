@@ -12,7 +12,7 @@
         "name": "Cathie Corl",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
-      "metaDescription":"Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
+      "metaDescription": "Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
       "category": "design",
       "course": "graphics-design"
     },
@@ -28,7 +28,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
-      "metaDescription":"Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
+      "metaDescription": "Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
       "category": "development",
       "course": "web-develeopment"
     },
@@ -44,7 +44,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
-      "metaDescription":"Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
+      "metaDescription": "Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
       "category": "design",
       "course": "digital-marketing"
     },
@@ -60,7 +60,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
-      "metaDescription":"Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
+      "metaDescription": "Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
       "category": "development",
       "course": "microsoft-office-application"
     },
@@ -76,7 +76,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
-      "metaDescription":"Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
+      "metaDescription": "Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
       "category": "development",
       "course": "computer-fundamental"
     },
@@ -92,7 +92,7 @@
         "name": "Jobayer Hossain",
         "image": "/images/Home/homeCarousel/blank-author-image.webp"
       },
-      "metaDescription":"Unlock the strategies and tactics behind successful marketing campaigns. Learn the intricacies of digital marketing, including SEO, PPC, social media, and content marketing. Explore the nuances of email marketing and influencer collaborations to drive brand visibility and engagement.",
+      "metaDescription": "Unlock the strategies and tactics behind successful marketing campaigns. Learn the intricacies of digital marketing, including SEO, PPC, social media, and content marketing. Explore the nuances of email marketing and influencer collaborations to drive brand visibility and engagement.",
       "category": "marketing",
       "course": "video-editing-photography"
     }
@@ -107,7 +107,7 @@
       "category": "design",
       "logo": "/images/singleCategory/designButtonLogo.svg",
       "product": {
-        "enroll":{
+        "enroll": {
           "description": "Unlock your creativity with our immersive Graphics Design course today!",
           "btn": "enroll now",
           "info": [
@@ -176,7 +176,7 @@
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
       "product": {
-        "enroll":{
+        "enroll": {
           "description": "Gain comprehensive skills in web design & development. Enroll now!",
           "btn": "enroll now",
           "info": [
@@ -244,7 +244,7 @@
       "category": "design",
       "logo": "/images/singleCategory/marketingButtonLogo.svg",
       "product": {
-        "enroll":{
+        "enroll": {
           "description": "Enhance your digital expertise with our comprehensive Digital Marketing course!",
           "btn": "enroll now",
           "info": [
@@ -312,7 +312,7 @@
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
       "product": {
-        "enroll":{
+        "enroll": {
           "description": "Enhance your Microsoft Office skills and productivity. Enroll now!",
           "btn": "enroll now",
           "info": [
@@ -380,7 +380,7 @@
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
       "product": {
-        "enroll":{
+        "enroll": {
           "description": "Discover the core of computing. Enroll now!",
           "btn": "enroll now",
           "info": [
@@ -448,7 +448,7 @@
       "category": "marketing",
       "logo": "/images/singleCategory/marketingButtonLogo.svg",
       "product": {
-        "enroll":{
+        "enroll": {
           "description": "Unlock the art of video editing and photography. Enroll now!",
           "btn": "enroll now",
           "info": [
@@ -580,31 +580,34 @@
       "image": "../images/Home/category/design.svg",
       "title": "Design",
       "description": "Master the art of design with courses covering graphic design, UI/UX, and more, equipping you with creative skills and industry knowledge.",
-      "video": "12 Courses"
+      "courses": "Courses",
+      "category": "design"
     },
     {
       "id": 2,
       "image": "../images/Home/category/development.svg",
       "title": "Development",
       "description": "Explore the world of development with courses in web development, software engineering, and more, empowering you to build innovative solutions.",
-      "video": "5 Courses"
+      "courses": "Courses",
+      "category": "development"
     },
     {
       "id": 3,
       "image": "../images/Home/category/marketing.svg",
       "title": "Computer Basic",
       "description": "Delve into the world of marketing with courses covering digital marketing strategies, social media, SEO, and more, enabling you to reach target audiences effectively.",
-      "video": "7 Courses"
+      "courses": "Courses",
+      "category": "marketing"
     }
   ],
-  "featuredCourse":{
-    "courseTitle":"Digital Marketing",
-    "courseDescription" : "Explore the dynamic world of digital marketing strategies, including SEO, social media, and content marketing, to drive successful campaigns and boost online presence.",
-    "instructorImage" : "/images/courses/blank-author-image.webp",
-    "instructorName" : "Khondoker Sakibul Habib",
-    "courseImage" : "/images/courses/digital-marketing.webp",
-    "courseDuration" : "30 Classes",
-    "courseStatus" : "Available",
-    "course":"digital-marketing"
+  "featuredCourse": {
+    "courseTitle": "Digital Marketing",
+    "courseDescription": "Explore the dynamic world of digital marketing strategies, including SEO, social media, and content marketing, to drive successful campaigns and boost online presence.",
+    "instructorImage": "/images/courses/blank-author-image.webp",
+    "instructorName": "Khondoker Sakibul Habib",
+    "courseImage": "/images/courses/digital-marketing.webp",
+    "courseDuration": "30 Classes",
+    "courseStatus": "Available",
+    "course": "digital-marketing"
   }
 }
