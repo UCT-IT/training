@@ -15,7 +15,7 @@ export const generateMetadata = ({ params }: metaProps): Metadata => {
   );
 
   return {
-    title: params.course,
+    title: singleData?.title,
     description: singleData?.description,
   };
 };

@@ -604,6 +604,7 @@
     "instructorName" : "Khondoker Sakibul Habib",
     "courseImage" : "/images/courses/digital-marketing.webp",
     "courseDuration" : "30 Classes",
-    "courseStatus" : "Available"
+    "courseStatus" : "Available",
+    "course":"digital-marketing"
   }
 }
