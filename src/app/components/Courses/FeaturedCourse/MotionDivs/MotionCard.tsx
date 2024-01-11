@@ -9,7 +9,7 @@ const MotionCard = () => {
   const localeText = strings.courses.featuredCourse;
   return (
     <div className="group">
-      <Link href="#">
+      <Link href={`/course/${courseDetails.course.toLowerCase()}`}>
         <div className="flex flex-col lg:flex-row items-center rounded-3xl shadow-xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
           <div className="overflow-hidden rounded-t-3xl lg:rounded-t-none lg:rounded-l-3xl relative">
             <Image
@@ -24,7 +24,7 @@ const MotionCard = () => {
                 {courseDetails.courseDuration}
               </p>
               <p className="text-white bg-secondary py-3 px-6 rounded-full font-semibold">
-                {courseDetails.coursePrice}
+                {courseDetails.courseStatus}
               </p>
             </div>
           </div>

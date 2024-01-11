@@ -17,7 +17,7 @@ const MotionTitle = () => {
       <h2 className="text-secondary text-4xl mb-4 font-semibold  ">
         {localeText.title}
       </h2>
-      <p className=" text-textColor text-lg leading-6 whitespace-pre-line">
+      <p className=" text-textColor text-lg leading-6 md:whitespace-pre-wrap">
         {localeText.description}
       </p>
     </motion.div>

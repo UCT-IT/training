@@ -3,19 +3,36 @@ import HeroSection from "@/app/components/singlePage/heroSection/HeroSection";
 import Details from "@/app/components/singlePage/details/Details";
 import Enroll from "@/app/components/singlePage/enroll/Enroll";
 import ModalVideo from "@/app/components/singlePage/modalVideo/ModalVideo";
+import { Metadata } from "next";
 
-const ProductPage = ({ params }: { params: { course?: string } }) => {
+type metaProps = {
+  params: { course: string };
+};
+
+export const generateMetadata = ({ params }: metaProps): Metadata => {
+  const singleData = data.courseDetails.find(
+    (item) => item.course.toLowerCase() === params.course?.toLowerCase()
+  );
+
+  return {
+    title: singleData?.title ?? "Course Not Found",
+    description: singleData?.description,
+  };
+};
+
+const ProductPage = ({ params }: { params: { course: string } }) => {
   if (!params.course) {
     return <p>course not found</p>;
   }
 
   const singleData = data.courseDetails.find(
-    (item) => item.course === params.course
+    (item) => item.course.toLowerCase() === params.course?.toLowerCase()
   );
 
   if (!singleData) {
     return <p>course data not found</p>;
   }
+
   return (
     <div className="relative">
       <HeroSection singleData={singleData} />

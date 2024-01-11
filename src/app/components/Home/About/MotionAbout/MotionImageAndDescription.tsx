@@ -26,8 +26,8 @@ const MotionImageAndDescription = () => {
           alt={localeText.altText}
         />
       </div>
-      <div className=" mb-8 lg:mb-0">
-        <div className="md:flex justify-center items-center gap-8 mb-[52px] space-y-5">
+      <div className="mb-8 lg:mb-0">
+        <div className="md:flex items-center gap-8 mb-[52px] space-y-5 md:px-20 lg:px-0">
           <div>
             <Image
               className="mx-auto w-[60px] min-w-[60px] min-h-[60px] rounded-full"
@@ -40,12 +40,12 @@ const MotionImageAndDescription = () => {
             <h3 className="text-tertiary text-2xl font-bold mb-2">
               {localeText.detailOne.title}
             </h3>
-            <p className="text-textColor text-lg leading-6 whitespace-pre-line">
+            <p className="text-textColor text-lg leading-6 lg:whitespace-pre-line">
               {localeText.detailOne.description}
             </p>
           </div>
         </div>
-        <div className="md:flex justify-center items-center gap-8 mb-[52px] space-y-5">
+        <div className="md:flex items-center gap-8 mb-[52px] space-y-5 md:px-20 lg:px-0">
           <div>
             <Image
               className="mx-auto w-[60px] min-w-[60px] min-h-[60px] rounded-full"
@@ -53,29 +53,28 @@ const MotionImageAndDescription = () => {
               alt={localeText.iconAltText}
             />
           </div>
-
           <div className="text-center md:text-left">
             <h3 className="text-tertiary text-2xl font-bold mb-2">
               {localeText.detailTwo.title}
             </h3>
-            <p className="text-textColor text-lg leading-6 whitespace-pre-line">
+            <p className="text-textColor text-lg leading-6 lg:whitespace-pre-line">
               {localeText.detailTwo.description}
             </p>
           </div>
         </div>
-        <div className="md:flex justify-center items-center gap-8 space-y-5">
-          <span>
+        <div className="md:flex items-center gap-8 space-y-5 md:px-20 lg:px-0">
+          <div>
             <Image
               className="mx-auto w-[60px] min-w-[60px] min-h-[60px] rounded-full"
               src={iconThree}
               alt={localeText.iconAltText}
             />
-          </span>
+          </div>
           <div className="text-center md:text-left">
             <h3 className="text-tertiary text-2xl font-bold mb-2">
               {localeText.detailThree.title}
             </h3>
-            <p className="text-textColor text-lg leading-6 whitespace-pre-line">
+            <p className="text-textColor text-lg leading-6 lg:whitespace-pre-line">
               {localeText.detailThree.description}
             </p>
           </div>

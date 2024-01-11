@@ -22,15 +22,15 @@ const HeroSection = ({ singleData }: HeroProps) => {
         <div className="responsive-container">
           <div className="space-y-6">
             <Link href={`/category/${singleData.category}`}>
-              <button className="text-tertiary flex capitalize items-center gap-1 bg-white px-7 py-3 rounded-full font-bold transition-all scale-100 hover:scale-95">
+              <button className="text-tertiary flex items-center capitalize  gap-1 bg-white px-7 py-3 rounded-full font-bold transition-all scale-100 hover:scale-95">
                 <Image
-                  className="w-3"
+                  className="w-5"
                   height={1000}
                   width={1000}
                   src={`${singleData.logo}`}
                   alt={altText}
                 />
-                {singleData.category}
+                <span>{singleData.category}</span>
               </button>
             </Link>
             <h1 className="text-5xl font-bold">{singleData.title}</h1>

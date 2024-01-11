@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Modal from "../modal/Modal";
 import Video from "../video/Video";
 import video from "../../../../../public/images/singleCategory/video.svg";
-import data from "../../../../../public/data/data.json"
+import data from "../../../../../public/data/data.json";
 
 const ModalVideo = ({ params }: { params: { course?: string } }) => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -12,7 +12,7 @@ const ModalVideo = ({ params }: { params: { course?: string } }) => {
   }
 
   const singleData = data.courses.find(
-    (item) => item.course === params.course
+    (item) => item.course.toLowerCase() === params.course?.toLowerCase()
   );
 
   if (!singleData) {

@@ -1,8 +1,8 @@
 import { strings } from "@/app/assets/locales/locales";
 import data from "../../../../../public/data/data.json";
 import React from "react";
-import CommonCourseCard from "@/app/components/common/commonCarouselCard/CommonCourselCard";
 import Categories from "@/app/components/common/categoryButton/CategoryButton";
+import CommonCourseCard from "@/app/components/common/commonCarouselCard/CommonCourseCard";
 
 const AllCourses = () => {
   const localetextOfCard = strings.home.homeCarousel;
@@ -24,7 +24,11 @@ const AllCourses = () => {
           {data.courses
             .filter((item) => item.preview === true)
             .map((item) => (
-              <CommonCourseCard item={item} localetext={altText} />
+              <CommonCourseCard
+                key={item.title}
+                item={item}
+                localetext={altText}
+              />
             ))}
         </div>
       </div>

@@ -1,10 +1,10 @@
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import Button from "../../common/Buttons/Button";
 import data from "../../../../../public/data/data.json";
 import CommonCarousel from "../../common/commonCarousel/CommonCarousel";
-import CommonCarouselCard from "../../common/commonCarouselCard/CommonCourselCard";
 import { strings } from "@/app/assets/locales/locales";
+import Button from "../../common/Buttons/Button";
+import CommonCourseCard from "../../common/commonCarouselCard/CommonCourseCard";
 
 const HomeSlider = () => {
   const localetext = strings.home.homeCarousel;
@@ -29,7 +29,11 @@ const HomeSlider = () => {
           {data.courses
             .filter((item) => item.preview === true)
             .map((item) => (
-              <CommonCarouselCard key={item.id} item={item} localetext={altText} />
+              <CommonCourseCard
+                key={item.id}
+                item={item}
+                localetext={altText}
+              />
             ))}
         </CommonCarousel>
         <div className="text-center mt-6">
