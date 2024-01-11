@@ -3,7 +3,6 @@ import { strings } from "@/app/assets/locales/locales";
 import renderStars from "@/app/components/common/commonCarousel/renderStars/RenderStars";
 import data from "../../../../../../public/data/data.json";
 import Image from "next/image";
-import React, { useState } from "react";
 import { Link, Element } from "react-scroll";
 
 type DetailsProps = {
@@ -35,12 +34,8 @@ type DetailsProps = {
 };
 
 const Details = ({ singleData }: DetailsProps) => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const localeText = strings.home.review;
   const { tabs, contents } = singleData.product ?? {};
-  const handleTabClick = () => {
-    setIsScrolled(true);
-  };
   return (
     <div className="my-16">
       <div className="flex items-center gap-4 flex-wrap">
@@ -53,16 +48,12 @@ const Details = ({ singleData }: DetailsProps) => {
             smooth={true}
             offset={-120}
             duration={500}
-            onClick={handleTabClick}
           >
             {item.text}
           </Link>
         ))}
       </div>
-      <Element
-        name="about"
-        className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}
-      >
+      <Element name="about" className={`my-16 space-y-5`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.about.title}
         </h1>
@@ -71,10 +62,7 @@ const Details = ({ singleData }: DetailsProps) => {
         </p>
         <hr className="bg-gray-400 h-[2px]" />
       </Element>
-      <Element
-        name="topics"
-        className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}
-      >
+      <Element name="topics" className={`my-16 space-y-5`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.topics.title}
         </h1>
@@ -90,10 +78,7 @@ const Details = ({ singleData }: DetailsProps) => {
         </div>
         <hr className="bg-gray-400 h-[2px]" />
       </Element>
-      <Element
-        name="results"
-        className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}
-      >
+      <Element name="results" className={`my-16 space-y-5`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.results.title}
         </h1>
@@ -114,10 +99,7 @@ const Details = ({ singleData }: DetailsProps) => {
         </div>
       </Element>
       <hr className="bg-gray-400 h-[2px] mt-10" />
-      <Element
-        name="reviews"
-        className={`my-16 space-y-5 ${isScrolled ? "mt-[60px]" : ""}`}
-      >
+      <Element name="reviews" className={`my-16 space-y-5`}>
         <h1 className="text-4xl font-bold text-secondary">
           {contents.reviews.title}
           <div className="mt-16">
