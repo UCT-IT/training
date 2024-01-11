@@ -15,7 +15,7 @@ export const generateMetadata = ({ params }: metaProps): Metadata => {
   );
 
   return {
-    title: singleData?.title,
+    title: singleData?.title ?? "Course Not Found",
     description: singleData?.description,
   };
 };
