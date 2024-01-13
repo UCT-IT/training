@@ -10,6 +10,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa6";
 import { strings } from "@/app/assets/locales/locales";
+import Link from "next/link";
 
 const Footer = () => {
   const localeText = strings.footer;
@@ -18,13 +19,13 @@ const Footer = () => {
     <div className="bg-tertiary pt-[72px]">
       <div className="responsive-container">
         <div className="lg:flex justify-between items-center space-y-5 lg:space-y-0">
-          <a href="#">
+          <Link href="/">
             <Image
               className="hover:scale-95 transition-all duration-200 w-16 h-16"
               src={logo}
               alt="Footer logo"
             />
-          </a>
+          </Link>
           <p className="text-textColor whitespace-pre-line">
             {localeText.description}
           </p>
@@ -41,7 +42,7 @@ const Footer = () => {
                   key={nav.navigation}
                   className="hover:text-info transition-colors duration-200"
                 >
-                  <a href={nav.url}>{nav.navigation}</a>
+                  <Link href={nav.url}>{nav.navigation}</Link>
                 </li>
               ))}
             </ul>
@@ -56,7 +57,7 @@ const Footer = () => {
                   key={nav.navigation}
                   className="hover:text-info transition-colors duration-200"
                 >
-                  <a href={nav.url}>{nav.navigation}</a>
+                  <Link href={nav.url}>{nav.navigation}</Link>
                 </li>
               ))}
             </ul>
@@ -76,48 +77,48 @@ const Footer = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center justify-start lg:justify-between pb-6 gap-4">
           <p className="text-btnbg text-lg">{localeText.copyRight}</p>
           <div className="flex items-center gap-4">
-            <a
-              href="#"
+            <Link
+              href="https://www.facebook.com/uttaracomputertraininganditfirm/"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaFacebookF className="text-lg" />
-            </a>
-            {/* <a
+            </Link>
+            {/* <Link
               href="#"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaTwitter className="text-lg" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaInstagram className="text-lg" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaLinkedinIn className="text-lg" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaYoutube className="text-lg" />
-            </a> */}
-            <a
-              href="#"
+            </Link> */}
+            <Link
+              href=" https://wa.me/01996399534"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaWhatsapp className="text-lg" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

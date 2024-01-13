@@ -15,20 +15,20 @@ const HeroSection = () => {
         <MotionDivOne />
         <MotionDivFour />
         <MotionDivTwo />
-        <div className="responsive-container lg:flex justify-center items-center py-[70px] lg:py-[127px]">
-          <div className="space-y-5 text-center lg:text-left">
-            <div className="animate-fadeIn">
-              <h1 className="text-6xl font-semibold text-secondary font-newsreader">
+        <div className="responsive-container lg:flex justify-between items-center py-[70px] lg:py-[127px]">
+          <div className="text-center lg:text-left font-kumbh">
+            <div className="animate-fadeIn space-y-5">
+              <h1 className="text-6xl font-semibold text-secondary whitespace-pre-line">
                 {localeText.title}
               </h1>
-              <p className="font-kumbh text-tertiary py-5 whitespace-pre-line">
+              <p className="text-tertiary py-5 whitespace-pre-line">
                 {localeText.description}
               </p>
-              <div className="space-y-6 md:space-x-6">
-                <Link href="/courses">
+              <div className="flex flex-col md:flex-row justify-center lg:justify-normal items-center gap-5">
+                <Link className="w-full md:w-auto" href="/courses">
                   <Button text={localeText.btnText1} variant="primary" />
                 </Link>
-                <Link href="/about">
+                <Link className="w-full md:w-auto" href="/about">
                   <Button text={localeText.btnText2} variant="secondary" />
                 </Link>
               </div>

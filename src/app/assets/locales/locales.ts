@@ -35,7 +35,8 @@ export let strings = new LocalizedStrings({
     ],
     home: {
       heroSection: {
-        title: `UCTIT BD: Empower Your Journey`,
+        title: `UCTIT BD: Empower
+        Your Journey`,
         description: `Discover comprehensive IT courses tailored for skill enhancement.
         Explore UCTIT BD today.`,
         btnText1: `Browse Courses`,
