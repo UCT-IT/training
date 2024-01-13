@@ -14,8 +14,8 @@ const AllCourses = () => {
   return (
     <div className="py-28 bg-[#F9FAFB]">
       <div className="responsive-container">
-        <div className="md:flex justify-between items-center">
-          <h1 className="text-4xl font-bold text-primary  text-center md:text-left mb-3 md:mb-0">
+        <div className="lg:flex justify-between items-center">
+          <h1 className="text-4xl font-bold text-primary  text-center lg:text-left mb-5 lg:mb-0">
             {localeTextOfCourses.title}
           </h1>
           <Categories />

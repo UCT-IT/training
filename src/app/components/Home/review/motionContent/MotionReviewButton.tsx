@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Button from "../../../common/Buttons/Button";
 import { strings } from "@/app/assets/locales/locales";
+import Link from "next/link";
 
 const MotionReviewButton = () => {
   const localeText = strings.home.review;
@@ -14,7 +15,9 @@ const MotionReviewButton = () => {
       viewport={{ once: true }}
       className="text-center mt-16"
     >
-      <Button variant="primary" text={localeText.btn} />
+      <Link href="/courses">
+        <Button variant="primary" text={localeText.btn} />
+      </Link>
     </motion.div>
   );
 };

@@ -11,10 +11,10 @@ const HeroSection = () => {
         <MotionDivCircleOne />
         <MotionDivCircleTwo />
         <div className="responsive-container text-center animate-fadeIn">
-          <h1 className="text-5xl font-semibold text-tertiary md:leading-snug font-newsreader">
+          <h1 className="text-5xl font-semibold text-tertiary md:leading-snug ">
             {localeText.title}
           </h1>
-          <p className="font-kumbh text-textColor text-lg py-3 md:py-5 md:whitespace-pre-line">
+          <p className=" text-textColor text-lg py-3 md:py-5 md:whitespace-pre-line">
             {localeText.description}
           </p>
         </div>

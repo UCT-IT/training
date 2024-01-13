@@ -17,10 +17,10 @@ const HeroSection = () => {
         <div className="responsive-container lg:flex justify-center items-center py-[70px] lg:py-[127px]">
           <div className="space-y-5 text-center lg:text-left">
             <div className="animate-fadeIn">
-              <h1 className="text-6xl font-semibold text-secondary font-newsreader">
+              <h1 className="text-6xl font-semibold text-secondary ">
                 {localeText.title}
               </h1>
-              <p className="font-kumbh text-tertiary py-5">
+              <p className=" text-tertiary py-5">
                 {localeText.description}
               </p>
               <div className="space-y-6 md:space-x-6">

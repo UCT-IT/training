@@ -12,10 +12,10 @@ const About = () => {
   return (
     <div className="responsive-container">
       <div className="text-center mb-14">
-        <h2 className="text-secondary text-4xl mb-4 font-semibold font-newsreader ">
+        <h2 className="text-secondary text-4xl mb-4 font-semibold">
           {localeText.title}
         </h2>
-        <p className="font-kumbh text-textColor text-lg leading-6 whitespace-pre-line">
+        <p className=" text-textColor text-lg leading-6 whitespace-pre-line">
           {localeText.description}
         </p>
       </div>
@@ -27,7 +27,7 @@ const About = () => {
             alt={localeText.aboutDetails.altText}
           />
         </div>
-        <div className="font-kumbh mb-8 lg:mb-0">
+        <div className=" mb-8 lg:mb-0">
           <div className="md:flex justify-center items-center gap-8 mb-[52px] space-y-5">
             <div>
               <Image
