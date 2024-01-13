@@ -1,7 +1,7 @@
-import HomePage from "./pages/home/HomePage";
 import React from "react";
 import { Metadata } from "next";
 import { strings } from "@/app/assets/locales/locales";
+import HomePage from "./home/HomePage";
 
 const localeText = strings.metadata.homePage;
 

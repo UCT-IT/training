@@ -26,11 +26,11 @@ export let strings = new LocalizedStrings({
       },
       {
         text: "About",
-        url: "/pages/about",
+        url: "/about",
       },
       {
         text: "Courses",
-        url: "/pages/courses",
+        url: "/courses",
       },
     ],
     home: {
@@ -233,7 +233,7 @@ export let strings = new LocalizedStrings({
         to enhance your skills and knowledge.`,
       },
       allCourses: {
-        Category: { text: "all", url: "/pages/courses" },
+        Category: { text: "all", url: "/courses" },
         title: "All Courses",
       },
       featuredCourse: {
@@ -265,24 +265,63 @@ export let strings = new LocalizedStrings({
       ourCompany: {
         title: `Our Company`,
         navigations: [
-          "Home",
-          "About Us",
-          "Contact",
-          "Careers",
-          "Privacy Policy",
-          "Terms & Conditions",
+          {
+            navigation: "Home",
+            url: "/",
+          },
+          {
+            navigation: "About Us",
+            url: "/about",
+          },
+          {
+            navigation: "Contact",
+            url: "/#contact",
+          },
+          {
+            navigation: "Careers",
+            url: "#",
+          },
+          {
+            navigation: "Privacy Policy",
+            url: "#",
+          },
+          {
+            navigation: "Terms & Conditions",
+            url: "#",
+          },
         ],
       },
       ourServices: {
         title: `Our Services`,
         navigations: [
-          "Computer Training",
-          "Digital Marketing",
-          "Web-Design & Development",
-          "Video Editing",
-          "Networking Services",
-          "ERP Software",
-          "Computer & Laptop Servicing",
+          {
+            navigation: "Computer Training",
+            url: "/courses",
+          },
+          {
+            navigation: "Digital Marketing",
+            url: "/courses",
+          },
+          {
+            navigation: "Web-Design & Development",
+            url: "/courses",
+          },
+          {
+            navigation: "Video Editing",
+            url: "/courses",
+          },
+          {
+            navigation: "Networking Services",
+            url: "/courses",
+          },
+          {
+            navigation: "ERP Software",
+            url: "/courses",
+          },
+          {
+            navigation: "Computer & Laptop Servicing",
+            url: "/courses",
+          },
         ],
       },
       ourOffice: {
