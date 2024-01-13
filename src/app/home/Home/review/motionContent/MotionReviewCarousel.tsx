@@ -1,6 +1,4 @@
-"use client";
 import React from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { strings } from "@/app/assets/locales/locales";
 import data from "../../../../../../public/data/data.json";
@@ -10,12 +8,7 @@ import CommonCarousel from "@/app/components/common/commonCarousel/CommonCarouse
 const MotionReviewCarousel = () => {
   const localeText = strings.home.review;
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      viewport={{ once: true }}
-    >
+    <div className="animate-fadeIn">
       <CommonCarousel
         settings={{
           infinite: true,
@@ -54,7 +47,7 @@ const MotionReviewCarousel = () => {
           </div>
         ))}
       </CommonCarousel>
-    </motion.div>
+    </div>
   );
 };
 

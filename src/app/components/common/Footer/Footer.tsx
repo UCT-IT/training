@@ -38,10 +38,10 @@ const Footer = () => {
             <ul className="text-textColor text-lg space-y-3">
               {localeText.ourCompany.navigations.map((nav) => (
                 <li
-                  key={nav}
+                  key={nav.navigation}
                   className="hover:text-info transition-colors duration-200"
                 >
-                  <a href="#">{nav}</a>
+                  <a href={nav.url}>{nav.navigation}</a>
                 </li>
               ))}
             </ul>
@@ -53,10 +53,10 @@ const Footer = () => {
             <ul className="text-textColor text-lg space-y-3">
               {localeText.ourServices.navigations.map((nav) => (
                 <li
-                  key={nav}
+                  key={nav.navigation}
                   className="hover:text-info transition-colors duration-200"
                 >
-                  <a href="#">{nav}</a>
+                  <a href={nav.url}>{nav.navigation}</a>
                 </li>
               ))}
             </ul>
