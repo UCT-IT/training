@@ -3,6 +3,7 @@ import MotionReviewArrow from "./motionContent/MotionReviewArrow";
 import MotionReviewCarousel from "./motionContent/MotionReviewCarousel";
 import { strings } from "@/app/assets/locales/locales";
 import Button from "@/app/components/common/Buttons/Button";
+import Link from "next/link";
 
 const Review = () => {
   const localeText = strings.home.review;
@@ -27,7 +28,9 @@ const Review = () => {
           ))}
         </div>
         <div className="text-center mt-16">
-          <Button variant="primary" text={localeText.btn} />
+          <Link href="/courses">
+            <Button variant="primary" text={localeText.btn} />
+          </Link>
         </div>
       </div>
     </div>

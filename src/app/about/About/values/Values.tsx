@@ -8,9 +8,9 @@ const Values = () => {
   const localeText = strings.about.values;
   const images = [img1, img2, img3, img4];
   return (
-    <div className="bg-secondary py-40 font-kumbh">
+    <div className="bg-secondary py-40 ">
       <div>
-        <h1 className="text-white font-bold text-5xl font-newsreader text-center">
+        <h1 className="text-white font-bold text-5xl  text-center">
           {localeText.title}
         </h1>
         <p className="text-white text-center mt-7 leading-7 font-medium text-[18px]">
