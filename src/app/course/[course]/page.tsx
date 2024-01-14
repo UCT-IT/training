@@ -1,9 +1,10 @@
 import data from "../../../../public/data/data.json";
-import HeroSection from "@/app/components/singlePage/heroSection/HeroSection";
-import Details from "@/app/components/singlePage/details/Details";
-import Enroll from "@/app/components/singlePage/enroll/Enroll";
-import ModalVideo from "@/app/components/singlePage/modalVideo/ModalVideo";
 import { Metadata } from "next";
+import HeroSection from "./singlePage/heroSection/HeroSection";
+import ModalVideo from "./singlePage/modalVideo/ModalVideo";
+import Details from "./singlePage/details/Details";
+import Enroll from "./singlePage/enroll/Enroll";
+import NotFound from "@/app/not-found";
 
 type metaProps = {
   params: { course: string };
@@ -22,7 +23,7 @@ export const generateMetadata = ({ params }: metaProps): Metadata => {
 
 const ProductPage = ({ params }: { params: { course: string } }) => {
   if (!params.course) {
-    return <p>course not found</p>;
+    return <NotFound />;
   }
 
   const singleData = data.courseDetails.find(
@@ -30,7 +31,7 @@ const ProductPage = ({ params }: { params: { course: string } }) => {
   );
 
   if (!singleData) {
-    return <p>course data not found</p>;
+    return <NotFound />;
   }
 
   return (

@@ -38,10 +38,10 @@ const Footer = () => {
             <ul className="text-textColor text-lg space-y-3">
               {localeText.ourCompany.navigations.map((nav) => (
                 <li
-                  key={nav}
+                  key={nav.navigation}
                   className="hover:text-info transition-colors duration-200"
                 >
-                  <a href="#">{nav}</a>
+                  <a href={nav.url}>{nav.navigation}</a>
                 </li>
               ))}
             </ul>
@@ -53,10 +53,10 @@ const Footer = () => {
             <ul className="text-textColor text-lg space-y-3">
               {localeText.ourServices.navigations.map((nav) => (
                 <li
-                  key={nav}
+                  key={nav.navigation}
                   className="hover:text-info transition-colors duration-200"
                 >
-                  <a href="#">{nav}</a>
+                  <a href={nav.url}>{nav.navigation}</a>
                 </li>
               ))}
             </ul>
@@ -83,7 +83,7 @@ const Footer = () => {
             >
               <FaFacebookF className="text-lg" />
             </a>
-            <a
+            {/* <a
               href="#"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
@@ -110,7 +110,7 @@ const Footer = () => {
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaYoutube className="text-lg" />
-            </a>
+            </a> */}
             <a
               href="#"
               target="_blank"
