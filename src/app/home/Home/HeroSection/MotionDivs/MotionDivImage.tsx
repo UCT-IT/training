@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import heroImg from "../../../../../../public/images/Home/HeroSection/hero.jpg";
+import heroImg from "../../../../../../public/images/Home/HeroSection/hero.webp";
 import { strings } from "@/app/assets/locales/locales";
 import { InView } from "react-intersection-observer";
 

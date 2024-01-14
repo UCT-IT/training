@@ -22,7 +22,7 @@ const NotFound = () => {
             </h2>
           </div>
           <div className="pt-10 space-y-5 md:space-x-8 text-center lg:text-left">
-            <Link href="/pages/courses">
+            <Link href="/courses">
               <Button text={localeText.btnText1} variant="primary" />
             </Link>
             <Link href="/">

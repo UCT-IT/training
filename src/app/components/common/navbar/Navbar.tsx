@@ -1,4 +1,4 @@
-import logo from "../../../../../public/images/nav/logo.png";
+import logo from "../../../../../public/images/nav/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "../mobileMenu/MobileMenu";

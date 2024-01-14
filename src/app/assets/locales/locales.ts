@@ -68,8 +68,8 @@ export let strings = new LocalizedStrings({
           },
           detailThree: {
             title: `Thriving Student Community`,
-            description: `Join a vibrant learning community fostering mutual growth
-            and support.`,
+            description: `Join a vibrant learning community fostering mutual growth and
+            support.`,
           },
         },
         btnText: `Learn More About Education`,
@@ -301,27 +301,31 @@ export let strings = new LocalizedStrings({
           },
           {
             navigation: "Digital Marketing",
-            url: "/courses",
+            url: "https://uttaraitfirm.com/dm.html",
           },
           {
             navigation: "Web-Design & Development",
-            url: "/courses",
+            url: "https://uttaraitfirm.com/w.html",
           },
           {
             navigation: "Video Editing",
-            url: "/courses",
+            url: "https://uttaraitfirm.com/pve.html",
           },
           {
-            navigation: "Networking Services",
-            url: "/courses",
+            navigation: "Graphics Design",
+            url: "https://uttaraitfirm.com/g.html",
           },
           {
-            navigation: "ERP Software",
-            url: "/courses",
+            navigation: "Domain Hosting",
+            url: "https://uttaraitfirm.com/dh.html",
           },
           {
-            navigation: "Computer & Laptop Servicing",
-            url: "/courses",
+            navigation: "SEO",
+            url: "https://uttaraitfirm.com/seo.html",
+          },
+          {
+            navigation: "CC Camera Sell and Installation",
+            url: "https://uttaraitfirm.com/cc.html",
           },
         ],
       },

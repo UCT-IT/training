@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../../../public/images/footer/logo.png";
+import logo from "../../../../../public/images/footer/logo.webp";
 import Image from "next/image";
 import {
   FaFacebookF,
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <hr className="mt-[54px] pb-[120px] opacity-20" />
         <div className="md:flex justify-between space-y-5 md:space-y-0 md:space-x-5 lg:space-x-0">
-          <div className="text-left lg:text-center">
+          <div className="text-left md:text-center">
             <h3 className="mb-[40px] font-bold text-white">
               {localeText.ourCompany.title}
             </h3>
@@ -48,7 +48,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="text-left lg:text-center">
+          <div className="text-left md:text-center">
             <h3 className="mb-[40px] font-bold text-white">
               {localeText.ourServices.title}
             </h3>

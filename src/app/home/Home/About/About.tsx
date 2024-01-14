@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../../../../public/images/Home/About/home-about.jpg";
+import aboutImg from "../../../../../public/images/Home/About/home-about.webp";
 import iconOne from "../../../../../public/images/Home/About/icon-1-home-about.svg";
 import iconTwo from "../../../../../public/images/Home/About/icon-2-home-about.svg";
 import iconThree from "../../../../../public/images/Home/About/icon-3-home-about.svg";
@@ -28,7 +28,7 @@ const About = () => {
             alt={localeText.aboutDetails.altText}
           />
         </div>
-        <div className=" mb-8 lg:mb-0">
+        <div className="mb-8 lg:mb-0">
           <div className="md:flex justify-center items-center gap-8 mb-[52px] space-y-5">
             <div>
               <Image

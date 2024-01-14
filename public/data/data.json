@@ -3,7 +3,7 @@
     {
       "id": 1,
       "preview": true,
-      "image": "/images/Home/homeCarousel/graphics.jpeg",
+      "image": "/images/Home/homeCarousel/graphics.webp",
       "duration": "30 Classes",
       "status": "Available",
       "title": "Graphics Design",
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "preview": true,
-      "image": "/images/Home/homeCarousel/web.jpeg",
+      "image": "/images/Home/homeCarousel/web.webp",
       "duration": "43 Classes",
       "status": "Available",
       "title": "Web Design & Development",
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "preview": true,
-      "image": "/images/Home/homeCarousel/ms-office.jpg",
+      "image": "/images/Home/homeCarousel/ms-office.webp",
       "duration": "29 Classes",
       "status": "Available",
       "title": "Microsoft Office Application",
@@ -67,7 +67,7 @@
     {
       "id": 5,
       "preview": true,
-      "image": "/images/Home/homeCarousel/computer-fundamental.jpg",
+      "image": "/images/Home/homeCarousel/computer-fundamental.webp",
       "duration": "29 Classes",
       "status": "Available",
       "title": "Computer Fundamental",

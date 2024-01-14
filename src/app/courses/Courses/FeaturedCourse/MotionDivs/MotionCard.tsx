@@ -29,7 +29,7 @@ const MotionCard = () => {
             </div>
           </div>
 
-          <div className="p-5 lg:p-12 col-span-3 rounded-b-3xl lg:rounded-r-3xl">
+          <div className="p-12 col-span-3 rounded-b-3xl lg:rounded-r-3xl">
             <h1 className="font-bold text-2xl text-secondary group-hover:text-primary transition-all">
               {courseDetails.courseTitle}
             </h1>
