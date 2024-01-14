@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa6";
 import { strings } from "@/app/assets/locales/locales";
 import Link from "next/link";
+// import { Link } from "react-scroll";
 
 const Footer = () => {
   const localeText = strings.footer;
@@ -40,7 +41,7 @@ const Footer = () => {
               {localeText.ourCompany.navigations.map((nav) => (
                 <li
                   key={nav.navigation}
-                  className="hover:text-info transition-colors duration-200"
+                  className="hover:text-white transition-colors duration-200"
                 >
                   <Link href={nav.url}>{nav.navigation}</Link>
                 </li>
@@ -55,7 +56,7 @@ const Footer = () => {
               {localeText.ourServices.navigations.map((nav) => (
                 <li
                   key={nav.navigation}
-                  className="hover:text-info transition-colors duration-200"
+                  className="hover:text-white transition-colors duration-200"
                 >
                   <Link href={nav.url}>{nav.navigation}</Link>
                 </li>
@@ -66,9 +67,14 @@ const Footer = () => {
             <h3 className="mb-[40px] font-bold text-white text-left md:text-center">
               {localeText.ourOffice.title}
             </h3>
-            <p className="text-textColor text-lg hover:text-info transition-colors duration-200 whitespace-pre-line text-left md:text-center">
-              {localeText.ourOffice.address}
-            </p>
+            <Link
+              href="https://maps.app.goo.gl/iAbCARQc9dCSfgj97"
+              target="_blank"
+            >
+              <p className="text-textColor text-lg hover:text-white transition-colors duration-200 whitespace-pre-line text-left md:text-center">
+                {localeText.ourOffice.address}
+              </p>
+            </Link>
           </div>
         </div>
 
@@ -79,6 +85,7 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             <Link
               href="https://www.facebook.com/uttaracomputertraininganditfirm/"
+              aria-label="Facebook Page Of UCTIT"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
@@ -114,6 +121,7 @@ const Footer = () => {
             </Link> */}
             <Link
               href=" https://wa.me/01996399534"
+              aria-label="Whatsapp number Of UCTIT"
               target="_blank"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >

@@ -280,15 +280,15 @@ export let strings = new LocalizedStrings({
           },
           {
             navigation: "Careers",
-            url: "#",
+            url: "/careers",
           },
           {
             navigation: "Privacy Policy",
-            url: "#",
+            url: "/privacy-policy",
           },
           {
             navigation: "Terms & Conditions",
-            url: "#",
+            url: "/terms-and-condition",
           },
         ],
       },
