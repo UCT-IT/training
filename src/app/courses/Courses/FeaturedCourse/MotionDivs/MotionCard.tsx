@@ -9,7 +9,7 @@ const MotionCard = () => {
   const localeText = strings.courses.featuredCourse;
   return (
     <div className="group">
-      <Link href={`/course/${courseDetails.course.toLowerCase()}`}>
+      <Link href={`/courses/${courseDetails.course.toLowerCase()}`}>
         <div className="grid grid-cols-1 lg:grid-cols-5 rounded-3xl shadow-xl transition-all duration-300 transform translate-y-0 group-hover:-translate-y-2">
           <div className="overflow-hidden relative rounded-t-3xl lg:rounded-tr-none lg:rounded-l-3xl col-span-2">
             <Image
