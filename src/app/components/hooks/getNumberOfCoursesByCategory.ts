@@ -1,8 +1,8 @@
 import data from "../../../../public/data/data.json";
 
-const getCourseByCategory = (category: string) => {
+const getNumberOfCoursesByCategory = (category: string) => {
   const course = data.courses.filter((course) => course.category === category);
   return course.length;
 };
 
-export default getCourseByCategory;
+export default getNumberOfCoursesByCategory;
