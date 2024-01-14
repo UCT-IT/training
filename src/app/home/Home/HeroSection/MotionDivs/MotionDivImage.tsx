@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import heroImg from "../../../../../../public/images/Home/HeroSection/hero.jpeg";
+import heroImg from "../../../../../../public/images/Home/HeroSection/hero.webp";
 import { strings } from "@/app/assets/locales/locales";
 import { InView } from "react-intersection-observer";
 
@@ -47,6 +47,7 @@ const MotionDivImage = () => {
             initial={{ translateY: 500, opacity: 0, rotate: 10 }}
             animate={{ translateY: 0, opacity: 1, rotate: 0 }}
             transition={{ duration: 0.5, ease: "linear" }}
+            className="w-full md:w-[500px] md:mx-auto"
           >
             <Image
               className={`max-w-full rounded-3xl`}

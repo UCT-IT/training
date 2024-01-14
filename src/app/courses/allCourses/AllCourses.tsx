@@ -25,7 +25,7 @@ const AllCourses = () => {
             .filter((item) => item.preview === true)
             .map((item) => (
               <CommonCourseCard
-                key={item.title}
+                key={item.id}
                 item={item}
                 localetext={altText}
               />

@@ -38,8 +38,8 @@ const MobileMenu = () => {
       >
         {localeText.map((item) => (
           <li
-            onClick={() => setMenuOpen(false)}
             key={item.text}
+            onClick={() => setMenuOpen(false)}
             className="hover:text-info transition-all"
           >
             <Link href={item.url}>{item.text}</Link>

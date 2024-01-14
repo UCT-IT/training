@@ -35,7 +35,8 @@ export let strings = new LocalizedStrings({
     ],
     home: {
       heroSection: {
-        title: `UCTIT BD: Empower Your Journey`,
+        title: `UCTIT BD: Empower
+        Your Journey`,
         description: `Discover comprehensive IT courses tailored for skill enhancement.
         Explore UCTIT BD today.`,
         btnText1: `Browse Courses`,
@@ -67,8 +68,8 @@ export let strings = new LocalizedStrings({
           },
           detailThree: {
             title: `Thriving Student Community`,
-            description: `Join a vibrant learning community fostering mutual growth
-            and support.`,
+            description: `Join a vibrant learning community fostering mutual growth and
+            support.`,
           },
         },
         btnText: `Learn More About Education`,
@@ -279,15 +280,15 @@ export let strings = new LocalizedStrings({
           },
           {
             navigation: "Careers",
-            url: "#",
+            url: "/careers",
           },
           {
             navigation: "Privacy Policy",
-            url: "#",
+            url: "/privacy-policy",
           },
           {
             navigation: "Terms & Conditions",
-            url: "#",
+            url: "/terms-and-condition",
           },
         ],
       },
@@ -300,27 +301,31 @@ export let strings = new LocalizedStrings({
           },
           {
             navigation: "Digital Marketing",
-            url: "/courses",
+            url: "https://uttaraitfirm.com/dm.html",
           },
           {
             navigation: "Web-Design & Development",
-            url: "/courses",
+            url: "https://uttaraitfirm.com/w.html",
           },
           {
             navigation: "Video Editing",
-            url: "/courses",
+            url: "https://uttaraitfirm.com/pve.html",
           },
           {
-            navigation: "Networking Services",
-            url: "/courses",
+            navigation: "Graphics Design",
+            url: "https://uttaraitfirm.com/g.html",
           },
           {
-            navigation: "ERP Software",
-            url: "/courses",
+            navigation: "Domain Hosting",
+            url: "https://uttaraitfirm.com/dh.html",
           },
           {
-            navigation: "Computer & Laptop Servicing",
-            url: "/courses",
+            navigation: "SEO",
+            url: "https://uttaraitfirm.com/seo.html",
+          },
+          {
+            navigation: "CC Camera Sell and Installation",
+            url: "https://uttaraitfirm.com/cc.html",
           },
         ],
       },

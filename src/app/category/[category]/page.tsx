@@ -45,7 +45,7 @@ const categoryPage = ({
         </div>
         <div className=" grid grid-cols-1 lg:grid-cols-2  gap-2">
           {filterData.map((item) => (
-            <CommonCourseCard item={item} localetext={altText} />
+            <CommonCourseCard key={item.id} item={item} localetext={altText} />
           ))}
         </div>
       </div>
