@@ -22,7 +22,7 @@ const Enroll = ({ singleData }: ErollProps) => {
       <p className="text-textColor">{singleData.product?.enroll.description}</p>
       <Link href="https://www.facebook.com/uttaracomputertraininganditfirm/">
         <button
-          className="font-bold px-10 py-5 bg-primary hover:bg-secondary text-white
+          className="font-bold px-10 mt-5 py-5 bg-primary hover:bg-secondary text-white
               hover:scale-95 rounded-full uppercase text-center transition-all duration-300 w-full"
         >
           {singleData.product?.enroll.btn}
