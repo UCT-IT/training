@@ -1,10 +1,11 @@
 "use client";
-import { strings } from "@/app/assets/locales/locales";
+import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import data from "../../../../../../public/data/data.json";
 import videoLogo from "../../../../../../public/images/Home/category/video.svg";
+import Image from "next/image";
+import { strings } from "@/app/assets/locales/locales";
 
 const MotionCard = () => {
   const altText = strings.home.Category;
@@ -33,6 +34,7 @@ const MotionCard = () => {
               <div className="absolute top-6 right-10 text-[15px]">
                 <p className="bg-white flex gap-2 items-center text-secondary py-3 px-6 rounded-full font-semibold ">
                   <Image alt={altText.imageAltVideoText} src={videoLogo} />
+                  {item.video}
                 </p>
               </div>
             </div>
