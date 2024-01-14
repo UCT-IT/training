@@ -159,7 +159,7 @@
             "title": "Results after course completion",
             "description1": "Gain comprehensive skills amplifying your design prowess. Elevate your creativity and proficiency to craft compelling visuals.",
             "description2": "Refine your expertise in software tools and unleash innovative designs. Embrace versatility in graphic expression.",
-            "image": "/images/Home/homeCarousel/graphics.jpeg"
+            "image": "/images/Home/homeCarousel/graphics.webp"
           },
           "reviews": {
             "title": "What our students say"
@@ -227,7 +227,7 @@
             "title": "Results after course completion",
             "description1": "Develop robust web design & development skills. Create responsive and dynamic websites.",
             "description2": "Acquire proficiency in backend technologies for scalable web solutions.",
-            "image": "/images/Home/homeCarousel/web.jpeg"
+            "image": "/images/Home/homeCarousel/web.webp"
           },
           "reviews": {
             "title": "What our students say"
@@ -363,7 +363,7 @@
             "title": "Results after course completion",
             "description1": "Attain proficiency in Microsoft Office suite. Boost workplace efficiency and task management.",
             "description2": "Effectively utilize Office applications for professional excellence.",
-            "image": "/images/Home/homeCarousel/ms-office.jpg"
+            "image": "/images/Home/homeCarousel/ms-office.webp"
           },
           "reviews": {
             "title": "What our students say"
@@ -431,7 +431,7 @@
             "title": "Results after course completion",
             "description1": "Grasp fundamental computing knowledge. Navigate digital environments with confidence.",
             "description2": "Efficiently operate computers and software applications.",
-            "image": "/images/Home/homeCarousel/computer-fundamental.jpg"
+            "image": "/images/Home/homeCarousel/computer-fundamental.webp"
           },
           "reviews": {
             "title": "What our students say"
