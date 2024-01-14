@@ -19,10 +19,6 @@ const config: Config = {
         info: "#F99D77",
         warning: "#FCDF69",
       },
-      fontFamily: {
-        newsreader: ["Newsreader", "serif"],
-        kumbh: ["Kumbh Sans", "sans-serif"],
-      },
       keyframes: {
         fadeIn: {
           "0%": { opacity: "0", transform: "translateY(40px)" },
