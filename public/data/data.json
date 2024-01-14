@@ -1,0 +1,613 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/graphics.webp",
+      "duration": "30 Classes",
+      "status": "Available",
+      "title": "Graphics Design",
+      "description": "Master the art of graphic design with comprehensive lessons covering design principles, software proficiency, and practical applications.",
+      "author": {
+        "name": "Kh. Sakibul Habib",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "metaDescription": "Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
+      "category": "design",
+      "course": "graphics-design"
+    },
+    {
+      "id": 2,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/web.webp",
+      "duration": "43 Classes",
+      "status": "Available",
+      "title": "Web Design & Development",
+      "description": "Explore the fundamentals of web design and development, from HTML/CSS basics to responsive layouts and backend technologies, led by industry experts.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "metaDescription": "Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
+      "category": "development",
+      "course": "web-develeopment"
+    },
+    {
+      "id": 3,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/digital-marketing.webp",
+      "duration": "30 Classes",
+      "status": "Available",
+      "title": "Digital Marketing",
+      "description": "Master the strategies and tactics of digital marketing, covering SEO, social media, content marketing, and analytics to drive online success.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "metaDescription": "Explore the world of design and unleash your creativity with our comprehensive courses. From mastering design fundamentals to diving deep into user interface (UI) design and motion graphics, discover how to craft visually stunning and engaging content.",
+      "category": "design",
+      "course": "digital-marketing"
+    },
+    {
+      "id": 4,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/ms-office.webp",
+      "duration": "29 Classes",
+      "status": "Available",
+      "title": "Microsoft Office Application",
+      "description": "Gain proficiency in Microsoft Office suite - Excel, Word, PowerPoint, and more, enhancing productivity and efficiency in your professional tasks.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "metaDescription": "Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
+      "category": "development",
+      "course": "microsoft-office-application"
+    },
+    {
+      "id": 5,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/computer-fundamental.webp",
+      "duration": "29 Classes",
+      "status": "Available",
+      "title": "Computer Fundamental",
+      "description": "Explore the fundamentals of computing - hardware, software, and basic operations, empowering you to navigate the digital landscape with confidence.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "metaDescription": "Take your coding skills to the next level and embark on a journey into the realm of development. Our courses cover a wide spectrum, from full-stack web development to mobile app creation using the latest technologies. Dive into data science and machine learning to harness the power of data-driven solutions.",
+      "category": "development",
+      "course": "computer-fundamental"
+    },
+    {
+      "id": 6,
+      "preview": true,
+      "image": "/images/Home/homeCarousel/video-and-photo.webp",
+      "duration": "30 Classes",
+      "status": "Available",
+      "title": "Video Editing and Photography",
+      "description": "Learn the art of video editing - from basic techniques to advanced software usage, creating captivating visual content for various platforms.",
+      "author": {
+        "name": "Jobayer Hossain",
+        "image": "/images/Home/homeCarousel/blank-author-image.webp"
+      },
+      "metaDescription": "Unlock the strategies and tactics behind successful marketing campaigns. Learn the intricacies of digital marketing, including SEO, PPC, social media, and content marketing. Explore the nuances of email marketing and influencer collaborations to drive brand visibility and engagement.",
+      "category": "marketing",
+      "course": "video-editing-photography"
+    }
+  ],
+  "courseDetails": [
+    {
+      "id": 1,
+      "course": "graphics-design",
+      "title": "Graphics Design",
+      "description": "Master the art of graphic design with comprehensive lessons covering design principles, software proficiency, and practical applications.",
+      "status": "Available",
+      "category": "design",
+      "logo": "/images/singleCategory/designButtonLogo.svg",
+      "product": {
+        "enroll": {
+          "description": "Unlock your creativity with our immersive Graphics Design course today!",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "Level: Basic"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "Duration: 30 Classes"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "Lessons: 30"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "Lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "Access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "The 'Graphic Design' course is a comprehensive program that equips students with essential graphic design skills and multimedia production capabilities. Over the course of 3 months and 30 classes, participants will learn to create stunning visuals, edit photos and videos, design logos and visiting cards, and even produce animations. Additionally, the course will cover internet research and provide an opportunity for title research."
+          },
+          "topics": {
+            "title": "Course Objectives",
+            "description": "Master design fundamentals and software skills for professional graphic creations.",
+            "list": [
+              "Develop proficiency in graphic design, including photo editing, logo design, and visiting card creation",
+              "Master video editing techniques to create professional-quality videos",
+              "Create animations to add dynamic elements to multimedia projects",
+              "Conduct internet research effectively.",
+              "Understand the importance of titles and their impact on various forms of media"
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Gain comprehensive skills amplifying your design prowess. Elevate your creativity and proficiency to craft compelling visuals.",
+            "description2": "Refine your expertise in software tools and unleash innovative designs. Embrace versatility in graphic expression.",
+            "image": "/images/Home/homeCarousel/graphics.webp"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "course": "web-develeopment",
+      "title": "Web Design & Development",
+      "description": "Explore the fundamentals of web design and development, from HTML/CSS basics to responsive layouts and backend technologies, led by industry experts.",
+      "status": "Available",
+      "category": "development",
+      "logo": "/images/singleCategory/developmentButtonLogo.svg",
+      "product": {
+        "enroll": {
+          "description": "Gain comprehensive skills in web design & development. Enroll now!",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "Level: Basic"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "Duration: 43 Classes"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "Lessons: 43"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "Lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "Access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Learn web design & development fundamentals and advanced techniques under expert guidance. Explore HTML, CSS, responsive layouts, and backend technologies."
+          },
+          "topics": {
+            "title": "Course Objectives",
+            "description": "Master web design essentials and backend development intricacies.",
+            "list": [
+              "Create responsive web layouts with HTML/CSS",
+              "Explore advanced backend technologies",
+              "Develop dynamic and scalable websites",
+              "Implement industry best practices"
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Develop robust web design & development skills. Create responsive and dynamic websites.",
+            "description2": "Acquire proficiency in backend technologies for scalable web solutions.",
+            "image": "/images/Home/homeCarousel/web.webp"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "course": "digital-marketing",
+      "title": "Digital Marketing",
+      "description": "Master the strategies and tactics of digital marketing, covering SEO, social media, content marketing, and analytics to drive online success.",
+      "status": "Available",
+      "category": "design",
+      "logo": "/images/singleCategory/marketingButtonLogo.svg",
+      "product": {
+        "enroll": {
+          "description": "Enhance your digital expertise with our comprehensive Digital Marketing course!",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "Level: Intermediate"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "Duration: 30 Classes"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "Lessons: 30"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "Lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "Access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Discover the intricacies of digital marketing. Learn SEO, social media tactics, content strategies, and analytics for online triumph."
+          },
+          "topics": {
+            "title": "Course Objectives",
+            "description": "Enhance digital skills and strategies for online visibility and business growth.",
+            "list": [
+              "Master SEO and improve website rankings",
+              "Leverage social media for brand engagement",
+              "Craft compelling content strategies",
+              "Analyze and optimize marketing campaigns"
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Acquire in-depth knowledge in digital marketing essentials. Enhance online presence and drive business growth.",
+            "description2": "Utilize analytical tools for strategic insights. Craft impactful marketing strategies.",
+            "image": "/images/Home/homeCarousel/digital-marketing.webp"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "course": "microsoft-office-application",
+      "title": "Microsoft Office Application",
+      "description": "Gain proficiency in Microsoft Office suite - Excel, Word, PowerPoint, and more, enhancing productivity and efficiency in your professional tasks.",
+      "status": "Available",
+      "category": "development",
+      "logo": "/images/singleCategory/developmentButtonLogo.svg",
+      "product": {
+        "enroll": {
+          "description": "Enhance your Microsoft Office skills and productivity. Enroll now!",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "Level: Intermediate"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "Duration: 29 Classes"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "Lessons: 29"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "Lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "Access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Explore Microsoft Office suite in-depth. From Excel to Word, master essential tools to streamline professional tasks."
+          },
+          "topics": {
+            "title": "Course Objectives",
+            "description": "Elevate productivity with Microsoft Office suite proficiency.",
+            "list": [
+              "Master Excel for data analysis and organization",
+              "Efficiently create and format documents in Word",
+              "Craft impactful presentations using PowerPoint",
+              "Utilize other Office applications effectively"
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Attain proficiency in Microsoft Office suite. Boost workplace efficiency and task management.",
+            "description2": "Effectively utilize Office applications for professional excellence.",
+            "image": "/images/Home/homeCarousel/ms-office.webp"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "course": "computer-fundamental",
+      "title": "Computer Fundamental",
+      "description": "Explore the fundamentals of computing - hardware, software, and basic operations, empowering you to navigate the digital landscape with confidence.",
+      "status": "Available",
+      "category": "development",
+      "logo": "/images/singleCategory/developmentButtonLogo.svg",
+      "product": {
+        "enroll": {
+          "description": "Discover the core of computing. Enroll now!",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "Level: Beginner"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "Duration: 29 Classes"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "Lessons: 29"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "Lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "Access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Uncover the basics of computing. Learn hardware, software, and essential operations in the digital world."
+          },
+          "topics": {
+            "title": "Course Objectives",
+            "description": "Master the fundamental aspects of computing.",
+            "list": [
+              "Understand computer hardware components",
+              "Explore various software applications",
+              "Learn basic computer operations and functionalities",
+              "Navigate the digital landscape confidently"
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Grasp fundamental computing knowledge. Navigate digital environments with confidence.",
+            "description2": "Efficiently operate computers and software applications.",
+            "image": "/images/Home/homeCarousel/computer-fundamental.webp"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "course": "video-editing-photography",
+      "title": "Video Editing and Photography",
+      "description": "Learn the art of video editing - from basic techniques to advanced software usage, creating captivating visual content for various platforms.",
+      "status": "Available",
+      "category": "marketing",
+      "logo": "/images/singleCategory/marketingButtonLogo.svg",
+      "product": {
+        "enroll": {
+          "description": "Unlock the art of video editing and photography. Enroll now!",
+          "btn": "enroll now",
+          "info": [
+            {
+              "logo": "/images/singleCategory/level.svg",
+              "text": "Level: Intermediate"
+            },
+            {
+              "logo": "/images/singleCategory/duration.svg",
+              "text": "Duration: 30 Classes"
+            },
+            {
+              "logo": "/images/singleCategory/lesson.svg",
+              "text": "Lessons: 30"
+            },
+            {
+              "logo": "/images/singleCategory/access.svg",
+              "text": "Lifetime access"
+            },
+            {
+              "logo": "/images/singleCategory/accessFrom.svg",
+              "text": "Access from any computer, tablet or phone"
+            }
+          ]
+        },
+        "tabs": [
+          { "text": "about", "id": "about" },
+          { "text": "topics", "id": "topics" },
+          { "text": "results", "id": "results" },
+          { "text": "reviews", "id": "reviews" }
+        ],
+        "contents": {
+          "about": {
+            "title": "About the course",
+            "description": "Explore video editing and photography techniques. Learn to create captivating visual content across various platforms."
+          },
+          "topics": {
+            "title": "Course Objectives",
+            "description": "Master video editing and photography skills.",
+            "list": [
+              "Advanced video editing techniques",
+              "Photo composition and editing",
+              "Creating visual content for multiple platforms",
+              "Enhancing storytelling through visuals"
+            ]
+          },
+          "results": {
+            "title": "Results after course completion",
+            "description1": "Master video editing and photography. Create compelling visual content for diverse platforms.",
+            "description2": "Expertly employ video editing software. Produce captivating visual narratives.",
+            "image": "/images/Home/homeCarousel/video-and-photo.webp"
+          },
+          "reviews": {
+            "title": "What our students say"
+          }
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "design",
+      "image": "../images/Home/category/design.svg",
+      "title": "Design",
+      "description": "Master the art of design with courses covering graphic design, UI/UX, and more, equipping you with creative skills and industry knowledge.",
+      "video": "12 Courses"
+    },
+    {
+      "id": 2,
+      "image": "../images/Home/category/development.svg",
+      "title": "Development",
+      "description": "Explore the world of development with courses in web development, software engineering, and more, empowering you to build innovative solutions.",
+      "video": "5 Courses"
+    },
+    {
+      "id": 3,
+      "image": "../images/Home/category/marketing.svg",
+      "title": "Marketing",
+      "description": "Explore the dynamic world of marketing, where innovative strategies and creative approaches drive success. Learn cutting-edge approaches to engage audiences and elevate brands.",
+      "video": "7 Courses"
+    }
+  ],
+  "review": [
+    {
+      "id": "1",
+      "image": "/images/Home/homeCarousel/blank-author-image.webp",
+      "say": "The courses provided an incredibly insightful journey! The depth of content and interactive modules truly enriched my learning experience.",
+      "name": "Elena Rodriguez",
+      "position": "Marketing Manager at TechCorp",
+      "ratings": 4.2
+    },
+    {
+      "id": "2",
+      "image": "/images/Home/homeCarousel/blank-author-image.webp",
+      "say": "I'm amazed by the practical knowledge gained from these courses. The instructors' expertise and real-world examples made all the difference!",
+      "name": "Michael Johnson",
+      "position": "Software Engineer at InnovateTech",
+      "ratings": 4.8
+    },
+    {
+      "id": "3",
+      "image": "/images/Home/homeCarousel/blank-author-image.webp",
+      "say": "The courses exceeded my expectations! The engaging lessons and clear explanations made complex topics easy to understand.",
+      "name": "Emma Thompson",
+      "position": "Data Analyst at Analytics Co.",
+      "ratings": 4.5
+    },
+    {
+      "id": "4",
+      "image": "/images/Home/homeCarousel/blank-author-image.webp",
+      "say": "I highly recommend these courses to anyone looking to expand their skills. The hands-on approach and comprehensive materials were invaluable.",
+      "name": "David Lee",
+      "position": "Product Manager at Global Solutions",
+      "ratings": 4.9
+    },
+    {
+      "id": "5",
+      "image": "/images/Home/homeCarousel/blank-author-image.webp",
+      "say": "I feel empowered after completing these courses. The quality content and flexible learning format were perfect for my schedule.",
+      "name": "Sophia Williams",
+      "position": "Business Consultant at Consultancy Firm",
+      "ratings": 4.7
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "image": "../images/Home/category/design.svg",
+      "title": "Design",
+      "description": "Master the art of design with courses covering graphic design, UI/UX, and more, equipping you with creative skills and industry knowledge.",
+      "courses": "Courses",
+      "category": "design"
+    },
+    {
+      "id": 2,
+      "image": "../images/Home/category/development.svg",
+      "title": "Development",
+      "description": "Explore the world of development with courses in web development, software engineering, and more, empowering you to build innovative solutions.",
+      "courses": "Courses",
+      "category": "development"
+    },
+    {
+      "id": 3,
+      "image": "../images/Home/category/marketing.svg",
+      "title": "Computer Basic",
+      "description": "Delve into the world of marketing with courses covering digital marketing strategies, social media, SEO, and more, enabling you to reach target audiences effectively.",
+      "courses": "Courses",
+      "category": "marketing"
+    }
+  ],
+  "featuredCourse": {
+    "courseTitle": "Digital Marketing",
+    "courseDescription": "Explore the dynamic world of digital marketing strategies, including SEO, social media, and content marketing, to drive successful campaigns and boost online presence.",
+    "instructorImage": "/images/courses/blank-author-image.webp",
+    "instructorName": "Khondoker Sakibul Habib",
+    "courseImage": "/images/courses/digital-marketing.webp",
+    "courseDuration": "30 Classes",
+    "courseStatus": "Available",
+    "course": "digital-marketing"
+  }
+}
