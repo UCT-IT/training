@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import data from "../../../../../public/data/data.json";
 import videoLogo from "../../../../../public/images/Home/category/video.svg";
-import getNumberOfCoursesByCategory from "../../hooks/getNumberOfCoursesByCategory";
+import getNumberOfCoursesByCategory from "@/app/components/hooks/getNumberOfCoursesByCategory";
 
 const Category = () => {
   const localeText = strings.home.Category;
