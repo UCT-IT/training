@@ -1,11 +1,11 @@
-import React from "react";
-import MotionDivOne from "./MotionDivs/MotionDivCircleOne";
-import MotionDivTwo from "./MotionDivs/MotionDivCircleTwo";
-import MotionDivThree from "./MotionDivs/MotionDivImage";
-import MotionDivFour from "./MotionDivs/MotionDivHeroBg";
 import { strings } from "@/app/assets/locales/locales";
 import Button from "@/app/components/common/Buttons/Button";
 import Link from "next/link";
+import React from "react";
+import MotionDivOne from "./MotionDivs/MotionDivCircleOne";
+import MotionDivTwo from "./MotionDivs/MotionDivCircleTwo";
+import MotionDivFour from "./MotionDivs/MotionDivHeroBg";
+import MotionDivThree from "./MotionDivs/MotionDivImage";
 
 const HeroSection = () => {
   const localeText = strings.home.heroSection;
@@ -16,7 +16,7 @@ const HeroSection = () => {
         <MotionDivFour />
         <MotionDivTwo />
         <div className="responsive-container lg:flex justify-between items-center py-[70px] lg:py-[127px]">
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left font-kumbh">
             <div className="animate-fadeIn space-y-5">
               <h1 className="text-6xl font-semibold text-secondary whitespace-pre-line">
                 {localeText.title}

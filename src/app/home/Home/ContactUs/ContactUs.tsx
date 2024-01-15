@@ -1,6 +1,6 @@
-import React from "react";
 import { strings } from "@/app/assets/locales/locales";
 import Button from "@/app/components/common/Buttons/Button";
+import React from "react";
 
 const ContactUs = () => {
   const localeText = strings.home.contactUsSection;
@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <React.Fragment>
       <div
-        id="1contact"
+        id="contact"
         className="responsive-container bg-white rounded-2xl shadow-lg text-textColor my-28 relative overflow-clip"
       >
         <div className="bg-info w-[100px] h-[100px] rounded-ss-full absolute right-0 bottom-0"></div>
