@@ -19,20 +19,24 @@ export let strings = new LocalizedStrings({
           "Discover a range of Uttara Computer Training and IT Firm (UCT IT) courses designed to enhance your IT skills and propel your career. Explore our diverse curriculum offering comprehensive training for both beginners and experienced professionals.",
       },
     },
-    nav: [
-      {
-        text: "Home",
-        url: "/",
-      },
-      {
-        text: "About",
-        url: "/about",
-      },
-      {
-        text: "Courses",
-        url: "/courses",
-      },
-    ],
+    navbar: {
+      nav: [
+        {
+          text: "Home",
+          url: "/",
+        },
+        {
+          text: "About",
+          url: "/about",
+        },
+        {
+          text: "Courses",
+          url: "/courses",
+        },
+      ],
+      phone: " Phone: +880 1996-399534",
+      email: " Email: uctitbd@gmail.com"
+    },
     home: {
       heroSection: {
         title: `UCTIT BD: Empower

@@ -9,7 +9,7 @@ const Review = () => {
   const localeText = strings.home.review;
   return (
     <div className="bg-[#F9FAFB] relative py-44">
-      <div className="container mx-auto">
+      <div className="responsive-container mx-auto">
         <MotionReviewArrow />
         <h2 className="font-bold text-secondary  text-center text-4xl mb-16 animate-fadeIn">
           {localeText.title}
