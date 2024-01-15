@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   scroll-behavior: smooth;
 }
 .responsive-container {
