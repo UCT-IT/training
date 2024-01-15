@@ -16,7 +16,7 @@ const HeroSection = () => {
         <MotionDivFour />
         <MotionDivTwo />
         <div className="responsive-container lg:flex justify-between items-center py-[70px] lg:py-[127px]">
-          <div className="text-center lg:text-left font-kumbh">
+          <div className="text-center lg:text-left">
             <div className="animate-fadeIn space-y-5">
               <h1 className="text-6xl font-semibold text-secondary whitespace-pre-line">
                 {localeText.title}

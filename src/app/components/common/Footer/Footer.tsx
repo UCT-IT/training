@@ -42,7 +42,7 @@ const Footer = () => {
                   key={nav.navigation}
                   className="hover:text-white transition-colors duration-200"
                 >
-                  <Link href={`${nav.url}`}>{nav.navigation}</Link>
+                  <Link href={nav.url}>{nav.navigation}</Link>
                 </li>
               ))}
             </ul>
