@@ -4,20 +4,17 @@ export let strings = new LocalizedStrings({
   en: {
     metadata: {
       homePage: {
-        title: "UCT IT - Home",
+        title: "UCT IT - Learn Computer Skills, MS Office, Graphics, Digital Marketing, Web Courses",
         description:
-          "Uttara Computer Training and IT Firm (UCT IT) aims to nurture skilled IT professionals through top-tier training, fostering industry growth in Bangladesh. Our focus extends to preparing individuals for the local and global IT sectors. Additionally, we provide premier IT solutions and services.",
-      },
+          "Discover premium computer courses at Uttara Computer Training and IT Firm (UCT IT). Explore design classes and a range of courses available. Our objective is to nurture skilled IT professionals, preparing individuals for local and global IT sectors."      },
       aboutPage: {
         title: "About",
         description:
-          "Learn about Uttara Computer Training and IT Firm (UCT IT)'s mission to nurture skilled IT professionals, contribute to industry growth in Bangladesh, and provide premier IT solutions and services. Discover our commitment to preparing individuals for the local and global IT sectors.",
-      },
+          "Explore UCT IT's mission: nurturing skilled IT professionals, fostering industry growth, and offering premier IT solutions. Learn through our diverse courses—design classes and more—preparing individuals for local and global IT sectors."      },
       coursesPage: {
         title: "Courses",
         description:
-          "Discover a range of Uttara Computer Training and IT Firm (UCT IT) courses designed to enhance your IT skills and propel your career. Explore our diverse curriculum offering comprehensive training for both beginners and experienced professionals.",
-      },
+          "Explore UCT IT's diverse courses, enhancing IT skills for all levels. Propel your career with our comprehensive curriculum designed for beginners and experienced professionals."      },
     },
     nav: [
       {

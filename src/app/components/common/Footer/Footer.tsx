@@ -1,16 +1,11 @@
-import React from "react";
-import logo from "../../../../../public/images/footer/logo.webp";
+import { strings } from "@/app/assets/locales/locales";
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-  FaWhatsapp,
+  FaWhatsapp
 } from "react-icons/fa6";
-import { strings } from "@/app/assets/locales/locales";
-import Link from "next/link";
+import logo from "../../../../../public/images/footer/logo.webp";
 // import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -70,6 +65,8 @@ const Footer = () => {
             <Link
               href="https://maps.app.goo.gl/iAbCARQc9dCSfgj97"
               target="_blank"
+              rel="noopener noreferrer"
+
             >
               <p className="text-textColor text-lg hover:text-white transition-colors duration-200 whitespace-pre-line text-left md:text-center">
                 {localeText.ourOffice.address}
@@ -87,6 +84,7 @@ const Footer = () => {
               href="https://www.facebook.com/uttaracomputertraininganditfirm/"
               aria-label="Facebook Page Of UCTIT"
               target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaFacebookF className="text-lg" />
@@ -123,6 +121,7 @@ const Footer = () => {
               href=" https://wa.me/01996399534"
               aria-label="Whatsapp number Of UCTIT"
               target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-textColor rounded-full text-white hover:bg-primary transition-colors duration-300"
             >
               <FaWhatsapp className="text-lg" />

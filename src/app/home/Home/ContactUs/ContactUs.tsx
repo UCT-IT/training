@@ -1,6 +1,6 @@
-import React from "react";
 import { strings } from "@/app/assets/locales/locales";
 import Button from "@/app/components/common/Buttons/Button";
+import React from "react";
 
 const ContactUs = () => {
   const localeText = strings.home.contactUsSection;

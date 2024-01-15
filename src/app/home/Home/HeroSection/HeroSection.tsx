@@ -1,11 +1,11 @@
-import React from "react";
-import MotionDivOne from "./MotionDivs/MotionDivCircleOne";
-import MotionDivTwo from "./MotionDivs/MotionDivCircleTwo";
-import MotionDivThree from "./MotionDivs/MotionDivImage";
-import MotionDivFour from "./MotionDivs/MotionDivHeroBg";
 import { strings } from "@/app/assets/locales/locales";
 import Button from "@/app/components/common/Buttons/Button";
 import Link from "next/link";
+import React from "react";
+import MotionDivOne from "./MotionDivs/MotionDivCircleOne";
+import MotionDivTwo from "./MotionDivs/MotionDivCircleTwo";
+import MotionDivFour from "./MotionDivs/MotionDivHeroBg";
+import MotionDivThree from "./MotionDivs/MotionDivImage";
 
 const HeroSection = () => {
   const localeText = strings.home.heroSection;
