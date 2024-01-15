@@ -3,15 +3,14 @@ import logo from "../../../../../public/images/footer/logo.webp";
 import Image from "next/image";
 import {
   FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
+  // FaTwitter,
+  // FaInstagram,
+  // FaLinkedinIn,
+  // FaYoutube,
   FaWhatsapp,
 } from "react-icons/fa6";
 import { strings } from "@/app/assets/locales/locales";
 import Link from "next/link";
-// import { Link } from "react-scroll";
 
 const Footer = () => {
   const localeText = strings.footer;
@@ -43,7 +42,7 @@ const Footer = () => {
                   key={nav.navigation}
                   className="hover:text-white transition-colors duration-200"
                 >
-                  <Link href={nav.url}>{nav.navigation}</Link>
+                  <Link href={`${nav.url}`}>{nav.navigation}</Link>
                 </li>
               ))}
             </ul>
@@ -77,9 +76,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-
         <hr className="mt-[120px] pb-[24px] opacity-20" />
-
         <div className="flex flex-col-reverse lg:flex-row items-center justify-start lg:justify-between pb-6 gap-4">
           <p className="text-btnbg text-lg">{localeText.copyRight}</p>
           <div className="flex items-center gap-4">
