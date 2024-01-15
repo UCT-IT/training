@@ -45,7 +45,7 @@ export let strings = new LocalizedStrings({
         Explore UCTIT BD today.`,
         btnText1: `Browse Courses`,
         btnText2: `Discover More`,
-        altText: `Empower Your Learning Image`,
+        altText: `UCT IT - Hero`,
       },
       homeCarousel: {
         title: "Discover Top-Rated Courses",
