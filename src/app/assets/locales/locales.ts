@@ -276,7 +276,7 @@ export let strings = new LocalizedStrings({
           },
           {
             navigation: "Contact",
-            url: "/#contact",
+            url: "/#1contact",
           },
           {
             navigation: "Careers",
