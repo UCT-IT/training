@@ -7,10 +7,10 @@ const NotFound = () => {
   const localeText = strings.errorPage;
   return (
     <div className="relative z-10 overflow-hidden py-[75px] lg:py-[125px]">
-      <div className="bg-warning w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-bl-full -z-10 absolute top-0 right-0"></div>
+      <div className="bg-warning w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-bl-full -z-10 absolute top-0 right-0" />
       <div
         className={`bg-info w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-tr-full absolute left-0 bottom-0 -z-10`}
-      ></div>
+      />
       <div className="responsive-container flex flex-col-reverse lg:flex-row justify-between">
         <div>
           <div className="text-center lg:text-left">

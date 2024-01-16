@@ -4,7 +4,6 @@ import HomeSlider from "./Home/homeSlider/HomeSlider";
 import About from "./Home/About/About";
 import Category from "./Home/category/Category";
 import Review from "./Home/review/Review";
-import ContactUs from "./Home/ContactUs/ContactUs";
 
 const HomePage = () => {
   return (
@@ -14,7 +13,6 @@ const HomePage = () => {
       <About />
       <Category />
       <Review />
-      <ContactUs />
     </React.Fragment>
   );
 };
