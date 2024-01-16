@@ -47,20 +47,20 @@ const MobileMenu = () => {
             <Link href={item.url}>{item.text}</Link>
           </li>
         ))}
-        <div className="font-medium text-secondary space-y-2">
-          <div className="flex items-center gap-2">
-            <span className="text-sm">
+        <div className="text-secondary space-y-4 font-bold py-2">
+          <div className="flex items-center gap-3">
+            <span className="text-[14px] h-7 w-7 rounded-full bg-tertiary text-white grid place-items-center ">
               <FaPhone />
             </span>
-            <Link className="text-sm" href="tel:01996399534">
+            <Link className="text-[16px] hover:text-info transition-all" href="tel:01996399534">
               <p>{localeText.phone}</p>
             </Link>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="text-md">
+          <div className="flex items-center gap-3">
+            <span className="text-[14px] h-7 w-7 rounded-full bg-tertiary text-white grid place-items-center">
               <MdEmail />
             </span>
-            <Link className="text-sm" href="mailto:uctitbd@gmail.com">
+            <Link className="text-[16px] hover:text-info transition-all" href="mailto:uctitbd@gmail.com">
               <p>{localeText.email}</p>
             </Link>
           </div>

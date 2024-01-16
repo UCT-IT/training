@@ -27,8 +27,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-tertiary hidden md:block">
-        <div className="flex gap-5 justify-end responsive-container font-medium text-white ">
+      <div className="bg-tertiary hidden md:block py-1">
+        <div className="flex gap-5 justify-end responsive-container font-bold text-white ">
           <div className="flex items-center gap-2">
             <span className="text-sm">
               <FaPhone />
