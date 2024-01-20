@@ -4,17 +4,26 @@ export let strings = new LocalizedStrings({
   en: {
     metadata: {
       homePage: {
-        title: "UCT IT - Learn Computer Skills, MS Office, Graphics, Digital Marketing, Web Courses",
+        title:
+          "UCT IT - Learn Computer Skills, MS Office, Graphics, Digital Marketing, Web Courses",
         description:
-          "Discover premium computer courses at Uttara Computer Training and IT Firm (UCT IT). Explore design classes and a range of courses available. Our objective is to nurture skilled IT professionals, preparing individuals for local and global IT sectors."      },
+          "Discover premium computer courses at Uttara Computer Training and IT Firm (UCT IT). Explore design classes and a range of courses available. Our objective is to nurture skilled IT professionals, preparing individuals for local and global IT sectors.",
+      },
       aboutPage: {
         title: "About",
         description:
-          "Explore UCT IT's mission: nurturing skilled IT professionals, fostering industry growth, and offering premier IT solutions. Learn through our diverse courses—design classes and more—preparing individuals for local and global IT sectors."      },
+          "Explore UCT IT's mission: nurturing skilled IT professionals, fostering industry growth, and offering premier IT solutions. Learn through our diverse courses—design classes and more—preparing individuals for local and global IT sectors.",
+      },
       coursesPage: {
         title: "Courses",
         description:
-          "Explore UCT IT's diverse courses, enhancing IT skills for all levels. Propel your career with our comprehensive curriculum designed for beginners and experienced professionals."      },
+          "Explore UCT IT's diverse courses, enhancing IT skills for all levels. Propel your career with our comprehensive curriculum designed for beginners and experienced professionals.",
+      },
+      contactPage: {
+        title: "Contact",
+        description:
+          "Feel free to reach out to us with any questions, feedback, or inquiries. Our team is here to assist you. Explore UCT IT's diverse courses and enhance your IT skills with our comprehensive curriculum designed for beginners and experienced professionals.",
+      },
     },
     navbar: {
       nav: [
@@ -29,6 +38,10 @@ export let strings = new LocalizedStrings({
         {
           text: "Courses",
           url: "/courses",
+        },
+        {
+          text: "Contact Us",
+          url: "/contact",
         },
       ],
       phone: " Phone: +880 1996-399534",
@@ -277,7 +290,7 @@ export let strings = new LocalizedStrings({
           },
           {
             navigation: "Contact",
-            url: "/#contact",
+            url: "/contact",
           },
           {
             navigation: "Careers",

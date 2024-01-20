@@ -1,9 +1,8 @@
 'use client'
 import { strings } from '@/app/assets/locales/locales';
-import React from 'react';
-import data from "../../../../../public/data/data.json";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import data from "../../../../../public/data/data.json";
 
 const CategoryButton = () => {
   const localeTextOfCourses = strings.courses.allCourses;
@@ -11,8 +10,8 @@ const CategoryButton = () => {
     new Set<string>(data.courses.map((item) => item.category))
   );
   const pathName = usePathname()
-  const pathParts = pathName.split('/');
-  const isActive = pathParts[pathParts.length - 1]
+  const pathParts = pathName?.split('/') ?? [];
+  const isActive = pathParts[pathParts.length - 1];
     return (
         <div className="flex flex-wrap items-center justify-center md:justify-normal gap-7">
             <Link

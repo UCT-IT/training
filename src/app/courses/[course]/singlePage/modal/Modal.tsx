@@ -25,7 +25,7 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
       >
         <RxCross2 />
       </button>
-      <div className="absolute w-full h-full bg-black opacity-90 z-50"></div>
+      <div className="absolute w-full h-full bg-black opacity-90 z-50" />
       <div className="relative z-50 mt-24 md:mt-0 ">
         {loading && (
           <button type="button" className="hidden md:flex" disabled>
@@ -42,12 +42,12 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
                 r="10"
                 stroke="currentColor"
                 stroke-width="4"
-              ></circle>
+              />
               <path
                 className="opacity-75"
                 fill="currentColor"
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-              ></path>
+              />
             </svg>
           </button>
         )}
@@ -61,7 +61,7 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             onLoad={handleIframeLoad}
-          ></iframe>
+          />
         </div>
       </div>
     </div>

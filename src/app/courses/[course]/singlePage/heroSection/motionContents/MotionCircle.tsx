@@ -18,7 +18,7 @@ const MotionCircle = () => {
               : { duration: 0.7, ease: "easeOut" }
           }
           className="bg-info w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-bl-full -z-10 absolute top-0 right-0"
-        ></motion.div>
+        />
       </InView>
     </React.Fragment>
   );
