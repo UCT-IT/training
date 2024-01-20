@@ -21,11 +21,11 @@ const NotFound = () => {
               {localeText.description}
             </h2>
           </div>
-          <div className="pt-10 space-y-5 md:space-x-8 text-center lg:text-left">
-            <Link href="/courses">
+          <div className="pt-10 flex flex-col md:flex-row justify-center lg:justify-normal items-center gap-5">
+            <Link className="w-full md:w-auto" href="/courses">
               <Button text={localeText.btnText1} variant="primary" />
             </Link>
-            <Link href="/">
+            <Link className="w-full md:w-auto" href="/">
               <Button text={localeText.btnText2} variant="secondary" />
             </Link>
           </div>

@@ -14,7 +14,7 @@ const HomeSlider = () => {
     altAuthorImg: localetext.altAuthorImg,
   };
   return (
-    <div className="container mx-auto  relative py-32">
+    <div className="responsive-container relative py-32">
       <h2 className="font-bold  text-secondary  text-center text-4xl mb-16">
         {localetext.title}
       </h2>
