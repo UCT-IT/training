@@ -39,6 +39,10 @@ export let strings = new LocalizedStrings({
           text: "Courses",
           url: "/courses",
         },
+        {
+          text: "Contact Us",
+          url: "/contact",
+        },
       ],
       phone: " Phone: +880 1996-399534",
       email: " Email: uctitbd@gmail.com"
