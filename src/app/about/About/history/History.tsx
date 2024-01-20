@@ -23,11 +23,11 @@ const History = () => {
           <div
             style={{ height: "calc(100% - 75px)" }}
             className="w-[1px] bg-btnhover relative"
-          ></div>
+          />
           <div>
             {localeText.details.map((item) => (
               <div key={item.year} className="space-y-4 mb-20 relative">
-                <div className="bg-info h-6 w-6 rounded-full absolute top-4 -left-[68px]"></div>
+                <div className="bg-info h-6 w-6 rounded-full absolute top-4 -left-[68px]" />
                 <p
                   className="border-[1px] border-btnhover bg-white shadow-sm p-3 w-28 grid place-items-center rounded-full text-tertiary font-bold
                         text-[20px]"

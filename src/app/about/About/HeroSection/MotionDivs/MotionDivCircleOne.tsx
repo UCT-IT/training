@@ -18,7 +18,7 @@ const MotionDivCircleOne = () => {
               : { duration: 0.7, ease: "easeOut" }
           }
           className="bg-warning w-[100px] h-[100px] md:w-[200px] md:h-[200px] rounded-bl-full -z-10 absolute top-0 right-0"
-        ></motion.div>
+        />
       </InView>
     </React.Fragment>
   );
