@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-type ErollProps = {
+type EnrollProps = {
   singleData: {
     status: string;
     product: {
@@ -15,7 +15,7 @@ type ErollProps = {
   };
 };
 
-const Enroll = ({ singleData }: ErollProps) => {
+const Enroll = ({ singleData }: EnrollProps) => {
   return (
     <div className="w-full bg-white rounded-3xl shadow-md md:sticky md:top-24 self-start lg:-mt-[243px] z-10 px-5 py-10 space-y-5">
       <h1 className="text-3xl font-bold text-tertiary">{singleData.status}</h1>
