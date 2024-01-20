@@ -16,20 +16,24 @@ export let strings = new LocalizedStrings({
         description:
           "Explore UCT IT's diverse courses, enhancing IT skills for all levels. Propel your career with our comprehensive curriculum designed for beginners and experienced professionals."      },
     },
-    nav: [
-      {
-        text: "Home",
-        url: "/",
-      },
-      {
-        text: "About",
-        url: "/about",
-      },
-      {
-        text: "Courses",
-        url: "/courses",
-      },
-    ],
+    navbar: {
+      nav: [
+        {
+          text: "Home",
+          url: "/",
+        },
+        {
+          text: "About",
+          url: "/about",
+        },
+        {
+          text: "Courses",
+          url: "/courses",
+        },
+      ],
+      phone: " Phone: +880 1996-399534",
+      email: " Email: uctitbd@gmail.com"
+    },
     home: {
       heroSection: {
         title: `UCTIT BD: Empower
@@ -38,7 +42,7 @@ export let strings = new LocalizedStrings({
         Explore UCTIT BD today.`,
         btnText1: `Browse Courses`,
         btnText2: `Discover More`,
-        altText: `Empower Your Learning Image`,
+        altText: `UCT IT - Hero`,
       },
       homeCarousel: {
         title: "Discover Top-Rated Courses",

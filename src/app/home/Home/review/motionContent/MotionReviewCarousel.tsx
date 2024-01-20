@@ -19,7 +19,7 @@ const MotionReviewCarousel = () => {
       >
         {data.review.map((item) => (
           <div key={item.id}>
-            <div className="h-[400px] rounded-2xl mr-5 border-[1px] border-gray-200">
+            <div className="h-[500px] md:h-[480px] lg:h-[400px] rounded-2xl md:mr-5 border-[1px] border-gray-200">
               <div className="h-full rounded-2xl grid place-items-center px-10">
                 <div className="lg:flex gap-10 items-center">
                   <Image
