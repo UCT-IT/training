@@ -15,9 +15,9 @@ const AllCourses = () => {
     <div className="py-28 bg-[#F9FAFB]">
       <div className="responsive-container">
         <div className="lg:flex justify-between items-center">
-          <h1 className="text-4xl font-bold text-primary  text-center lg:text-left mb-5 lg:mb-0">
+          <h3 className="text-4xl font-bold text-primary  text-center lg:text-left mb-5 lg:mb-0">
             {localeTextOfCourses.title}
-          </h1>
+          </h3>
           <Categories />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 gap-2">

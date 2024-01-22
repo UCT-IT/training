@@ -83,7 +83,12 @@ const Contact: React.FC = () => {
                 placeholder={localeText.placeholderText.message}
               />
               <div className="text-right">
-                <Button variant="primary" text={localeText.btnText} />
+                <button
+                  className="font-bold px-10 py-6  bg-primary hover:bg-secondary text-white
+                  hover:scale-95 rounded-full uppercase text-center transition-all duration-300 w-full md:w-full lg:w-auto"
+                >
+                  {localeText.btnText}
+                </button>
               </div>
             </form>
           </div>

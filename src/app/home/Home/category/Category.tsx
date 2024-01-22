@@ -11,9 +11,9 @@ const Category = () => {
   return (
     <div className="responsive-container py-28">
       <hr className="mb-28" />
-      <h2 className="font-bold text-primary  text-center text-4xl mb-16">
+      <h3 className="font-bold text-primary  text-center text-4xl mb-16">
         {localeText.title}
-      </h2>
+      </h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {data.category.map((item) => (
           <div
@@ -39,9 +39,9 @@ const Category = () => {
                 </div>
               </div>
               <div className="p-9 bg-white rounded-b-2xl">
-                <h1 className="font-bold text-2xl text-secondary group-hover:text-primary transition-all">
+                <h3 className="font-bold text-2xl text-secondary group-hover:text-primary transition-all">
                   {item.title}
-                </h1>
+                </h3>
                 <p className="text-[18px] mt-4 text-[#798BA0]">
                   {item.description}
                 </p>

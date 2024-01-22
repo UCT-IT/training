@@ -106,6 +106,7 @@
       "status": "Available",
       "category": "design",
       "logo": "/images/singleCategory/designButtonLogo.svg",
+      "video": "",
       "product": {
         "enroll": {
           "description": "Unlock your creativity with our immersive Graphics Design course today!",
@@ -175,6 +176,7 @@
       "status": "Available",
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
+      "video": "",
       "product": {
         "enroll": {
           "description": "Gain comprehensive skills in web design & development. Enroll now!",
@@ -243,6 +245,7 @@
       "status": "Available",
       "category": "design",
       "logo": "/images/singleCategory/marketingButtonLogo.svg",
+      "video": "",
       "product": {
         "enroll": {
           "description": "Enhance your digital expertise with our comprehensive Digital Marketing course!",
@@ -311,6 +314,7 @@
       "status": "Available",
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
+      "video": "",
       "product": {
         "enroll": {
           "description": "Enhance your Microsoft Office skills and productivity. Enroll now!",
@@ -379,6 +383,7 @@
       "status": "Available",
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
+      "video": "",
       "product": {
         "enroll": {
           "description": "Discover the core of computing. Enroll now!",
@@ -447,6 +452,7 @@
       "status": "Available",
       "category": "marketing",
       "logo": "/images/singleCategory/marketingButtonLogo.svg",
+      "video": "",
       "product": {
         "enroll": {
           "description": "Unlock the art of video editing and photography. Enroll now!",

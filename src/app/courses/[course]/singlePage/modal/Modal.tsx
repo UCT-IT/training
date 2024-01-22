@@ -5,6 +5,9 @@ import { RxCross2 } from "react-icons/rx";
 type ModalProps = {
   isOpen: boolean;
   onClose: () => void;
+  // singleData: {
+  //   video: string;
+  // };
 };
 
 const Modal = ({ isOpen, onClose }: ModalProps) => {
