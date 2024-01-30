@@ -4,6 +4,7 @@
       "id": 1,
       "preview": true,
       "image": "/images/Home/homeCarousel/graphics.webp",
+      "video": "https://www.youtube.com/embed/ADJKbuayubE?si=kdoBDGIDSePBVhGX",
       "duration": "30 Classes",
       "status": "Available",
       "title": "Graphics Design",
@@ -20,6 +21,7 @@
       "id": 2,
       "preview": true,
       "image": "/images/Home/homeCarousel/web.webp",
+      "video": "https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND",
       "duration": "43 Classes",
       "status": "Available",
       "title": "Web Design & Development",
@@ -36,6 +38,7 @@
       "id": 3,
       "preview": true,
       "image": "/images/Home/homeCarousel/digital-marketing.webp",
+      "video": "https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND",
       "duration": "30 Classes",
       "status": "Available",
       "title": "Digital Marketing",
@@ -52,6 +55,7 @@
       "id": 4,
       "preview": true,
       "image": "/images/Home/homeCarousel/ms-office.webp",
+      "video": "https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND",
       "duration": "29 Classes",
       "status": "Available",
       "title": "Microsoft Office Application",
@@ -68,6 +72,7 @@
       "id": 5,
       "preview": true,
       "image": "/images/Home/homeCarousel/computer-fundamental.webp",
+      "video": "https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND",
       "duration": "29 Classes",
       "status": "Available",
       "title": "Computer Fundamental",
@@ -84,6 +89,7 @@
       "id": 6,
       "preview": true,
       "image": "/images/Home/homeCarousel/video-and-photo.webp",
+      "video": "https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND",
       "duration": "30 Classes",
       "status": "Available",
       "title": "Video Editing and Photography",
@@ -106,7 +112,6 @@
       "status": "Available",
       "category": "design",
       "logo": "/images/singleCategory/designButtonLogo.svg",
-      "video": "",
       "product": {
         "enroll": {
           "description": "Unlock your creativity with our immersive Graphics Design course today!",
@@ -176,7 +181,6 @@
       "status": "Available",
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
-      "video": "",
       "product": {
         "enroll": {
           "description": "Gain comprehensive skills in web design & development. Enroll now!",
@@ -245,7 +249,6 @@
       "status": "Available",
       "category": "design",
       "logo": "/images/singleCategory/marketingButtonLogo.svg",
-      "video": "",
       "product": {
         "enroll": {
           "description": "Enhance your digital expertise with our comprehensive Digital Marketing course!",
@@ -314,7 +317,6 @@
       "status": "Available",
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
-      "video": "",
       "product": {
         "enroll": {
           "description": "Enhance your Microsoft Office skills and productivity. Enroll now!",
@@ -383,7 +385,7 @@
       "status": "Available",
       "category": "development",
       "logo": "/images/singleCategory/developmentButtonLogo.svg",
-      "video": "",
+      "video": "https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND",
       "product": {
         "enroll": {
           "description": "Discover the core of computing. Enroll now!",
@@ -452,7 +454,6 @@
       "status": "Available",
       "category": "marketing",
       "logo": "/images/singleCategory/marketingButtonLogo.svg",
-      "video": "",
       "product": {
         "enroll": {
           "description": "Unlock the art of video editing and photography. Enroll now!",
