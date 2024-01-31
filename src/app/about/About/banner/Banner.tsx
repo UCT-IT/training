@@ -9,15 +9,15 @@ const Banner = () => {
       <div className="responsive-container">
         <BannerArrow />
         <div className="text-center">
-          <h1 className="text-primary  text-5xl font-bold whitespace-pre-line">
+          <h3 className="text-primary  text-5xl font-bold whitespace-pre-line">
             {localeText.title}
-          </h1>
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-16">
             {localeText.number.map((item) => (
               <div key={item.count} className="text-center">
-                <h1 className="text-info  font-semibold text-6xl">
+                <h3 className="text-info  font-semibold text-6xl">
                   {item.count}
-                </h1>
+                </h3>
                 <p className="my-3 pt-6 text-secondary font-bold text-[22px]">
                   {item.text}
                 </p>

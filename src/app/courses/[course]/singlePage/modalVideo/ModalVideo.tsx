@@ -15,12 +15,14 @@ const ModalVideo = ({ params }: { params: { course?: string } }) => {
     (item) => item.course.toLowerCase() === params.course?.toLowerCase()
   );
 
+  console.log(singleData);
+
   if (!singleData) {
     return <p>course data not found</p>;
   }
   return (
     <React.Fragment>
-      <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+      <Modal singleData={singleData} isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
       <Video
         singleData={singleData}
         setModalOpen={setModalOpen}

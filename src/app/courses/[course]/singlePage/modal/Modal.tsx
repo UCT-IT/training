@@ -5,9 +5,13 @@ import { RxCross2 } from "react-icons/rx";
 type ModalProps = {
   isOpen: boolean;
   onClose: () => void;
+  singleData: {
+    video: string;
+  };
 };
 
-const Modal = ({ isOpen, onClose }: ModalProps) => {
+
+const Modal = ({ isOpen, onClose, singleData }: ModalProps) => {
   if (!isOpen) {
     return null;
   }
@@ -55,7 +59,7 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/w-kBRUXsuSQ?si=VTxb9Ppsg-bwDPND"
+            src={`${singleData.video}`}
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

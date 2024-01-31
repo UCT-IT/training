@@ -9,8 +9,8 @@ import { MdEmail } from "react-icons/md";
 const Navbar = () => {
   const localeText = strings.navbar;
   return (
-    <div className="shadow-lg pt-3 lg:px-0 z-50 sticky top-0 bg-white">
-      <div className="responsive-container px-5">
+    <div className="shadow-lg lg:px-0 z-50 sticky top-0 bg-white">
+      <div className="responsive-container px-5 py-2">
         <div className="flex items-center justify-between text-primary relative">
           <Link href="/">
             <Image className="w-16 h-16" src={logo} alt="logo" />
