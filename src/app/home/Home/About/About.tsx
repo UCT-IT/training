@@ -13,9 +13,9 @@ const About = () => {
   return (
     <div className="responsive-container">
       <div className="text-center mb-14">
-        <h2 className="text-secondary text-4xl mb-4 font-semibold">
+        <h3 className="text-secondary text-4xl mb-4 font-semibold">
           {localeText.title}
-        </h2>
+        </h3>
         <p className=" text-textColor text-lg leading-6 whitespace-pre-line">
           {localeText.description}
         </p>

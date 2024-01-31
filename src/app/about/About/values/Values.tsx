@@ -10,9 +10,9 @@ const Values = () => {
   return (
     <div className="bg-secondary py-40 ">
       <div>
-        <h1 className="text-white font-bold text-5xl  text-center">
+        <h3 className="text-white font-bold text-5xl  text-center">
           {localeText.title}
-        </h1>
+        </h3>
         <p className="text-white text-center mt-7 leading-7 font-medium text-[18px]">
           {localeText.description}
         </p>
@@ -32,9 +32,9 @@ const Values = () => {
                 </p>
               </div>
             </div>
-            <h1 className="text-2xl font-bold text-tertiary my-5">
+            <h3 className="text-2xl font-bold text-tertiary my-5">
               {item.title}
-            </h1>
+            </h3>
             <p className="text-[19px] font-medium text-textColor leading-8 lg:whitespace-pre-line">
               {item.description}
             </p>

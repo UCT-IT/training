@@ -11,16 +11,16 @@ const Review = () => {
     <div className="bg-[#F9FAFB] relative py-44">
       <div className="responsive-container mx-auto">
         <MotionReviewArrow />
-        <h2 className="font-bold text-secondary  text-center text-4xl mb-16 animate-fadeIn">
+        <h3 className="font-bold text-secondary  text-center text-4xl mb-16 animate-fadeIn">
           {localeText.title}
-        </h2>
+        </h3>
         <MotionReviewCarousel />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-16 animate-fadeIn">
           {localeText.number.map((item) => (
             <div key={item.count} className="text-center">
-              <h1 className="text-secondary font-bold text-5xl">
+              <h3 className="text-secondary font-bold text-5xl">
                 {item.count}
-              </h1>
+              </h3>
               <p className="text-textColor mt-3 font-medium text-[18px]">
                 {item.text}
               </p>

@@ -54,18 +54,18 @@ const Details = ({ singleData }: DetailsProps) => {
         ))}
       </div>
       <Element name="about" className={`my-16 space-y-5`}>
-        <h1 className="text-4xl font-bold text-secondary">
+        <h3 className="text-4xl font-bold text-secondary">
           {contents.about.title}
-        </h1>
+        </h3>
         <p className="text-textColor leading-7 pb-10">
           {contents.about.description}
         </p>
         <hr className="bg-gray-400 h-[2px]" />
       </Element>
       <Element name="topics" className={`my-16 space-y-5`}>
-        <h1 className="text-4xl font-bold text-secondary">
+        <h3 className="text-4xl font-bold text-secondary">
           {contents.topics.title}
-        </h1>
+        </h3>
         <p className="text-textColor leading-7">
           {contents.topics.description}
         </p>
@@ -79,9 +79,9 @@ const Details = ({ singleData }: DetailsProps) => {
         <hr className="bg-gray-400 h-[2px]" />
       </Element>
       <Element name="results" className={`my-16 space-y-5`}>
-        <h1 className="text-4xl font-bold text-secondary">
+        <h3 className="text-4xl font-bold text-secondary">
           {contents.results.title}
-        </h1>
+        </h3>
         <p className="text-textColor leading-7">
           {contents.results.description1}
         </p>
@@ -100,7 +100,7 @@ const Details = ({ singleData }: DetailsProps) => {
       </Element>
       <hr className="bg-gray-400 h-[2px] mt-10" />
       <Element name="reviews" className={`my-16 space-y-5`}>
-        <h1 className="text-4xl font-bold text-secondary">
+        <h3 className="text-4xl font-bold text-secondary">
           {contents.reviews.title}
           <div className="mt-16">
             {data.review.slice(0, 2).map((item) => (
@@ -135,7 +135,7 @@ const Details = ({ singleData }: DetailsProps) => {
               </div>
             ))}
           </div>
-        </h1>
+        </h3>
       </Element>
     </div>
   );

@@ -15,9 +15,9 @@ const HomeSlider = () => {
   };
   return (
     <div className="responsive-container relative py-32">
-      <h2 className="font-bold  text-secondary  text-center text-4xl mb-16">
+      <h3 className="font-bold  text-secondary  text-center text-4xl mb-16">
         {localetext.title}
-      </h2>
+      </h3>
       <div>
         <CommonCarousel
           settings={{

@@ -9,9 +9,9 @@ const History = () => {
     <div className="py-40 bg-[#F9FAFB]">
       <div className="responsive-container grid grid-cols-1 md:grid-cols-2 gap-5 ">
         <div className="relative md:sticky md:top-24 self-start">
-          <h1 className="text-[38px] font-bold  text-secondary">
+          <h3 className="text-[38px] font-bold  text-secondary">
             {localeText.title}
-          </h1>
+          </h3>
           <p className="font-medium text-textColor text-[19px] my-7">
             {localeText.description}
           </p>

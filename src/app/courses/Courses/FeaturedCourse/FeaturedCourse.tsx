@@ -9,9 +9,9 @@ const FeaturedCourse = () => {
     <React.Fragment>
       <div className="my-40 relative responsive-container">
         <MotionArrow />
-        <h1 className="mb-8 text-center font-bold text-secondary text-3xl">
+        <h3 className="mb-8 text-center font-bold text-secondary text-3xl">
           {localeText.heading}
-        </h1>
+        </h3>
         <MotionCard />
       </div>
     </React.Fragment>
